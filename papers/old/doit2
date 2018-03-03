@@ -1,0 +1,24 @@
+A=/nfs/web/isi.edu/htdocs/divisions/division3/
+
+cp $A/natural-language/people/bayes-with-tears.pdf .
+cp $A/natural-language/mt/amta2008su.pdf .
+cp $A/natural-language/mt/amta2008fossum.pdf .
+cp $A/natural-language/mt/lhuang-amta.pdf .
+cp $A/natural-language/mt/ciaa06.pdf .
+cp $A/natural-language/mt/iraqi_interspeech.pdf .
+cp $A/natural-language/mt/AIJ_final.pdf .
+cp $A/natural-language/people/p5.pdf .
+cp $A/natural-language/projects/rewrite/mtsummit03.pdf .
+cp $A/natural-language/mt/teaching-mt.pdf .
+cp $A/natural-language/projects/rewrite/HLT02.ps .
+cp $A/natural-language/mt/wkbk.pdf .
+cp $A/natural-language/mt/wkbk-rw.pdf .
+cp $A/natural-language/mt/wkbk.rtf .
+cp $A/natural-language/mt/mt-wfst.ps .
+cp $A/natural-language/mt/aimag97.pdf .
+cp $A/natural-language/mt/ijcai95-gaps.ps .
+cp $A/natural-language/mt/ijcai95-glosser.ps .
+cp $A/natural-language/mt/amta94-integrating.ps .
+cp $A/natural-language/people/p58-knight.pdf .
+cp $A/natural-language/people/unification-knight.pdf .
+cp $A/natural-language/people/picture-movie.gif .

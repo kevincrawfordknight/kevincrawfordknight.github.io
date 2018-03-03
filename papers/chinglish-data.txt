@@ -1,0 +1,5274 @@
+
+== Introduction == 
+
+This file contains 1312 tuples of the form:
+<Chinese, English, Chinglish, Chinglish-Pinyin>, from the travel
+phrasebook domain.  Data cleaning was done by Kevin Knight, 
+Heng Ji and Xing Shi.  In Xing et al (2014), the first 1182 
+tuples were used for training, the next 65 for test, and the 
+last 65 for development.
+
+== Format ==
+
+Chinese
+English Translations
+Chinglish
+Pinyin of Chinglish
+  <repeat>
+
+== Contact ==
+
+Kevin Knight knight@isi.edu
+Heng Ji jih@rpi.edu
+Xing Shi xingshi@usc.edu
+
+== Data ==
+
+起床了
+"it's" "time" "to" "get" "up"
+意思太母兔盖特阿普
+yi si tai mu tu gai te a pu
+已经八点了
+"it's" "eight" "o'clock" "now"
+意思埃特额克劳克闹
+yi si ai te e ke lao ke nao
+上学迟到了
+"it's" "late" "for" "school"
+意思雷特佛思古
+yi si lei te fu si gu
+今天不用上班吗
+"don't" "you" "need" "to" "work" "today"
+东特又尼的兔沃克特代
+dong te you ni de tu wo ke te dai
+快起来
+"please" "get" "up" "quickly"
+普利息盖特阿普亏克里
+pu li xi gai te a pu kui ke li
+我还想睡五分钟
+"i" "want" "to" "sleep" "for" "five" "more" "minutes"
+爱望特兔思利普佛法爱五莫味尼此
+ai wang te tu si li pu fo fa ai wu mo wei ni ci
+我不想起床
+"i" "don't" "want" "to" "get" "up"
+爱东特望特兔盖特阿普
+ai dong te wang te tu gai te a pu
+该穿衣服啦
+"it's" "time" "to" "get" "dressed"
+意思太母兔给特拽思的
+yi si tai mu tu gei te zhuai si de
+已经迟啦
+"it's" "already" "late"
+意思奥瑞迪雷特
+yi si ao rui di lei te
+我们要赶快行动
+"we" "need" "to" "get" "moving"
+危尼的兔盖特母五英
+wei ni de tu gai te mu wu ying
+你睡得好吗
+"did" "you" "sleep" "well"
+低得又思力普唯偶
+di de you si li pu wei ou
+你还赖床啊
+"are" "you" "still" "lazing" "around"
+啊又思第偶雷子应额入昂的
+a you si di ou lei zi ying e ru ang de
+快起床吧
+"rise" "and" "shine"
+入爱子安得闪
+ru ai zi an de shan
+出发的时间到了
+"time" "to" "get" "going"
+太母兔给特够应
+tai mu tu gei te gou ying
+穿上衣服
+"put" "on" "your" "clothes"
+普特昂又儿克漏子
+pu te ang you er ke lou zi
+赶紧
+"hurry" "up"
+哈瑞阿普
+ha rui a pu
+快点
+"be" "quick"
+必亏克
+bi kui ke
+抓紧时间
+"take" "your" "time"
+忒克又儿太母
+te ke you er tai mu
+晚饭做什么好呢
+"what" "should" "i" "cook" "for" "dinner"
+沃特舒的爱库克佛低呢
+wo te shu de ai ku ke fu di ne
+帮我们清理餐桌
+"help" "us" "clear" "off" "the" "table"
+嘿一奥普啊思克利儿奥夫则太波
+hei yi ao pu a si ke li er ao fu ze tai bo
+我要把餐盘擦干
+"i'll" "dry" "the" "dishes"
+爱由拽的低失思
+ai you zhuai de di shi si
+你可以洗碗吗
+"will" "you" "do" "the" "dishes"
+危又杜的低失思
+wei you du de di shi si
+把盘子洗了
+"wash" "the" "dishes"
+沃失的低失思
+wo shi de di shi si
+我们收拾一下桌子吧
+"let" "us" "clear" "the" "table"
+来特啊思克利儿的太波
+lai te a si ke li er de tai bo
+我还要擦窗户呢
+"i" "have" "to" "clean" "the" "window"
+爱海夫兔克利儿的问斗
+ai hai fu tu ke li er de wen dou
+把窗户打开换一下空气
+"open" "the" "window" "and" "have" "some" "fresh" "air"
+哦盒的问斗安的海夫桑夫锐失爱儿
+o he de wen dou an di hai fu sang fu rui shi ai er
+我刚刚拖了地
+"i" "mopped" "the" "floor"
+爱莫普德的夫老
+ai mo pu de de fu lao
+该浇花儿了
+"the" "flower" "needs" "watering"
+的夫老儿尼思沃特英
+de fu lao er ni si wo te ying
+我们擦擦玻璃怎么样
+"what" "about" "cleaning" "the" "window"
+沃特额抱特克林英的问斗
+wo te e bao te ke lin ying de wen dou
+把垃圾倒了吧
+"throw" "away" "the" "rubbish"
+思肉额危的入啊比失
+si rou e wei de ru a bi shi
+请把盘子递给我
+"hand" "me" "the" "dish" "please"
+汗的密的低失普利思
+han de mi de di shi pu li si
+请打开灯
+"turn" "on" "the" "light" "please"
+疼昂的来特普利思
+teng ang de lai te pu li si
+我们需要个洗衣机
+"we" "need" "a" "washing" "machine"
+危尼的额沃失英莫神
+wei ni de e wo shi ying mo shen
+去超市买点儿食品
+"go" "to" "the" "supermarket" "to" "get" "some" "food"
+够兔的苏坡马凯特兔盖特桑夫的
+gou tu de su po ma kai te tu gai te sang fu de
+给狗喂点儿食
+"give" "the" "dog" "something" "to" "eat"
+给五的到个桑思一英兔一特
+gei wu de dao ge sang si yi ying tu yi te
+他在扫地
+"he" "is" "sweeping" "the" "floor"
+嘿意思思危普英的夫老
+hei yi si si wei pu ying de fu lao
+该睡觉了
+"it's" "time" "to" "sleep"
+意思太母兔思利普
+yi si tai mu tu si li pu
+他已经睡了
+"he" "has" "fallen" "asleep"
+嘿海思佛棱额思利普
+hei hai si fu leng e si li pu
+他睡得很熟
+"he" "is" "fast" "asleep"
+嘿意思发思特额思利普
+hei yi si fa si te e si li pu
+晚安
+"good" "night"
+古德奈特
+gu de nai te
+做个好梦
+"nice" "dreams"
+奈思准母
+nai si zhun mu
+电视还开着呢
+"you" "left" "the" "tv" "on"
+又来夫特的替危昂
+you lai fu te de ti wei ang
+你每天几点睡觉
+"when" "do" "you" "usually" "go" "to" "bed"
+问杜又又若利够兔拜的
+wen du you you ruo li gou tu bai de
+现在去睡觉
+"off" "to" "bed" "now"
+奥夫兔拜的闹
+ao fu tu bai de nao
+我困了
+"i'm" "sleepy"
+爱母思利皮
+ai mu si li pi
+请不要踢被子
+"please" "don't" "kick" "off" "the" "covers"
+普利思东特带克奥夫的卡沃思
+pu li si dong te dai ke ao fu de ka wo si
+睡前关门
+"lock" "the" "door" "before" "i" "go" "to" "bed"
+老克的到比佛爱够兔拜的
+lao ke de dao bi fu ai gou tu bai de
+睡觉时间到了
+"it's" "bedtime"
+意思拜的太母
+yi si bai de tai mu
+很晚了
+"it's" "late"
+意思累特
+yi si lei te
+已经半夜了
+"it's" "midnight"
+意思密的奈特
+yi si mi de nai te
+把你的床铺好
+"make" "your" "bed"
+妹克又儿拜的
+mei ke you er bai de
+我一点儿也不困
+"i'm" "wide" "awake"
+爱母外的额危克
+ai mu wai de e wei ke
+我睡不着
+"i" "can't" "fall" "asleep"
+爱看特佛额思利普
+ai kan te fu e si li pu
+我只是随便看看
+"i'm" "just" "looking"
+爱母加思特路克英
+ai mu jia si te lu ke ying
+你想买什么衣服
+"are" "you" "looking" "for" "something"
+啊又路克英佛桑思一英
+a you lu ke ying fu sang si yi ying
+我只是想买件毛衣
+"i" "just" "want" "to" "buy" "a" "sweater"
+爱加思特忘特兔白额思外特
+ai jia si te wang te tu bai e si wai te
+我能试试这件吗
+"may" "i" "try" "this" "on"
+妹爱踹则一思昂
+mei ai chuai ze yi si ang
+我喜欢这件背心
+"i" "like" "this" "tank" "top"
+爱来克则思坦克讨普
+ai lai ke ze si tan ke tao pu
+我想买衣服
+"i'm" "looking" "for" "something" "to" "wear"
+爱母路克英佛桑思一英兔危儿
+ai mu lu ke ying fu sang si yi ying tu wei er
+能帮我拿个7号的么
+"could" "you" "get" "me" "a" "size" "seven"
+酷的又盖特密额霎兹赛文
+ku de you gai te mi e sha zi sai wen
+你能帮我挑一件礼服吗
+"could" "you" "help" "me" "pick" "up" "a" "dress"
+酷的又嘿一奥普密皮克阿普额拽思
+ku de you hei yi ao pu mi pi ke a pu e zhuai si
+我想买一件毛衣
+"i'm" "looking" "for" "a" "sweater"
+爱母路克英佛额思外特
+ai mu lu ke ying fu e si wai te
+你穿很好看
+"it" "looks" "good" "on" "you"
+一特路克思古德昂又
+yi te lu ke si gu de ang you
+有什么推荐的吗
+"what" "do" "you" "recommend"
+沃特杜又锐克曼的
+wo te du you rui ke man de
+我还要那件白色的小披风行么
+"can" "i" "also" "get" "that" "small" "white" "cape"
+看爱奥搜盖特带特思莫外特开普
+kan ai ao sou gai te dai te si mo wai te kai pu
+我想试试这件衣服
+"i'd" "like" "to" "try" "on" "some" "of" "these" "clothes"
+爱的来克兔踹昂桑奥夫则一思克漏思
+ai de lai ke tu chuai ang sang ao fu ze yi si ke lou si
+我该买冬天穿的衣服了
+"i" "think" "it's" "time" "i" "bought" "some" "winter" "clothes"
+爱思一英克意思太母爱波特桑问特克漏思
+ai si yi ying ke yi si tai mu ai bo te sang wen te ke lou si
+麻烦看着那件上衣
+"i'd" "like" "to" "check" "out" "that" "coat"
+爱的来克兔拆克奥特带特扣特
+ai de lai ke tu chai ke ao te dai te kou te
+这件衬衫又时髦又便宜
+"this" "shirt" "is" "very" "stylish" "and" "not" "very" "expensive"
+迪思舍特意思危锐思掉利失安的闹特危锐伊克思班西五
+di si she te yi si wei rui si diao li shi an di nao te wei rui yi ke si ban xi wu
+这条裤子合适吗
+"do" "the" "pants" "fit" "ok"
+度则盘思飞特欧克
+du ze pan si fei te ou ke
+我先给你量一下尺寸
+"let" "me" "take" "your" "measurements" "first"
+来特密带克又儿卖若门思佛寺特
+lai te mi dai ke you er mai ruo men si fo si te
+您很有眼力
+"you" "have" "very" "good" "taste"
+又海夫危锐古德太思特
+you hai fu wei rui gu de tai si te
+我要便宣点的
+"i" "want" "a" "cheap" "one"
+爱忘特额期普完
+ai wang te e qi pu wan
+您要多大码的
+"what" "size" "would" "you" "like"
+沃特赛兹五的又来克
+wo te sai zi wu de you lai ke
+那么中号应该就可以了
+"then" "medium" "size" "should" "be" "ok"
+但密低母赛兹舒的比欧克
+dan mi di mu sai zi shu de bi ou ke
+这条怎么样
+"how" "about" "this" "one"
+号额抱特迪思完
+hao e bao te di si wan
+有没有颜色浅一点儿的
+"do" "you" "have" "something" "lighter"
+杜又海夫桑思一英来特
+du you hai fu sang si yi ying lai te
+款式真够多的
+"there" "are" "so" "many" "styles"
+迪儿啊搜曼尼思掉思
+di er a sou man ni si diao si
+我越看越不知道该买哪条了
+"the" "more" "i" "look" "the" "more" "difficult" "it" "is" "for" "me" "to" "decide"
+则莫爱路克则莫低飞扣特一特意思佛密兔低赛的
+ze mo ai lu ke ze mo di fei kou te yi te yi si fu mi tu di sai de
+它很配我的宽松牛仔裤
+"it" "goes" "with" "my" "baggy" "jeans"
+一特够思怠思卖白季季母思
+yi te gou si dai si mai bai ji ji mu si
+颜色有点儿暗
+"it's" "a" "little" "bit" "dark"
+意思额利透比特大克
+yi si e li tou bi te da ke
+还有其他颜色吗
+"do" "you" "have" "some" "other" "colors"
+杜又海夫桑啊的卡乐思
+du you hai fu sang a de ka le si
+我们还有另外两种颜色淡绿色和黄色
+"we" "have" "two" "other" "colors" "light" "green" "and" "yellow"
+危海夫兔啊的卡乐思来特格润安的耶漏
+wei hai fu tu a de ka le si lai te ge run an di ye lou
+我买这条
+"i'll" "take" "them"
+爱危带克但母
+ai wei dai ke dan mu
+您穿多大号的
+"what" "size" "do" "you" "wear"
+沃特赛兹杜又危儿
+wo te sai zi du you wei er
+我穿小号的
+"i" "wear" "a" "small"
+爱危尔额思莫
+ai wei er e si mo
+我要买条裙子
+"i" "want" "to" "buy" "a" "skirt"
+爱忘特兔白领思格特
+ai wang te tu bai ling si ge te
+我要中码的8号或10号
+"i" "need" "a" "medium" "an" "eight" "or" "a" "ten"
+爱尼的额密低恩安嘿特哦额谈
+ai ni de e mi di en an hei te o e tan
+你要试穿一下这个辑子吗
+"would" "you" "like" "to" "try" "the" "skirt" "on"
+五的又来克兔踹则思格特昂
+wu de you lai ke tu chuai ze si ge te ang
+您可选对了
+"you've" "made" "a" "good" "choice"
+又无妹的额古德戳一思
+you wu mei de e gu de chuo yi si
+我来买这条裙子
+"i" "came" "here" "to" "pick" "up" "this" "skirt"
+爱开母嘿儿兔皮克阿普则一思思格特
+ai kai mu hei er tu pi ke a pu ze yi si si ge te
+真好看
+"it" "looks" "great"
+一特路克思格锐特
+yi te lu ke si ge rui te
+我穿太大了
+"it's" "too" "big" "for" "me"
+意思兔比格佛密
+yi si tu bi ge fu mi
+有小点儿的吗
+"do" "you" "have" "it" "in" "a" "small"
+杜又海夫一特英额思莫
+du you hai fu yi te ying e si mo
+这条适合您
+"this" "one" "suits" "you"
+迪思完苏特又
+di si wan su te you
+我帮您找一下
+"i'll" "go" "to" "find" "it" "for" "you"
+爱危够兔方的一特佛又
+ai wei gou tu fang de yi te fu you
+有没有便宜点儿的？
+"do" "you" "have" "any" "one" "cheaper"
+杜又海夫安尼完期泼
+du you hai fu an ni wan qi po
+这是最便宜的了
+"it's" "the" "cheapest"
+意思则期皮思特
+yi si ze qi pi si te
+您的身材高挑穿旗袍最合适不过了
+"you" "have" "a" "tall" "and" "slim" "figure" "very" "suitable" "for" "a" "cheongsam"
+又海夫额讨安的思林母飞格危锐苏特波佛额长衫
+you hai fu e tao an di si lin mu fei ge wei rui su te bo fu e chang shan
+你觉得这些旗袍哪件比较好呢
+"which" "cheongsam" "do" "you" "think" "is" "better"
+危吃长衫杜又思一英克意思白特
+wei chi chang shan du you si yi ying ke yi si bai te
+它很特别
+"it's" "so" "special"
+意思搜思白收
+yi si sou si bai shou
+我想买双鞋
+"i" "want" "to" "buy" "a" "pair" "of" "shoes"
+爱忘特兔白领拍儿奥夫书思
+ai wang te tu bai ling pai er ao fu shu si
+我不喜欢这颜色
+"i" "don't" "like" "its" "color"
+爱东特来克意思卡乐
+ai dong te lai ke yi si ka le
+是全皮的
+"they" "are" "made" "by" "leather"
+带啊妹的白来的
+dai a mei de bai lai de
+你最喜欢什么颜色
+"which" "color" "do" "you" "like" "best"
+危吃卡乐杜又来克百思特
+wei chi ka le du you lai ke bai si te
+好漂亮的鞋
+"nice" "shoes"
+奈思书思
+nai si shu si
+能不能给我拿双白色7号的
+"could" "you" "get" "me" "a" "size" "seven" "in" "white"
+酷的又盖特密额赛兹赛文英外特
+ku de you gai te mi e sai zi sai wen ying wai te
+我们休闲鞋在促销
+"we're" "having" "a" "sale" "on" "casual" "shoes"
+危啊海夫英额赛昂开肉书思
+wei a hai fu ying e sai ang kai rou shu si
+哪些是打折的
+"what" "do" "you" "have" "on" "sale"
+沃特杜又海夫昂赛
+wo te du you hai fu ang sai
+我要买耐克的篮球鞋
+"i" "need" "nike" "sneakers"
+爱尼的耐克思尼克思
+ai ni de nai ke si ni ke si
+让我给你展示一下最新款
+"let" "me" "show" "you" "the" "latest" "styles"
+来特密收又则累替思思掉思
+lai te mi shou you ze lei ti si si diao si
+给我双7号的
+"give" "me" "a" "size" "seven" "please"
+给五密额赛兹赛文普利思
+gei wu mi e sai zi sai wen pu li si
+这双鞋合脚吗
+"do" "the" "shoes" "fit" "you"
+杜则书思飞特又
+du ze shu si fei te you
+有点儿小
+"they're" "a" "bit" "tight"
+带啊额比特太特
+dai a e bi te tai te
+有没有大一点儿的
+"do" "you" "have" "the" "next" "size" "up"
+杜又海夫则奈科思特赛兹阿普
+du you hai fu ze nai ke si te sai zi a pu
+我再给您拿个大一码的试试
+"i'll" "bring" "you" "some" "bigger" "ones"
+爱由不润英又桑比格完思
+ai you bu run ying you sang bi ge wan si
+我要给我儿子买双鞋
+"i'm" "looking" "for" "a" "pair" "of" "shoes" "for" "my" "son"
+爱母路克英佛额拍儿奥夫书思佛卖桑
+ai mu lu ke ying fu e pai er ao fu shu si fu mai sang
+你需要多少肉
+"how" "much" "meat" "do" "you" "need"
+号马吃密特杜又尼的
+hao ma chi mi te du you ni de
+够新鲜吗
+"are" "they" "fresh" "enough"
+啊带夫锐失英那夫
+a dai fu rui shi ying na fu
+把鱼肉脏掏洗干净
+"dress" "the" "fish"
+拽思的飞失
+zhuai si de fei shi
+你在做什么
+"what" "are" "you" "cooking"
+沃特啊又酷克英
+wo te a you ku ke ying
+这把刀太钝了
+"this" "knife" "is" "too" "dull"
+迪思耐夫意思兔到
+di si nai fu yi si tu dao
+肉要烧焦了
+"the" "meat" "will" "scorch"
+的密特危忠高吃
+de mi te wei zhong gao chi
+加点酱油
+"add" "some" "soy" "sauce"
+爱的桑扫又扫思
+ai de sang sao you sao si
+打两个鸡蛋
+"whisk" "two" "eggs"
+危思克兔爱格思
+wei si ke tu ai ge si
+把茄子皮削掉
+"peel" "the" "eggplant"
+皮又的爱格普兰特
+pi you de ai ge pu lan te
+递给我一个盘子
+"hand" "me" "a" "plate"
+汗的密额普累特
+han de mi e pu lei te
+给我两个碗
+"give" "me" "two" "bowls"
+给五密兔波思
+gei wu mi tu bo si
+我想把炖肉煤5分钟
+"i" "want" "to" "leave" "the" "stew" "to" "simmer" "for" "five" "minutes"
+爱忘特兔离五的思杜兔莫佛发五米尼思
+ai wang te tu li wu de si du tu mo fu fa wu mi ni si
+烧点水吧
+"boil" "some" "water"
+包又桑沃特
+bao you sang wo te
+水开了
+"the" "water" "is" "boiling"
+的沃特意思包又灵
+de wo te yi si bao you ling
+水太热了
+"the" "water" "is" "too" "hot"
+的沃特意思兔号特
+de wo te yi si tu hao te
+倒点醋
+"pour" "some" "vinegar"
+普儿桑应尼格
+pu er sang ying ni ge
+把煤气关了
+"switch" "the" "gas" "off"
+思危吃的盖思奥夫
+si wei chi de gai si ao fu
+还没有搅拌好
+"it's" "still" "not" "mixed" "well" "enough"
+意思思丢呢欧特危英那夫
+yi si si diu ne ou te wei ying na fu
+我们叫外卖吧
+"let's" "order" "a" "take" "away"
+来思奥的额带克额危
+lai si ao de e dai ke e wei
+帮我叫份外卖
+"call" "for" "a" "take" "away" "for" "me"
+扣佛额带克额危佛密
+kou fu e dai ke e wei fu mi
+五美元能买什么呀
+"what" "can" "i" "get" "for" "five" "dollars"
+沃特看爱盖特佛发五到乐
+wo te kan ai gai te fu fa wu dao le
+给我来杯冰茶吧
+"i'll" "take" "an" "iced" "tea"
+爱危带克安爱思的替
+ai wei dai ke an ai si de ti
+我想叫一份外卖
+"i'd" "like" "to" "place" "a" "delivery" "order"
+爱的来克兔普累思低利沃锐奥的
+ai de lai ke tu pu lei si di li wo rui ao de
+一美元什么吃的都不能买
+"there's" "nothing" "on" "the" "menu" "for" "a" "dollar"
+带儿思那思一英昂的曼牛佛额到乐
+dai er si na si yi ying ang de man niu fu e dao le
+给我一份面包
+"give" "me" "an" "order" "of" "bread"
+给五密安臭的奥夫不锐的
+gei wu mi an chou de ao fu bu rui de
+大概一小时后能送到您的那里
+"you" "should" "get" "your" "food" "in" "about" "an" "hour"
+又舒的盖特又儿夫的英额抱特安奥儿
+you shu de gai te you er fu de ying e bao te an ao er
+我们要花时间去做
+"it" "takes" "time" "for" "us" "to" "prepare" "it"
+一特带克思太母佛啊思兔陪拍儿一特
+yi te dai ke si tai mu fu a si tu pei pai er yi te
+如果你不想出去咱们叫个外卖吧
+"if" "you" "don't" "want" "to" "eat" "out" "we" "could" "order" "in"
+一夫又东特忘特兔一特奥特危酷的奥的英
+yi fu you dong te wang te tu yi te ao te wei ku de ao de ying
+好的请稍等
+"ok" "please" "wait" "for" "a" "moment"
+欧克普利思危特佛额莫门特
+ou ke pu li si wei te fu e mo men te
+做好后请为我打包
+"please" "wrap" "it" "up" "for" "me" "when" "it" "is" "ready"
+普利思外普一特阿普佛密问一特意思锐低
+pu li si wai pu yi te a pu fu mi wen yi te yi si rui di
+我要点一些食物外送
+"i'd" "like" "to" "have" "some" "food" "delivered"
+爱的来克兔海夫朵夫的低利沃的
+ai de lai ke tu hai fu duo fu de di li wo de
+我们外送的最低金额是15美金
+"our" "minimum" "charge" "for" "delivery" "is" "fifteen" "dollars"
+奥儿米尼们差只佛低利沃锐意思发五听到乐思
+ao er mi ni men cha zhi fu di li wo rui yi si fa wu ting dao le si
+没问题点一客蛋卷会有几条
+"no" "problem" "how" "many" "egg" "rolls" "in" "an" "order"
+呢欧泼不棱号曼尼爱格肉思英安奥的
+ne ou po bu leng hao man ni ai ge rou si ying an ao de
+那我要来两客蛋卷
+"then" "make" "it" "two" "orders" "of" "egg" "rolls"
+但妹克一特兔奥的思奥夫爱格肉思
+dan mei ke yi te tu ao de si ao fu ai ge rou si
+我要先预订么
+"do" "i" "need" "a" "reservation"
+杜爱尼的额锐色危神
+du ai ni de e rui se wei shen
+请你帮我预订好吗
+"could" "you" "make" "a" "reservation" "for" "me"
+酷的又妹克领锐色危神佛密
+ku de you mei ke ling rui se wei shen fu mi
+我要预订一张两人桌
+"i'd" "like" "to" "reserve" "a" "table" "for" "two"
+爱的来克兔锐色夫额太波佛兔
+ai de lai ke tu rui se fu e tai bo fu tu
+我想订个靠窗的桌子
+"i" "want" "to" "book" "a" "table" "by" "the" "window"
+爱忘特兔不克额太波白的问斗
+ai wang te tu bu ke e tai bo bai de wen dou
+我们一共六个人
+"we" "are" "a" "group" "of" "six"
+危啊额放入普奥夫赛客思
+wei a e fang ru pu ao fu sai ke si
+你们有三人桌吗
+"can" "we" "have" "a" "table" "for" "three"
+看危海夫额太波佛思锐
+kan wei hai fu e tai bo fu si rui
+有空位吗
+"is" "there" "a" "place" "vacant"
+意思带儿额普累思危肯特
+yi si dai er e pu lei si wei ken te
+我想要靠窗的位子
+"by" "the" "window" "please"
+白的问都普利思
+bai de wen du pu li si
+这里很好
+"that'll" "do" "fine"
+带危杜凡
+dai wei du fan
+什么时候能有空桌
+"when" "will" "you" "have" "a" "table" "free"
+问危又海夫额太波夫锐
+wen wei you hai fu e tai bo fu rui
+我可以坐那个靠窗的位子吗
+"can" "i" "have" "the" "table" "by" "the" "window"
+看爱海夫的太波白的问斗
+kan ai hai fu de tai bo bai de wen dou
+我们就坐这儿吧
+"we'll" "take" "it"
+危带克一特
+wei dai ke yi te
+这个位子行吗
+"is" "this" "table" "ok"
+意思则一思太波欧克
+yi si ze yi si tai bo ou ke
+来之前请给我电话
+"please" "give" "me" "a" "call" "before" "you" "come" "in"
+普利思给五密额扣比佛又康母英
+pu li si gei wu mi e kou bi fu you kang mu ying
+我们期望见到你
+"we" "look" "forward" "to" "seeing" "you"
+危路克佛沃的兔西营又
+wei lu ke fu wo de tu xi ying you
+请预定在李小姐名下o
+"could" "you" "make" "the" "booking" "for" "mrs" "li"
+酷的又妹克的不克英佛密西思李
+ku de you mei ke de bu ke ying fu mi xi si li
+理您的预订是在7点半
+"your" "reservation" "is" "for" "seven" "thirty"
+又儿锐色危神意思佛赛文色替
+you er rui se wei shen yi si fu sai wen se ti
+感谢致电
+"thank" "you" "for" "your" "call"
+三克油佛又儿扣灵
+san ke you fu you er kou ling
+请把菜单拿来
+"show" "me" "the" "menu" "please"
+收密的曼牛普利思
+shou mi de man niu pu li si
+先让我们看看菜单
+"let's" "have" "a" "look" "at" "the" "menu" "first"
+来思海夫额路克爱特的曼牛佛思特
+lai si hai fu e lu ke ai te de man niu fu si te
+你们有什么特色菜·
+"what" "are" "your" "specialties"
+沃特啊又儿思拍收替思
+wo te a you er si pai shou ti si
+今天有什么好吃的
+"what's" "good" "today"
+沃思古德特带
+wo si gu de te dai
+你能稍等一会儿吗
+"could" "you" "wait" "a" "moment"
+酷的又危特额莫门特
+ku de you wei te e mo men te
+我们可以点菜了
+"we" "are" "ready" "to" "order" "now"
+危啊锐低兔奥的闹
+wei a rui di tu ao de nao
+可以点菜了吗
+"may" "i" "order" "now"
+妹爱奥的闹
+mei ai ao de nao
+服务员来一下
+"excuse" "me" "waiter"
+一克思克又思密危特
+yi ke si ke you si mi wei te
+你先点
+"you" "order" "first"
+又奥的佛思特
+you ao de fu si te
+我要什么都行
+"anything's" "all" "right" "with" "me"
+安尼思一英思奥锐特危思密
+an ni si yi ying si ao rui te wei si mi
+我也要这个
+"i" "order" "the" "same"
+爱奥的的赛母
+ai ao de de sai mu
+我们的汤里别放洋葱
+"no" "onion" "in" "our" "soup"
+呢欧啊尼恩英奥儿苏普
+ne ou a ni en ying ao er su pu
+欢迎光临
+"welcome"
+危儿康母
+wei er kang mu
+请问有几位
+"how" "many" "persons" "please"
+号曼尼泼森思普利思
+hao man ni po sen si pu li si
+人都到齐了吗
+"are" "you" "all" "here"
+啊又奥黑儿
+a you ao hei er
+请稍等
+"wait" "for" "a" "moment"
+危特佛额莫门特
+wei te fu e mo men te
+这边请
+"this" "way" "please"
+迪思危普利思
+di si wei pu li si
+这个好吃
+"this" "is" "delicious"
+迪思意思低利舍思
+di si yi si di li she si
+这个土豆好吃
+"the" "potatoes" "taste" "good"
+的泼太头思太思特古德
+de po tai tou si tai si te gu de
+茄子很新鲜
+"the" "eggplant" "is" "very" "fresh"
+的爱格普兰特意思危锐夫锐失
+de ai ge pu lan te yi si wei rui fu rui shi
+这肉太腻了
+"the" "meat" "is" "too" "fatty"
+的密特意思兔发替
+de mi te yi si tu fa ti
+我的肉排太难嚼了
+"my" "steak" "is" "too" "tough"
+卖思低立意思兔塔夫
+mai si di li yi si tu ta fu
+这鱼不新鲜
+"the" "fish" "isn't" "fresh"
+的飞失一怎特夫锐失
+de fei shi yi zen te fu rui shi
+这菜太凉了根本不能吃
+"this" "is" "too" "cold" "to" "eat"
+迪思意思兔扣的兔一特
+di si yi si tu kou de tu yi te
+这菜太咸了
+"the" "food" "is" "too" "salty"
+的夫的意思兔扫替
+de fu de yi si tu sao ti
+希望你喜欢这些食物
+"i" "hope" "you" "like" "the" "food"
+爱后普又来克的夫的
+ai hou pu you lai ke de fu de
+请尝尝这道菜
+"please" "try" "this"
+普利思踹迪思
+pu li si chuai di si
+一点儿就行
+"just" "a" "little" "please"
+加思特额利透普利思
+jia si te e li tou pu li si
+希望你喜欢这些食物
+"i" "hope" "you" "like" "the" "food"
+爱后普又来克的夫的
+ai hou pu you lai ke de fu de
+今天没什么胃口
+"i" "don't" "have" "much" "of" "an" "appetite" "today"
+爱东特海夫马吃奥夫安爱皮太特特带
+ai dong te hai fu ma chi ao fu an ai pi tai te te dai
+来个清蒸鱼吧清淡
+"what" "about" "steamed" "fish" "it's" "light"
+沃特额抱特思定母的飞失意思来特
+wo te e bao te si ding mu de fei shi yi si lai te
+闻起来不错
+"it" "smells" "good"
+一特思秒思古德
+yi te si miao si gu de
+嗯我可喜欢吃了
+"yeah" "i" "like" "it" "a" "lot"
+耶爱来克一特额老特
+ye ai lai ke yi te e lao te
+我喜欢广东菜甜而且口昧清淡
+"i" "like" "guangdong" "cuisine" "sweet" "and" "not" "too" "salty"
+爱来克广东亏怎思危特安的呢欧特扫替
+ai lai ke guang dong kui zen si wei te an di ne ou te sao ti
+服务员结账
+"waiter" "let" "me" "have" "the" "bill"
+危特来特密海夫的比儿
+wei te lai te mi hai fu de bi er
+请帮账单拿来
+"may" "i" "have" "the" "bill" "please"
+妹爱海夫的比儿普利思
+mei ai hai fu de bi er pu li si
+我们各付各的·
+"we'll" "go" "dutch"
+危够大吃
+wei gou da chi
+今天我来付账
+"i'll" "take" "care" "of" "the" "bill"
+爱危带克开儿奥夫的比儿
+ai wei dai ke kai er ao fu de bi er
+今天我请客
+"it's" "my" "treat" "today"
+意思卖吹特特带
+yi si mai chui te te dai
+共多少钱
+"what" "does" "this" "amount" "to"
+沃特大思迪思额忙特兔
+wo te da si di si e mang te tu
+剩下的带走
+"i'd" "like" "to" "take" "the" "rest"
+爱的来克兔带克的锐思特
+ai de lai ke tu dai ke de rui si te
+能给我们打包么
+"can" "you" "give" "us" "a" "doggie" "bag"
+看又给五啊思额到季白格
+kan you gei wu a si e dao ji bai ge
+用信用卡结账行么
+"can" "i" "pay" "with" "this" "credit" "card"
+看爱陪危思则一思亏低特卡的
+kan ai pei wei si ze yi si kui di te ka de
+请给我开个收据好吗
+"may" "i" "have" "the" "receipt" "please"
+妹爱海夫的锐西皮普利思
+mei ai hai fu de rui xi pi pu li si
+你想怎么付账
+"how" "would" "you" "like" "to" "pay"
+号五的又来克兔陪
+hao wu de you lai ke tu pei
+我可以付定金
+"i" "can" "pay" "a" "deposit"
+爱看陪额低泼思特
+ai kan pei e di po si te
+我来结账
+"i'll" "pick" "up" "the" "tab"
+爱由皮克啊普的太不
+ai you pi ke a pu de tai bu
+我为您核对一下
+"i'll" "check" "it" "for" "you"
+爱由拆克一特佛又
+ai you chai ke yi te fu you
+分开算
+"separate" "check"
+赛普锐特拆克
+sai pu rui te chai ke
+该店免费送货
+"the" "store" "doesn't" "charge" "for" "delivery"
+的思到大怎特差只佛低利沃锐
+de si dao da zen te cha zhi fu di li wo rui
+我怎么付款
+"how" "do" "i" "pay"
+号杜爱陪
+hao du ai pei
+此房出租
+"this" "house" "is" "for" "rent"
+迪思号思意思佛润特
+di si hao si yi si fu run te
+租金很便宜
+"it's" "really" "a" "bargain"
+意思锐儿利额巴格英
+yi si rui er li e ba ge ying
+每月租金多少
+"how" "much" "is" "the" "rent" "for" "a" "month"
+号马吃意思的润特佛额忙思
+hao ma chi yi si de run te fu e mang si
+看起来你真是个非常理想的房客
+"you" "seem" "like" "the" "ideal" "tenant"
+又西母来克的爱低又谈能特
+you xi mu lai ke de ai di you tan neng te
+你知道还有谁在找合租伙伴吗
+"do" "you" "know" "of" "anyone" "who" "needs" "a" "roommate"
+杜又呢欧奥夫安尼完户尼兹额入妹特
+du you ne ou ao fu an ni wan hu ni zi e ru mei te
+我希望合租者不吸烟
+"i'd" "prefer" "non" "smoking" "roommates"
+爱的泼佛呢欧思莫克英入妹特
+ai de po fu ne ou si mo ke ying ru mei te
+你需要房子配了家具还是没配家具的
+"do" "you" "need" "a" "furnished" "or" "unfurnished" "apartment"
+杜又尼的额佛尼车的哦昂佛尼车的额怕特门特
+du you ni de e fu ni che de o ang fu ni che de e pa te men te
+如果家具能一应俱全那就太好了
+"it'd" "be" "great" "if" "it" "were" "furnished"
+一的比贵特一夫一特沃佛尼车的
+yi de bi gui te yi fu yi te wo fu ni che de
+踉房东同住一套公寓
+"the" "room" "is" "in" "the" "landlord's" "apartment"
+的入母意思英的兰的老思额怕特门特
+de ru mu yi si ying de lan de lao si e pa te men te
+你可以把公寓分租给其他人住
+"you" "can" "sublet" "the" "apartment"
+又看萨不来特的领怕特门特
+you kan sa bu lai te de ling pa te men te
+你们共用一间浴室
+"you" "share" "a" "bathroom"
+又晒儿额已思入母
+you shai er e yi si ru mu
+押金是两个月的房租
+"the" "deposit" "is" "two" "months" "rent"
+的低泼兹特意思兔忙思润特
+de di po zi te yi si tu mang si run te
+房东会来取房租
+"the" "landlord" "will" "come" "to" "collect" "the" "rent"
+的兰老的危康兔康来克特的润特
+de lan lao de wei kang tu kang lai ke te de run te
+你可以直接付给房东
+"you" "can" "go" "and" "pay" "the" "landlord" "directly"
+又看够安的陪的兰老的低锐克特利
+you kan gou an di pei de lan lao de di rui ke te li
+我们可以开始搬进家具
+"we" "can" "start" "to" "move" "our" "furniture" "in"
+危看思大特兔母五奥儿佛尼车英
+wei kan si da te tu mu wu ao er fu ni che ying
+我们有一套餐厅设备
+"we" "have" "a" "dining" "room" "set"
+危海久额低呢入母赛特
+wei hai jiu e di ne ru mu sai te
+我需要很多东西装潢家里
+"i" "need" "a" "lot" "of" "things" "to" "furnish" "our" "house"
+爱尼的额劳特奥夫思一英思兔佛尼失奥儿号思
+ai ni de e lao te ao fu si yi ying si tu fu ni shi ao er hao si
+搬家是很麻烦的
+"moving" "is" "very" "troublesome"
+母五英意思危锐出啊波桑
+mu wu ying yi si wei rui chu a bo sang
+我们下月搬新家
+"we" "are" "moving" "to" "a" "new" "house" "next" "month"
+危啊母五英兔额牛号思耐克思特忙思
+wei a mu wu ying tu e niu hao si nai ke si te mang si
+浴室里有淋浴器
+"there" "is" "a" "shower" "in" "the" "bathroom"
+带儿意思额少儿英的巳思入母
+dai er yi si e shao er ying de si si ru mu
+我们雇了搬家公司
+"we" "hired" "a" "moving" "company"
+危海尔的额母五英康泼尼
+wei hai er de e mu wu ying kang po ni
+房子在什么地方
+"where" "was" "the" "house"
+危儿沃思的号思
+wei er wo si de hao si
+房子就在Riverside
+"the" "house" "is" "right" "here" "in" "riverside"
+的号思意思锐特嘿儿英锐沃赛德
+de hao si yi si rui te hei er ying rui wo sai de
+那是一栋小房子但正好够我们住
+"it" "was" "a" "small" "house" "but" "just" "right" "for" "us"
+一特沃思额思莫号思巴特加思特锐特佛啊思
+yi te wo si e si mo hao si ba te jia si te rui te fu a si
+和房地产申介商谈谈关于房子的事
+"speak" "to" "a" "real" "estate" "agent" "about" "a" "house"
+思皮克兔额锐意思带特黑正特额抱特额号思
+si pi ke tu e rui yi si dai te hei zheng te e bao te e hao si
+我们喜欢你们住这儿
+"we" "love" "having" "you" "here"
+危拉五海夫英又嘿儿
+wei la wu hai fu ying you hei er
+我想要有家具的房子
+"i" "want" "a" "furnished" "house"
+爱忘特额佛尼失的号思
+ai wang te e fu ni shi de hao si
+此房有供暖设备
+"this" "house" "has" "central" "heating"
+则一思号思海思三抽嘿听
+ze yi si hao si hai si san chou hei ting
+你喜欢什么样的家具
+"what" "kind" "of" "furniture" "do" "you" "like"
+沃特开恩德奥夫佛尼车杜又来克
+wo te kai en de ao fu fu ni che du you lai ke
+我搬到一套有两间卧室的公寓
+"i" "move" "to" "an" "apartment" "with" "two" "bedrooms"
+爱母五兔安额帕特门特危思兔拜的入母思
+ai mu wu tu an e pa te men te wei si tu bai de ru mu si
+市区的房子很贵
+"the" "houses" "downtown" "are" "very" "expensive"
+的号思当堂啊危锐伊克思办克赛五
+de hao si dang tang a wei rui yi ke si ban ke sai wu
+我觉得住在这里象在家里一样
+"i" "feel" "at" "home" "living" "here"
+爱飞爱特后母利五英嘿儿
+ai fei ai te hou mu li wu ying hei er
+也许我们可以先修理地板
+"maybe" "we" "can" "do" "the" "floor" "first"
+妹比危看杜的夫老佛思特
+mei bi wei kan du de fu lao fu si te
+天花板漏了
+"the" "ceiling" "is" "leaking"
+的西灵意思利克英
+de xi ling yi si li ke ying
+马桶故障
+"the" "toilet" "is" "broken"
+的讨儿利特意思不肉肯
+de tao er li te yi si bu rou ken
+油漆剥落
+"the" "paint" "is" "peeling"
+的陪特意思皮灵
+de pei te yi si pi ling
+瓷砖松动
+"the" "tiles" "are" "falling" "off"
+的替又思啊佛灵奥夫
+de ti you si a fu ling ao fu
+水管爆了
+"the" "pipes" "have" "burst"
+的拍普思海夫波思特
+de pai pu si hai fu bo si te
+这房子挺旧的得刷一下才行
+"this" "is" "a" "rather" "old" "house" "it" "needs" "painting"
+迪思意思额入啊的哦的号思一特尼忠陪听
+di si yi si e ru a de o de hao si yi te ni zhong pei ting
+我找人明天去你那修一下
+"i'll" "send" "someone" "over" "to" "fix" "it" "tomorrow"
+爱由三的桑完哦沃兔菲克思一特特毛肉
+ai you san de sang wan o wo tu fei ke si yi te te mao rou
+你自己找人修理吧
+"please" "find" "someone" "to" "repair" "it" "yourself"
+普利思方的朵完兔锐拍儿一特又儿赛夫
+pu li si fang de duo wan tu rui pai er yi te you er sai fu
+修理费从下个月的房租里扣除
+"you" "can" "take" "the" "cost" "of" "the" "repair" "out" "of" "next" "month's" "rent"
+又看带克的考思特奥夫的锐拍儿奥特奥夫奈科思特忙思润特
+you kan dai ke de kao si te ao fu de rui pai er ao te ao fu nai ke si te mang si run te
+如果你觉得不安全我可以帮你加个门锁
+"if" "you" "don't" "feel" "safe" "i" "can" "put" "another" "lock" "on" "your" "door"
+一夫又当特飞赛夫爱看普特安那得老克昂又儿到
+yi fu you dang te fei sai fu ai kan pu te an na de lao ke ang you er dao
+我们刚把所有的墙壁粉刷过了
+"we" "just" "repaired" "the" "wall"
+危加思特锐拍儿的沃
+wei jia si te rui pai er de wo
+我换了新热水器
+"i" "replaced" "the" "water" "heater"
+爱锐普累思的的沃特嘿特
+ai rui pu lei si de de wo te hei te
+不要在墙上钻太多洞
+"please" "don't" "drill" "too" "many" "holes" "in" "the" "wall"
+普利思东特追兔曼尼后思英的沃
+pu li si dong te zhui tu man ni hou si ying de wo
+我们要请人吗
+"do" "we" "have" "to" "hire" "someone"
+杜危海夫兔海尔桑完
+du wei hai fu tu hai er sang wan
+我们可以自己移走地毯
+"we" "can" "remove" "the" "carpet" "ourselves"
+危啊锐母五的卡皮特奥儿赛夫思
+wei a rui mu wu de ka pi te ao er sai fu si
+到哪里搭公共汽车可以到动物园
+"where" "can" "i" "get" "a" "bus" "to" "the" "zoo"
+危儿看爱盖特额巳思兔的祖
+wei er kan ai gai te e si si tu de zu
+你可以到市政厅前搭公共汽车
+"you" "can" "get" "the" "bus" "in" "front" "of" "the" "city" "hall"
+又看盖特的巴思英夫昂特的西替号
+you kan gai te de ba si ying fu ang te de xi ti hao
+过3站到
+"it's" "the" "third" "stop"
+意思的色的思到普
+yi si de se de si dao pu
+车费多少
+"how" "much" "is" "the" "fare"
+号马吃意思的飞儿
+hao ma chi yi si de fei er
+几路公共汽车开往港口呢
+"what's" "the" "number" "of" "the" "bus" "to" "the" "harbor"
+沃思的难波奥夫的巴思兔的哈伯
+wo si de nan bo ao fu de ba si tu de ha bo
+请告诉我什么时候会到第7街
+"please" "tell" "me" "when" "we" "arrive" "at" "seventh" "street"
+普利思跳密问危额锐五爱特赛文思思追特
+pu li si tiao mi wen wei e rui wu ai te sai wen si si zhui te
+你在乘公共汽车进城吗
+"are" "you" "riding" "the" "bus" "to" "town"
+啊又锐定的巴思兔堂
+a you rui ding de ba si tu tang
+下一站请让我下车
+"please" "let" "me" "off" "at" "the" "next" "stop"
+普利思来特密奥夫的奈科思特思到普
+pu li si lai te mi ao fu de nai ke si te si dao pu
+到那里需要多长时间呢
+"how" "long" "does" "it" "take" "to" "get" "there"
+号龙大思一特带克兔盖特带儿
+hao long da si yi te dai ke tu gai te dai er
+大约要15分钟
+"it" "takes" "about" "fifteen" "minutes"
+一特带克思额抱特发五听米尼思
+yi te dai ke si e bao te fa wu ting mi ni si
+我要换车吗
+"do" "i" "have" "to" "change" "buses"
+杜爱海夫兔产只巴思思
+du ai hai fu tu chan zhi ba si si
+你下的站是终点站
+"the" "stop" "you" "want" "to" "get" "off" "is" "the" "terminal"
+的思到普又忘特兔盖特奥夫意思的特密呢欧
+de si dao pu you wang te tu gai te ao fu yi si de te mi ne ou
+下一班往台北的公共汽车什么时间开
+"when's" "the" "next" "bus" "for" "taipei"
+问思的奈科思特巴思佛台北
+wen si de nai ke si te ba si fu tai bei
+每半小时开一班
+"they" "run" "every" "half" "hour"
+带润爱危哈夫奥儿
+dai run ai wei ha fu ao er
+下一班是6时30分
+"the" "next" "one" "will" "be" "at" "eighteen" "thirty"
+的奈科思特完危比爱特嘿听色替
+de nai ke si te wan wei bi ai te hei ting se ti
+公共汽车怎么发车
+"how" "often" "do" "the" "buses" "run"
+号哦芬杜的巴思思润
+hao o fen du de ba si si run
+我在哪儿乘公共汽车？
+"where" "do" "i" "get" "on" "the" "bus"
+危儿杜爱盖特昂的巴思
+wei er du ai gai te ang de ba si
+你在第一街上公共汽车
+"you" "get" "on" "the" "bus" "at" "first" "street"
+又孟特昂的巴思爱特佛思特思追特
+you meng te ang de ba si ai te fu si te si zhui te
+这班车经过卡逊大厦吗
+"does" "this" "train" "pass" "through" "carson" "plaza"
+大思迪思吹恩怕思思入卡森普拉杂
+da si di si chui en pa si si ru ka sen pu la za
+我们多久到达国贸站
+"how" "soon" "do" "we" "arrive" "in" "guomao" "station"
+号送杜龙额锐五英国贸思带神
+hao song du long e rui wu ying guo mao si dai shen
+到洛克菲勒中心怎么走
+"how" "do" "i" "get" "to" "rockefeller" "center"
+号杜爱盖特兔洛克菲勒三特
+hao du ai gai te tu luo ke fei lei san te
+你应该换乘D线车
+"you" "should" "change" "to" "the" "o" "train"
+又舒的产只兔的低吹思
+you shu de chan zhi tu de di chui si
+坐两站路程
+"go" "two" "stops"
+够兔思到普思
+gou tu si dao pu si
+车在哪个站台
+"which" "platform" "is" "it" "on"
+危吃普拉特风意思一特昂
+wei chi pu la te feng yi si yi te ang
+从那边阶梯下去
+"go" "down" "the" "stairs" "over" "there"
+够当的思带儿思哦沃带儿
+gou dang de si dai er si o wo dai er
+请问到华尔街乘哪班车最好
+"can" "you" "tell" "me" "the" "best" "way" "to" "get" "to" "wall" "street"
+看又跳密的百思特危兔盖特兔沃思追特
+kan you tiao mi de bai si te wei tu gai te tu wo si zhui te
+你得乘第7街快车
+"you" "want" "the" "seventh" "avenue" "express"
+又忘特的赛文思爱沃牛伊克思普锐思
+you wang te de sai wen si ai wo niu yi ke si pu rui si
+我该往哪边走呢
+"which" "way" "should" "i" "go"
+危吃危舒的爱够
+wei chi wei shu de ai gou
+搭地铁到时代广场需要多长时间
+"how" "long" "does" "it" "take" "to" "get" "to" "times" "square" "by" "subway"
+号龙大思一特带克兔盖特兔太母思乖儿白萨布危
+hao long da si yi te dai ke tu gai te tu tai mu si guai er bai sa bu wei
+这个入口只能搭乘上行列车吗
+"is" "this" "entrance" "only" "for" "up" "trains"
+意思迪思安春思昂尼佛阿普吹思
+yi si di si an chun si ang ni fo a pu chui si
+我们可以在哪里买到票
+"where" "can" "we" "get" "tickets"
+危儿看危盖特替开思
+wei er kan wei gai te ti kai si
+要买代币代替车票
+"we" "get" "tokens" "instead"
+危盖特头肯思英思带的
+wei gai te tou ken si ying si dai de
+价格是公定的
+"it's" "a" "uniform" "fare"
+意思额又你佛飞儿
+yi si e you ni fu fei er
+怎么转车呢
+"how" "about" "the" "transfer"
+号额抱特的传思佛
+hao e bao te de chuan si fu
+地铁来了
+"the" "train" "is" "coming"
+的吹恩意思康明
+de chui en yi si kang ming
+出租车停靠站在哪里
+"where's" "the" "taxi" "stand"
+危思的太克西思但的
+wei si de tai ke xi si dan de
+帮我叫一辆出租车好吗
+"get" "a" "taxi" "for" "me" "will" "you"
+盖特额大克西佛密危又
+gai te e da ke xi fu mi wei you
+这辆是空军吗
+"is" "this" "cab" "available"
+意思迪思开不额危乐波
+yi si di si kai bu e wei le bo
+我想在那座桥照相请在此稍等一会儿好吗
+"i" "want" "to" "take" "a" "picture" "of" "that" "bridge" "wait" "here" "for" "a" "second" "please"
+爱忘特兔带克额皮克车奥夫带特不锐只危特嘿儿佛额赛肯的普利思
+ai wang te tu dai ke e pi ke che ao fu dai te bu rui zhi wei te hei er fu e sai ken de pu li si
+多少钱
+"what's" "the" "fare"
+沃思的飞儿
+wo si de fei er
+不用找零了
+"please" "keep" "the" "change"
+普利思凯普的产只
+pu li si kai pu de chan zhi
+里程不计费用
+"there" "is" "no" "charges" "for" "mileage"
+带儿意思呢欧差只佛卖力只
+dai er yi si ne ou cha zhi fu mai li zhi
+离这里很远
+"it's" "quite" "a" "distance" "from" "here"
+意思快特额则一思疼思夫昂嘿儿
+yi si kuai te e ze yi si teng si fu ang hei er
+这辆车你要租几天
+"how" "many" "days" "will" "you" "rent" "this" "car"
+号曼尼带思危又软特边思卡
+hao man ni dai si wei you ruan te bian si ka
+你最好坐出租车
+"you'd" "better" "take" "a" "taxi"
+又的白特带克额太克西
+you de bai te dai ke e tai ke xi
+要多少钱
+"how" "much" "is" "it"
+号马吃意思一特
+hao ma chi yi si yi te
+我要租辆车
+"i" "would" "like" "to" "rent" "a" "car"
+爱五的来克兔软特额卡
+ai wu de lai ke tu ruan te e ka
+租金是多少
+"what" "is" "the" "rate"
+沃特意思的锐特
+wo te yi si de rui te
+请把你的驾驶执照给我看看好吗
+"may" "i" "have" "your" "driver's" "license"
+妹爱海夫又儿拽沃思来森思
+mei ai hai fu you er zhuai wo si lai sen si
+请直走
+"go" "straight" "on" "please"
+够思追特昂普利思
+gou si zhui te ang pu li si
+就是那个方向
+"it's" "in" "that" "direction"
+意思英带特低锐克神
+yi si ying dai te di rui ke shen
+你有时刻表吗
+"do" "you" "have" "a" "timetable"
+杜又海夫额太母太波
+du you hai fu e tai mu tai bo
+我想查一下这班火车的出发时间
+"i'd" "like" "to" "check" "the" "departure" "time" "of" "the" "trains"
+爱的来克兔拆克的低怕车太母奥夫的吹思
+ai de lai ke tu chai ke de di pa che tai mu ao fu de chui si
+这班火车是9点7分出发吗
+"is" "this" "train" "leaving" "at" "nine" "oh" "seven"
+意思则一思吹利五英爱特耐哦赛文
+yi si ze yi si chui li wu ying ai te nai o sai wen
+那班火车有特别车厢(餐车)吗
+"is" "there" "a" "dining" "car" "on" "that" "train"
+意思带儿额带宁卡昂的吹
+yi si dai er e dai ning ka ang de chui
+请给我一张往芝加哥票
+"give" "me" "one" "ticket" "to" "chicago" "please"
+给五密完替开特入吃卡扣普利思
+gei wu mi wan ti kai te ru chi ka kou pu li si
+我可以退票吗
+"can" "i" "cancel" "this" "ticket"
+看爱看搜则一思替开特
+kan ai kan sou ze yi si ti kai te
+这张票我要换成卧铺票
+"i" "want" "to" "change" "this" "ticket" "a" "pullman" "ticket"
+爱忘特兔产只则一思替开特兔普曼替开特
+ai wang te tu chan zhi ze yi si ti kai te tu pu man ti kai te
+这班火车什么时候到芝加哥
+"what" "time" "does" "this" "train" "arrive" "in" "chicago"
+沃特大母大思则一思吹额锐五英吃卡扣
+wo te da mu da si ze yi si chui e rui wu ying chi ka kou
+哪一班火车去华盛顿
+"which" "train" "goes" "to" "washington"
+危吃吹够思兔沃胜吞
+wei chi chui gou si tu wo sheng tun
+往洛杉矶在特快车在哪个站台
+"what" "platform" "does" "the" "limited" "express" "for" "los" "angeles" "depart" "from"
+沃特普兰特风大思的利密替的伊克思普锐思佛罗山季利思低帕特夫昂
+wo te pu lan te feng da si de li mi ti de yi ke si pu rui si fo luo shan ji li si di pa te fu ang
+我要在哪里换车去华盛顿
+"where" "do" "i" "transfer" "to" "get" "to" "washington"
+危儿杜爱传思佛兔盖特兔沃胜吞
+wei er du ai chuan si fu tu gai te tu wo sheng tun
+我可以在芝加哥中途下车吗
+"can" "i" "stop" "over" "in" "chicago"
+看爱思到普哦沃英吃卡扣
+kan ai si dao pu o wo ying chi ka kou
+我要换车吗
+"will" "i" "have" "to" "change" "trains"
+危爱海夫兔产只吹思
+wei ai hai fu tu chan zhi chui si
+这班火车直达纽约
+"this" "train" "goes" "straight" "through" "to" "new" "york"
+则一思吹够思思追特思入兔牛约克
+ze yi si chui gou si si zhui te si ru tu niu yue ke
+卧铺车还是普通客车
+"pullman" "or" "coach"
+普曼哦扣吃
+pu man o kou chi
+我们在芝加哥停多久
+"how" "long" "do" "we" "stop" "at" "chicago"
+号龙杜危思到普爱特吃卡扣
+hao long du wei si dao pu ai te chi ka kou
+这班火车准时吗
+"is" "this" "train" "on" "time"
+意思迪思吹昂太母
+yi si di si chui ang tai mu
+4张去海南的船票
+"four" "tickets" "to" "hainan"
+佛替开思兔海南
+fu ti kai si tu hai nan
+瞧船起锚了
+"look" "the" "ship" "is" "lifting" "anchor"
+路克的舍普意思利夫听安克
+lu ke de she pu yi si li fu ting an ke
+船就要开了我们上船吧
+"the" "ship" "is" "about" "to" "start" "let's" "go" "on" "board"
+的舍普意思额抱特思大特来思够昂波的
+de she pu yi si e bao te si da te lai si gou ang bo de
+我们现在到哪里了
+"where" "are" "we" "now"
+危儿啊危闹
+wei er a wei nao
+我在台北预订过的
+"i" "made" "a" "reservation" "in" "taibei"
+爱妹的额锐色危神英台北
+ai mei de e rui se wei shen ying tai bei
+我想要一个靠窗的座位
+"i'd" "like" "a" "window" "seat" "please"
+爱的来科额问斗西特普利思
+ai de lai ke e wen dou xi te pu li si
+船摇晃起来了
+"the" "ship" "is" "rolling" "and" "pitching" "now"
+的舍普意思肉灵安的皮吃英闹
+de she pu yi si rou ling an di pi chi ying nao
+你是位好水手吗
+"are" "you" "a" "good" "sailor"
+啊又额古德赛乐
+a you e gu de sai le
+我们可能快进港了
+"maybe" "we'll" "be" "in" "port" "before" "long"
+妹比危由比英波特比佛龙
+mei bi wei you bi ying bo te bi fu long
+我想我晕船了
+"i" "think" "i" "have" "got" "seasick"
+爱思一英克爱海夫够特西西克
+ai si yi ying ke ai hai fu gou te xi xi ke
+每天都有班船开往大连吗
+"is" "there" "a" "daily" "passenger" "ship" "to" "dalian"
+意思带儿额带利拍森者舍普兔大连
+yi si dai er e dai li pai sen zhe she pu tu da lian
+这艘船什么时候进港
+"when" "will" "this" "ship" "enter" "the" "port"
+问危迪思舍普安特的泼特
+wen wei di si she pu an te de po te
+这艘船会停香港港吗
+"does" "the" "ship" "call" "at" "the" "port" "of" "hong" "kong"
+大思的舍普扣爱特的泼特奥夫杭康
+da si de she pu kou ai te de po te ao fu hang kang
+船什么时候出发
+"when" "will" "the" "ship" "leave"
+问危的舍普利五
+wen wei de she pu li wu
+还有没有空位
+"are" "there" "any" "unreserved" "cabins"
+啊带儿安尼昂锐色五的卡宾思
+a dai er an ni ang rui se wu de ka bin si
+我要预订一个头等舱的位子
+"i" "want" "to" "reserve" "a" "first" "class" "cabin"
+爱忘特兔锐色五额佛思特克拉思开宾
+ai wang te tu rui se wu e fu si te ke la si kai bin
+我应在什么时候上船
+"what" "time" "must" "i" "go" "on" "board"
+沃特太母马思特爱够昂泼的
+wo te tai mu ma si te ai gou ang po de
+你可以把这件外套送到洗衣店吗
+"would" "you" "take" "this" "coat" "to" "the" "cleaners"
+五的又带克边思扣特兔的克林呢思
+wu de you dai ke bian si kou te tu de ke lin ne si
+衣服还没干
+"the" "laundry" "is" "not" "dry" "enough"
+的浪追意思呢欧特拽英那夫
+de lang zhui yi si ne ou te zhuai ying na fu
+我在洗衣机里放了太多的洗衣粉
+"i" "put" "too" "much" "detergent" "in" "the" "washer"
+爱普特兔马吃低特真特英的我舍
+ai pu te tu ma chi di te zhen te ying de wo she
+这污垢很难去掉
+"this" "stain" "is" "really" "stubborn"
+迪思思但意思锐儿利思大本
+di si si dan yi si rui er li si da ben
+我今天洗了三次衣服
+"i" "did" "three" "loads" "of" "wash" "today"
+爱低的岁老思奥夫沃失特带
+ai di de sui lao si ao fu wo shi te dai
+你得放洗衣粉进去
+"you" "have" "to" "put" "soap" "in"
+又海夫兔普特搜普英
+you hai fu tu pu te sou pu ying
+这件要干洗
+"this" "needs" "dry" "cleaning"
+迪思尼思拽克灵宁
+di si ni si zhuai ke ling ning
+您要上浆么
+"do" "you" "need" "starch"
+杜又尼的思大吃
+du you ni de si da chi
+我们对纽扣丢失不负责
+"we're" "not" "responsible" "for" "missing" "buttons"
+危啊呢欧特锐思帮色玻佛密思英巴疼死
+wei a ne ou te rui si bang se bo fu mi si ying ba teng si
+这件衣服没洗干净
+"this" "coat" "is" "simply" "not" "clean"
+迪思扣特意思思英泼呢欧特克灵
+di si kou te yi si si ying po ne ou te ke ling
+我的大衣被你洗缩水了
+"you" "have" "shrunk" "my" "coat"
+又海夫失润克卖扣特
+you hai fu shi run ke mai kou te
+你撕破了我的衣服
+"you" "tore" "my" "dress"
+又头卖拽思
+you tou mai zhuai si
+这块污渍洗不掉
+"this" "stain" "cannot" "be" "removed"
+迪思思但看呢欧特比锐母五的
+di si si dan kan ne ou te bi rui mu wu de
+否则衣服会缩水
+"it" "might" "shrink" "otherwise"
+一特麦特失润克啊的外思
+yi te mai te shi run ke a de wai si
+会掉色
+"the" "color" "will" "run"
+的卡乐危润
+de ka le wei run
+请勿用漂白剂
+"please" "do" "not" "use" "bleach"
+普利思杜呢欧特又思波利吃
+pu li si du ne ou te you si bo li chi
+我们不能保证效果
+"we" "cannot" "guarantee" "the" "result"
+危看呢欧特盖润替的锐早特
+wei kan ne ou te gai run ti de rui zao te
+您想理什么式样的
+"how" "do" "you" "want" "it"
+号杜又忘特一特
+hao du you wang te yi te
+您喜欢什么发式
+"how" "would" "you" "like" "your" "hair" "cut"
+号五的又来克又儿海儿卡特
+hao wu de you lai ke you er hai er ka te
+你想染什么颜色
+"what" "color" "do" "you" "want"
+沃特卡乐杜又忘特
+wo te ka le du you wang te
+我想染一下头发
+"i'd" "like" "my" "hair" "dyed"
+爱的来克卖海儿带的
+ai de lai ke mai hai er dai de
+我要把头发剪短些
+"i" "need" "a" "little" "off"
+爱尼的额利透奥夫
+ai ni de e li tou ao fu
+您要不要修面或洗头
+"would" "you" "like" "a" "shave" "or" "shampoo"
+五的又来克额沙五哦山普
+wu de you lai ke e sha wu o shan pu
+我想理发和修面
+"i" "want" "a" "haircut" "and" "a" "shave" "please"
+爱忘特领海儿卡特安的额沙五普利思
+ai wang te ling hai er ka te an di e sha wu pu li si
+要我为您修剪下小胡子吗
+"do" "you" "want" "me" "to" "trim" "your" "mustache"
+杜又忘特密兔春又儿马思大吃
+du you wang te mi tu chun you er ma si da chi
+我想做面部美容
+"i" "want" "a" "facial"
+爱忘特额飞状
+ai wang te e fei zhuang
+面部美容大都是先彻底清洁面部皮肤
+"most" "facials" "start" "with" "a" "thorough" "cleansing"
+某思特飞收思思大特危思额萨若思克林思英
+mou si te fei shou si si da te wei si e sa ruo si ke lin si ying
+我要做半小时美容外加化妆
+"i'll" "take" "the" "half" "hour" "facial" "with" "make" "up"
+爱危带克的哈夫奥儿飞收危思妹克啊普
+ai wei dai ke de ha fu ao er fei shou wei si mei ke a pu
+我现在给你抹发油吗
+"now" "shall" "i" "put" "on" "some" "hair" "oil"
+闹少爱普特昂桑海儿奥又
+nao shao ai pu te ang sang hai er ao you
+共多少钱
+"how" "much" "altogether"
+号马吃奥特盖的
+hao ma chi ao te gai de
+我们会用面霜按摩你的脸和颈部
+"we'll" "massage" "your" "face" "and" "neck" "with" "cream"
+危马萨只又儿飞思安的耐克危思克锐母
+wei ma sa zhi you er fei si an di nai ke wei si ke rui mu
+这正是我想要的
+"that's" "exactly" "what" "i" "want"
+带思一克在特利沃特爱忘特
+dai si yi ke zai te li wo te ai wang te
+我想要洗下头
+"i'd" "like" "a" "shampoo" "please"
+爱的来克额山普普利思
+ai de lai ke e shan pu pu li si
+请来份早报
+"morning" "edition" "please"
+莫宁一低神普利思
+mo ning yi di shen pu li si
+请来份晚报
+"evening" "edition" "please"
+一文宁一低神普利思
+yi wen ning yi di shen pu li si
+我要最新的体育报
+"sports" "final"
+思泼思发呢欧
+si po si fa ne ou
+您有《华盛顿邮报》么
+"do" "you" "carry" "the" "washington" "post"
+杜又开锐的沃胜顿剖思特
+du you kai rui de wo sheng dun pou si te
+你有《时代周刊》么
+"do" "you" "stock" "time" "magazine"
+杜又思到克太母卖格兹英
+du you si dao ke tai mu mai ge zi ying
+我要订阅
+"i'd" "like" "to" "subscribe"
+爱的来克兔萨布快不
+ai de lai ke tu sa bu kuai bu
+请给我订一份《时代周刊》
+"give" "me" "a" "subscription" "to" "time" "magazine"
+给五密额萨不思亏普神兔太母卖格兹英
+gei wu mi e sa bu si kui pu shen tu tai mu mai ge zi ying
+我要延长订阅期限
+"i'd" "like" "to" "renew" "my" "subscription"
+爱的来克兔锐牛卖萨不思亏普神
+ai de lai ke tu rui niu mai sa bu si kui pu shen
+我要取消订阅
+"i'd" "like" "cancel" "my" "subscription"
+爱的来克兔看搜卖萨不思亏普神
+ai de lai ke tu kan sou mai sa bu si kui pu shen
+我想买本时尚杂志
+"i" "wanna" "buy" "a" "fashion" "magazine"
+爱忘呢白额发神卖格兹英
+ai wang ne bai e fa shen mai ge zi ying
+我要给手机充值
+"i" "want" "to" "top" "up" "my" "cell" "phone"
+爱忘特兔讨普阿普卖赛风
+ai wang te tu tao pu a pu mai sai feng
+你想订什么杂志
+"what" "magazine" "do" "you" "want" "to" "subscribe" "for"
+沃特卖格兹英杜又忘特兔萨不思快普佛
+wo te mai ge zi ying du you wang te tu sa bu si kuai pu fu
+你想要订几份
+"how" "many" "subscriptions" "do" "you" "want"
+号曼尼萨不思亏普神思杜又忘特
+hao man ni sa bu si kui pu shen si du you wang te
+你需要订多久
+"how" "long" "do" "you" "want" "the" "subscription" "for"
+号龙杜又忘特的萨不思快普神佛
+hao long du you wang te de sa bu si kuai pu shen fu
+我帮我太太订这份杂志
+"i" "subscribe" "to" "this" "magazine" "for" "my" "wife"
+爱萨不思亏普兔则一思卖格兹英佛卖外夫
+ai sa bu si kui pu tu ze yi si mai ge zi ying fu mai wai fu
+我要张100的充值卡
+"i'll" "take" "the" "one" "hundred" "yuan" "card"
+爱由带克的完汉卓的元卡的
+ai you dai ke de wan han zhuo de yuan ka de
+夫人您要买什么？
+"what" "can" "i" "do" "for" "you" "madam"
+沃特着爱杜佛又卖等
+wo te zhe ai du fu you mai deng
+您要哪种
+"which" "do" "you" "want"
+危吃杜又忘特
+wei chi du you wang te
+我要买些中国糕点
+"i'd" "like" "to" "buy" "some" "chinese" "cakes"
+爱的来克兔白桑拆尼思凯克思
+ai de lai ke tu bai sang chai ni si kai ke si
+我们有广式的和苏式的
+"we" "have" "the" "guangdong" "style" "and" "the" "suzhou" "style"
+危海夫的广东思掉安的的苏州思掉
+wei hai fu de guang dong si diao an di de su zhou si diao
+对不起现在是香蕉过季了
+"sorry" "bananas" "are" "out" "of" "season" "now"
+扫瑞边那那思啊臭特奥夫西怎闹
+sao rui bian na na si a chou te ao fu xi zen nao
+我要买这10个桔子
+"i'll" "take" "these" "ten" "oranges"
+爱危带克则一思谈奥润只思
+ai wei dai ke ze yi si tan ao run zhi si
+桔子7元
+"seven" "yuan" "for" "the" "oranges"
+赛文元搜的奥润只思
+sai wen yuan sou de ao run zhi si
+一共是47元
+"that'll" "be" "forty" "seven" "yuan" "in" "all"
+带危比佛替赛文元英奥
+dai wei bi fu ti sai wen yuan ying ao
+您喜欢吗
+"do" "you" "like" "it"
+杜又来克一特
+du you lai ke yi te
+每只10元
+"ten" "yuan" "each"
+谈元一尺
+tan yuan yi chi
+我们有奶油生日蛋糕
+"we" "have" "cream" "birthday" "cakes"
+危海夫克锐母波思带凯克思
+wei hai fu ke rui mu bo si dai kai ke si
+请给我一只奶油生日蛋糕
+"give" "me" "a" "cream" "birthday" "cake"
+给五密额克锐母波思带凯克
+gei wu mi e ke rui mu bo si dai kai ke
+那一共要多少钱
+"how" "much" "would" "that" "come" "to"
+号马吃五的带特康母兔
+hao ma chi wu de dai te kang mu tu
+一共多少钱
+"how" "much" "altogether"
+号马吃奥特盖的
+hao ma chi ao te gai de
+还要什么
+"anything" "else"
+安尼思一英爱儿思
+an ni si yi ying ai er si
+够了
+"nothing" "more"
+那思一英莫
+na si yi ying mo
+请下次再来
+"please" "step" "in" "again"
+普利思思带普英额干
+pu li si si dai pu ying e gan
+这太贵了
+"it's" "too" "expensive"
+意思兔伊克思盘西五
+yi si tu yi ke si pan xi wu
+买那种吧
+"get" "those"
+盖特斗思
+gai te dou si
+这个怎么样
+"what" "about" "this" "one"
+沃特额抱特则一思完
+wo te e bao te ze yi si wan
+我们想买一些酱油
+"we" "need" "to" "buy" "some" "soy" "sauce"
+危尼的兔白桑扫一扫思
+wei ni de tu bai sang sao yi sao si
+没有旱餐的麦片了
+"we're" "out" "of" "breakfast" "cereal"
+危啊奥特奥夫不锐克佛思特西儿锐儿
+wei a ao te ao fu bu rui ke fu si te xi er rui er
+这个打折出售
+"it's" "on" "sale"
+意思昂赛
+yi si ang sai
+这个打7折
+"it's" "thirty" "percent" "off" "the" "regular" "price"
+意思色替波三特奥夫的锐够乐普锐思
+yi si se ti bo san te ao fu de rui gou le pu rui si
+你已经有那个了
+"you" "already" "have" "that"
+又奥锐低海夫带特
+you ao rui di hai fu dai te
+再买一个也不会怎么样的
+"another" "one" "can't" "hurt"
+安那的完看特喝特
+an na de wan kan te he te
+牛奶卖3美元
+"three" "dollars" "for" "milk"
+岁到乐思佛谬元
+sui dao le si fu miu yuan
+我去杂志架那儿看着
+"i" "will" "go" "and" "look" "at" "the" "magazine" "rack"
+爱危够安的路克爱特的卖格兹英入爱克
+ai wei gou an di lu ke ai te de mai ge zi ying ru ai ke
+我去买水果
+"i'll" "go" "and" "get" "the" "fruits"
+爱危够安的盖特的佛入思
+ai wei gou an di gai te de fu ru si
+你要纸袋或塑胶袋
+"do" "you" "want" "paper" "or" "plastic" "bags"
+杜又忘特陪泼哦普来思替克白格思
+du you wang te pei po o pu lai si ti ke bai ge si
+就在你前面
+"they're" "right" "in" "front" "of" "you"
+带儿锐特英佛昂特奥夫又
+dai er rui te ying fu ang te ao fu you
+酱油在哪一个走道
+"which" "aisle" "is" "the" "soy" "sauce" "in"
+危吃爱儿意思的扫一扫思英
+wei chi ai er yi si de sao yi sao si ying
+牛奶在第七走道
+"milk" "would" "be" "in" "aisle" "seven"
+谬克五的比英爱儿赛文
+miu ke wu de bi ying ai er sai wen
+我爱我的父亲母亲
+"i" "love" "my" "parents"
+爱拉五卖拍润思
+ai la wu mai pai run si
+感谢我的父母
+"many" "thanks" "to" "my" "parents"
+曼尼三克思兔卖拍润思
+man ni san ke si tu mai pai run si
+我会听他们的话
+"i" "will" "follow" "their" "advice"
+爱危佛漏在儿额的外思
+ai wei fu lou zai er e de wai si
+我要尽力让他们为我感到骄傲
+"i" "will" "do" "my" "best" "to" "make" "them" "proud"
+爱危杜卖百思特兔妹克但母泼饶的
+ai wei du mai bai si te tu mei ke dan mu po rao de
+我不会让我的父母失望的
+"i" "will" "never" "let" "my" "parents" "down"
+爱危耐沃来特卖拍润思当
+ai wei nai wo lai te mai pai run si dang
+你得向父母表达你的爱
+"you" "should" "express" "your" "love" "to" "your" "parents"
+又舒的伊克思普锐思又儿拉五兔又儿拍润思
+you shu de yi ke si pu rui si you er la wu tu you er pai run si
+父母的责任很重
+"parents" "have" "heavy" "responsibilities"
+拍润思海夫海危锐思帮色比利替
+pai run si hai fu hai wei rui si bang se bi li ti
+我想给我爸爸买个礼物
+"i" "want" "to" "buy" "a" "gift" "for" "my" "father"
+爱忘特兔白额给夫特佛卖发的
+ai wang te tu bai e gei fu te fu mai fa de
+妈母亲节快乐
+"happy" "mother's" "day" "mom"
+黑皮马的思带忙
+hei pi ma de si dai mang
+我几天给我爸妈做了晚饭
+"i" "cooked" "supper" "for" "my" "parents" "today"
+爱库克的萨泼佛卖拍润思特带
+ai ku ke de sa po fu mai pai run si te dai
+父母需要拿出很多时间和精力来养育孩子
+"parents" "need" "to" "devote" "a" "lot" "of" "time" "and" "energy" "to" "bring" "up" "their" "child"
+拍润思尼的兔低沃特额劳特奥夫太母安的安呢季兔不润阿普在儿抄的
+pai run si ni de tu di wo te e lao te ao fu tai mu an di an ne ji tu bu run a pu zai er chao de
+我会听爸妈的话的
+"i" "will" "be" "obedient" "to" "my" "parents"
+爱危比哦比低恩特兔卖拍润思
+ai wei bi o bi di en te tu mai pai run si
+我父母希望和孩子分开过
+"my" "parents" "want" "to" "live" "apart" "from" "their" "children"
+卖拍润思忘特兔利五额怕特佛昂在儿吃又准
+mai pai run si wang te tu li wu e pa te fu ang zai er chi you zhun
+年轻人要承担起责任
+"young" "people" "ought" "to" "carry" "out" "their" "responsibilities"
+样皮泼奥特兔开锐奥特在儿锐思帮色比利替思
+yang pi po ao te tu kai rui ao te zai er rui si bang se bi li ti si
+爸妈老了之后我会照顾他们
+"i" "will" "look" "after" "my" "parents" "when" "they" "are" "old"
+爱危路克啊夫特卖拍润思问带啊哦的
+ai wei lu ke a fu te mai pai run si wen dai a o de
+安静
+"be" "quiet"
+比快儿特
+bi kuai er te
+别说话
+"don't" "say" "a" "word"
+东特赛额沃的
+dong te sai e wo de
+不可以打架要好好相处
+"don't" "fight" "be" "nice" "to" "each" "other"
+东特发特比奈思免一尺阿德
+dong te fa te bi nai si mian yi chi a de
+把东西放回原处
+"put" "it" "back" "where" "it" "was"
+普特一特白克危尔一特沃思
+pu te yi te bai ke wei er yi te wo si
+走路时不要弯腰
+"don't" "walk" "all" "bent" "over"
+东特沃克奥班特哦沃
+dong te wo ke ao ban te o wo
+不要边吃边看书
+"don't" "read" "at" "the" "table"
+东特锐的爱特则太波
+dong te rui de ai te ze tai bo
+不要挑食
+"don't" "be" "such" "a" "picky" "eater"
+东特比萨吃额皮克一一特
+dong te bi sa chi e pi ke yi yi te
+过马路要左右看
+"look" "both" "ways"
+路克波思危思
+lu ke bo si wei si
+吃太多冰激凌会把肚子吃坏的
+"you'll" "have" "a" "stomach" "ache" "if" "you" "eat" "too" "much" "ice" "cream"
+又危海夫额思大马克嘿克一夫又一特兔马吃爱思克锐母
+you wei hai fu e si da ma ke hei ke yi fu you yi te tu ma chi ai si ke rui mu
+我能喝苹果汁码妈妈
+"can" "i" "have" "apple" "juice" "mom"
+看爱海夫爱泼主思忙
+kan ai hai fu ai po zhu si mang
+别这么挑剔
+"don't" "be" "so" "fussy" "about" "stuff"
+东特比搜发兹额抱特思大夫
+dong te bi sou fa zi e bao te si da fu
+我可不觉得打人能把孩子教育好
+"i" "don't" "think" "that" "beating" "is" "a" "way" "of" "punishing" "a" "child"
+爱东特思一英克带特比听意思额危奥夫怕尼失英额抄的
+ai dong te si yi ying ke dai te bi ting yi si e wei ao fu pa ni shi ying e chao de
+我爸认为打是亲骂是爱
+"my" "father" "thinks" "it's" "out" "of" "love" "to" "beat" "a" "naughty" "child"
+卖发的思一英克思意思奥特奥夫拉五兔比特额闹替抄的
+mai fa de si yi ying ke si yi si ao te ao fu la wu tu bi te e nao ti chao de
+下次考试我会用功些
+"i" "will" "try" "a" "little" "harder" "before" "the" "exam" "next" "time"
+爱危踹额利透哈的比佛则一格赞母奈科思太母
+ai wei chuai e li tou ha de bi fu ze yi ge zan mu nai ke si tai mu
+这个周末我要去看着我的亲戚
+"i'm" "visiting" "relatives" "this" "weekend"
+爱母危兹听锐乐替五思迪思危看的
+ai mu wei zi ting rui le ti wu si di si wei kan de
+我们和亲戚之间不大走动
+"we" "don't" "have" "much" "to" "do" "with" "our" "relatives"
+危带特海夫马吃兔杜危思奥尔锐乐替五思
+wei dai te hai fu ma chi tu du wei si ao er rui le ti wu si
+你不去拜访一些亲戚吗
+"won't" "you" "go" "visit" "some" "relatives"
+问特又够危兹特桑锐乐替五思
+wen te you gou wei zi te sang rui le ti wu si
+嗨兄弟你能借我点儿现金吗
+"hey" "brother" "can" "you" "lend" "me" "some" "cash"
+嘿不如啊的看又兰的密桑开始
+hei bu ru a de kan you lan de mi sang kai shi
+我有两个表哥(弟)和三个表姐(妹)
+"i" "have" "two" "male" "and" "three" "female" "cousins"
+爱海夫兔妹安的岁飞妹卡森思
+ai hai fu tu mei an di sui fei mei ka sen si
+我的侄子才五岁可是他能说三种语言
+"my" "nephew" "is" "only" "five" "years" "old" "but" "he" "speaks" "three" "languages"
+卖耐飞意思昂尼发五耶思哦的巴特嘿思比克思岁兰格锐只思
+mai nai fei yi si ang ni fa wu ye si o de ba te hei si bi ke si sui lan ge rui zhi si
+我的外婆这星期80高寿了
+"my" "maternal" "grandmother" "is" "eighty" "years" "old" "this" "week"
+卖莫特呢欧格软的马的意思嘿替耶思臭的刷一思危克
+mai mo te ne ou ge ruan de ma de yi si hei ti ye si chou de shua yi si wei ke
+我的叔爷是佛罗里达的银行家
+"my" "great" "uncle" "is" "a" "banker" "in" "florida"
+卖格锐特昂扣意思领班克英佛漏锐大
+mai ge rui te ang kou yi si ling ban ke ying fu lou rui da
+我兄妹五个三个哥哥两个妹妹
+"i" "have" "five" "siblings" "three" "brothers" "and" "two" "sisters"
+爱海夫发五西波林思岁不如何的思安的兔西思特思
+ai hai fu fa wu xi bo lin si sui bu ru he de si an di tu xi si te si
+我想介绍你认识一下我的侄女和侄子
+"i" "would" "like" "you" "to" "meet" "my" "niece" "and" "nephew"
+爱五的来克又兔密特卖尼思安的耐飞
+ai wu de lai ke you tu mi te mai ni si an di nai fei
+我去旧金山拜访一个叔叔
+"i" "went" "to" "visit" "an" "uncle" "of" "mine" "in" "san" "francisco"
+爱问特兔危兹特安昂扣奥夫卖英三番西思口
+ai wen te tu wei zi te an ang kou ao fu mai ying san fan xi si kou
+我有个表哥在那儿
+"i've" "got" "a" "cousin" "there"
+爱无高特额卡怎在儿
+ai wu gao te e ka zen zai er
+我在洛杉矶跟我一个兄弟待在一起
+"i" "stayed" "with" "my" "brother" "in" "los" "angeles"
+爱思带的危忠卖不如啊的英落三只利思
+ai si dai de wei zhong mai bu ru a de ying luo san zhi li si
+这个女孩儿是我的侄女
+"this" "girl" "is" "my" "niece"
+迪思格肉意思卖尼思
+di si ge rou yi si mai ni si
+你喜欢看电视吗
+"do" "you" "like" "watching" "tv"
+杜又来克沃吃英替危
+du you lai ke wo chi ying ti wei
+我们一起看电视吧
+"let's" "watch" "tv" "together"
+来思沃吃替危特盖的
+lai si wo chi ti wei te gai de
+躺在沙发上看电视多惬意啊
+"it's" "comfortable" "watching" "tv" "on" "the" "couch"
+意思康佛特波沃吃英替危昂的扣吃
+yi si kang fu te bo wo chi ying ti wei ang de kou chi
+我看过预告了
+"i've" "seen" "the" "preview"
+爱五思恩的陪危
+ai wu si en de pei wei
+你要看《新闻联播》吗
+"would" "you" "like" "to" "watch" "cctv" "news"
+五的又来克兔沃吃西西替危牛思
+wu de you lai ke tu wo chi xi xi ti wei niu si
+现在正在播国际新闻昵
+"it's" "broadcasting" "international" "news" "now"
+意思波的卡斯特英英特耐神呢欧牛思闹
+yi si bo de ka si te ying ying te nai shen ne ou niu si nao
+你准是想着拳击比赛吧
+"you" "must" "want" "to" "watch" "the" "boxing" "match" "right"
+又马思特忘特兔沃吃的包克思英买吃锐特
+you ma si te wang te tu wo chi de bao ke si ying mai chi rui te
+这个节目一个星期才放一次
+"this" "program" "is" "on" "only" "once" "a" "week"
+迪思泼观母意思昂昂尼克思额危克
+di si po guan mu yi si ang ang ni ke si e wei ke
+我漏听了几条新闻
+"i" "missed" "some" "of" "the" "news"
+爱密思的桑奥夫的牛思
+ai mi si de sang ao fu de niu si
+我们不看这个
+"we're" "not" "watching" "this"
+危呢欧特沃吃英迪思
+wei ne ou te wo chi ying di si
+你能不能不要一直转台啊
+"could" "you" "stop" "flipping" "the" "channels"
+酷的又思到普夫利平的产呢欧思
+ku de you si dao pu fu li ping de chan ne ou si
+上一集的节目里都在讲了些什么
+"what" "was" "the" "last" "episode" "all" "about"
+沃特沃思的拉思特爱皮搜的奥额抱特
+wo te wo si de la si te ai pi sou de ao e bao te
+这个频道收视信号不好
+"this" "channel" "has" "poor" "reception"
+迪思产咙欧海思普尔锐赛普神
+di si chan long ou hai si pu er rui sai pu shen
+你看《美国偶像》吗
+"do" "you" "watch" "american" "idol"
+杜又沃吃额卖锐肯爱斗
+du you wo chi e mai rui ken ai dou
+我不是每集都看
+"i" "don't" "follow" "it"
+爱东特佛漏一特
+ai dong te fu lou yi te
+电视上有卡通片啊
+"there" "are" "cartoons" "on" "tv"
+带儿啊卡迪思昂替危
+dai er a ka di si ang ti wei
+老虎·伍兹将这周五会上赖瑞·金的脱口秀节目
+"tiger" "woods" "will" "appear" "on" "larry" "king" "live" "on" "friday"
+太格五兹危额皮儿昂拉锐克英来五昂夫锐带
+tai ge wu zi wei e pi er ang la rui ke ying lai wu ang fu rui dai
+你想着什么电影
+"what" "movie" "do" "you" "want" "to" "see"
+沃特母危杜又忘特兔西
+wo te mu wei du you wang te tu xi
+我想看电影
+"i" "want" "to" "see" "a" "movie"
+爱忘特兔面额母危
+ai wang te tu mian e mu wei
+在哪儿上映
+"where" "is" "it" "playing"
+危尔意思一特普累英
+wei er yi si yi te pu lei ying
+演到什么时候
+"how" "long" "will" "it" "play"
+号龙危一特普累
+hao long wei yi te pu lei
+这部电影是谁演的
+"who" "is" "in" "this" "movie"
+户意思英迪思母危
+hu yi si ying di si mu wei
+演多长时间
+"how" "long" "does" "it" "last"
+号龙大思一特拉思特
+hao long da si yi te la si te
+下一场几点开演
+"when" "is" "the" "next" "showing"
+问意思的耐克思特收英
+wen yi si de nai ke si te shou ying
+几点演完
+"what" "time" "will" "it" "be" "over"
+沃特太母危一特比哦沃
+wo te tai mu wei yi te bi o wo
+我买两张成人票
+"two" "adults" "please"
+兔爱到思普利思
+tu ai dao si pu li si
+我们怎么坐得这么靠后呀
+"we" "are" "way" "in" "the" "back" "aren't" "we"
+危啊危英的白克昂特危
+wei a wei ying de bai ke ang te wei
+我们坐到前面的座位上吧
+"let's" "sit" "closer" "up" "front"
+来思西特克漏色阿普夫昂特
+lai si xi te ke lou se a pu fu ang te
+电影怎么样
+"how" "was" "the" "movie"
+号沃思的母危
+hao wo si de mu wei
+真太有意思了是不是
+"that" "was" "interesting" "wasn't" "it"
+带特沃思英吹思听沃怎特一特
+dai te wo si ying chui si ting wo zen te yi te
+这电影真没劲
+"that" "was" "dull" "wasn't" "it"
+带特沃思到沃怎特一特
+dai te wo si dao wo zen te yi te
+太让人感动了
+"i" "was" "moved"
+爱沃思母五的
+ai wo si mu wu de
+这是一部感人的电影
+"it" "was" "a" "touching" "movie"
+一特沃思额它吃英母危
+yi te wo si e ta chi ying mu wei
+你唱歌拿手吗
+"are" "you" "good" "at" "singing"
+啊又古德爱特思一英
+a you gu de ai te si yi ying
+我不擅长唱歌
+"i'm" "not" "good" "at" "singing"
+爱母呢欧特古德爱特思一英
+ai mu ne ou te gu de ai te si yi ying
+我会唱歌
+"i" "can" "sing"
+爱看思一英
+ai kan si yi ying
+我唱歌总跑调儿
+"my" "singing" "is" "out" "of" "tune"
+卖思一英意思奥特奥夫特又
+mai si yi ying yi si ao te ao fu te you
+我们去唱卡拉OK吧
+"let's" "go" "to" "karaoke"
+来思够兔卡拉哦克
+lai si gou tu ka la o ke
+我五音不全
+"i'm" "tone" "deaf"
+爱母特又带夫
+ai mu te you dai fu
+我想点首歌
+"i'd" "like" "to" "request" "a" "song"
+爱的来克兔锐快思特额桑
+ai de lai ke tu rui kuai si te e sang
+你先唱
+"you" "sing" "first"
+又思一英佛寺特
+you si yi ying fo si te
+大家高兴地玩吧
+"let's" "enjoy" "ourselves"
+拉思英桌一奥儿赛夫思
+la si ying zhuo yi ao er sai fu si
+约翰你来唱一首吧
+"how" "about" "a" "song" "john"
+号额抱特额桑装
+hao e bao te e sang zhuang
+你打算唱什么歌
+"what" "are" "you" "going" "to" "sing"
+沃特啊又够英兔思一英
+wo te a you gou ying tu si yi ying
+我不会唱新歌
+"i" "can't" "keep" "track" "of" "the" "new" "music"
+爱看特凯普踹克奥夫的牛谬兹克
+ai kan te kai pu chuai ke ao fu de niu miu zi ke
+协你唱卡拉OK有什么拿手的歌吗
+"what's" "your" "karaoke" "specialty"
+沃思义儿卡拉哦克思白收替
+wo si yi er ka la o ke si bai shou ti
+我从来没昕说过那首歌
+"i've" "never" "heard" "of" "that" "song"
+爱无耐沃喝的奥夫带特桑
+ai wu nai wo he de ao fu dai te sang
+你知道那首歌吗
+"do" "you" "know" "that" "song"
+杜又呢欧带特桑
+du you ne ou dai te sang
+我们唱疯了
+"we" "were" "singing" "so" "uncontrollably"
+危沃思一英搜昂康抽乐波利
+wei wo si yi ying sou ang kang chou le bo li
+你唱得真好
+"you" "sing" "very" "well"
+又思一英危锐危哦
+you si yi ying wei rui wei o
+你上网玩游戏罔
+"do" "you" "play" "games" "online"
+杜又普累给母思昂来恩
+du you pu lei gei mu si ang lai en
+我喜欢玩在线游戏
+"i" "like" "playing" "online" "games"
+爱来克普累英昂来给母思
+ai lai ke pu lei ying ang lai gei mu si
+这是款新的电脑游戏
+"it's" "a" "new" "computer" "game"
+意思额牛康不优特给母
+yi si e niu kang bu you te gei mu
+线上游戏是摇钱树
+"online" "games" "are" "a" "cash" "cow"
+昂来恩给母思啊额开失考
+ang lai en gei mu si a e kai shi kao
+你喜欢哪款游戏
+"what" "game" "do" "you" "like"
+沃特给母杜又来克
+wo te gei mu du you lai ke
+你是新手吗
+"are" "you" "a" "newbie"
+啊又额牛比
+a you e niu bi
+我是网迷
+"i'm" "a" "total" "internet" "junkie"
+爱母额头头英特奈特装克
+ai mu e tou tou ying te nai te zhuang ke
+我一天没有网都不行
+"i" "can't" "survive" "without" "internet"
+爱看特色外五危思奥特英特奈特
+ai kan te se wai wu wei si ao te ying te nai te
+你上网通常都做些什么
+"what" "do" "you" "usually" "do" "online"
+沃特杜又又若利杜昂来恩
+wo te du you you ruo li du ang lai en
+待在家里上网吧
+"just" "stay" "home" "and" "surf" "the" "internet"
+加思特思带后母安的色夫的英特奈特
+jia si te si dai hou mu an di se fu de ying te nai te
+把他给踢出去
+"give" "him" "a" "boot"
+给五嘿母额不特
+gei wu hei mu e bu te
+网络游珑真有那么好玩儿
+"is" "online" "gaming" "really" "as" "fun" "as" "people" "say"
+意思昂来恩给母英锐儿利爱思方爱思皮泼塞
+yi si ang lai en gei mu ying rui er li ai si fang ai si pi po sai
+你通宵在网吧都做什么了
+"what" "did" "you" "do" "in" "the" "net" "bar" "all" "night"
+沃特低的又杜因的奈特吧奥奈特
+wo te di de you du yin de nai te ba ao nai te
+你的房间里能上网吗
+"do" "you" "have" "internet" "in" "your" "room"
+杜又海夫英特奈特因又儿入母
+du you hai fu ying te nai te yin you er ru mu
+我去哪儿买游戏点数
+"where" "can" "i" "buy" "game" "credits"
+危尔看爱白给母亏低思
+wei er kan ai bai gei mu kui di si
+您自己找台电脑使用吧
+"please" "find" "yourself" "a" "computer" "to" "use"
+普利思方的又儿赛夫额康不优特兔又思
+pu li si fang de you er sai fu e kang bu you te tu you si
+我得找人帮忙安装这份软件
+"i'll" "need" "some" "help" "installing" "the" "software"
+爱危尼的桑嘿一奥普英思斗灵的扫夫特危儿
+ai wei ni de sang hei yi ao pu ying si dou ling de sao fu te wei er
+你每隔多久锻炼一次
+"how" "often" "do" "you" "work" "out"
+号哦芬杜又沃克奥特
+hao o fen du you wo ke ao te
+你为什么经常去健身房
+"why" "do" "you" "go" "to" "the" "gym" "so" "much"
+外杜又够兔的季母搜马吃
+wai du you gou tu de ji mu sou ma chi
+你有举重的经验吗
+"do" "you" "have" "any" "experience" "using" "weights"
+杜又海夫安尼伊克思皮儿润思又忠英怠思
+du you hai fu an ni yi ke si pi er run si you zhong ying dai si
+身体健康对我有好处
+"it's" "good" "for" "me" "to" "be" "healthy"
+意思古德佛密兔比嘿儿思
+yi si gu de fu mi tu bi hei er si
+他们一定得直锻炼
+"they" "must" "work" "out" "all" "the" "time"
+带马忠特沃克奥特奥的太母
+dai ma zhong te wo ke ao te ao de tai mu
+你还要再做多少锻炼
+"how" "many" "more" "exercises" "do" "you" "have" "to" "do"
+号曼尼莫艾克思赛思杜又海夫兔都
+hao man ni mo ai ke si sai si du you hai fu tu dou
+我要在骑车器上再锻炼一会儿
+"i'm" "going" "to" "spend" "a" "few" "more" "minutes" "on" "the" "exercise" "bike"
+爱母够英兔忠办的额飞英米尼思昂的埃克思赛思白克
+ai mu gou ying tu zhong ban de e fei ying mi ni si ang de ai ke si sai si bai ke
+我累坏了
+"i'm" "exhausted"
+爱母一刻平思替的
+ai mu yi ke ping si ti de
+我感觉肌肉麻木
+"my" "muscles" "feel" "numb"
+卖马搜思飞那母
+mai ma sou si fei na mu
+我一动也动不了
+"i" "can't" "move" "a" "muscle"
+爱看特母五额马搜
+ai kan te mu wu e ma sou
+得有人来修理一下压腿机
+"someone" "needs" "to" "fix" "the" "leg" "press" "machine"
+桑完尼思兔飞克思的来格陪思莫神
+sang wan ni si tu fei ke si de lai ge pei si mo shen
+晚上健身房里太拥挤了
+"it's" "too" "crowded" "in" "the" "gym" "at" "night"
+意思兔克饶低的英的季母爱特奈特
+yi si tu ke rao di de ying de ji mu ai te nai te
+我要去泡桑拿放松一下
+"i'm" "going" "to" "relax" "in" "the" "sauna"
+爱特够英兔锐来克思英的搜那
+ai te gou ying tu rui lai ke si ying de sou na
+伸展运动是很重要的
+"it" "is" "important" "to" "go" "through" "a" "good" "stretch"
+一特意思英泼疼特兔够思入额古德思拽吃
+yi te yi si ying po teng te tu gou si ru e gu de si zhuai chi
+你最喜欢的球类运动是什么
+"what's" "your" "favorite" "ball" "sport"
+沃思又儿发沃锐特波思波特
+wo si you er fa wo rui te bo si bo te
+我喜欢足球
+"i" "like" "football"
+爱来克夫特波
+ai lai ke fu te bo
+我爱打篮球
+"i" "love" "playing" "basketball"
+爱拉五普累英巳思开特波
+ai la wu pu lei ying si si kai te bo
+你最喜欢的足球明星是谁呢
+"who" "is" "your" "favorite" "football" "player"
+户意思又儿发沃锐特夫特波普累儿
+hu yi si you er fa wo rui te fu te bo pu lei er
+你最近关注NBA本赛季的赛事了吗
+"have" "you" "been" "following" "n" "b" "a" "this" "season"
+海夫又宾佛漏英恩比嘿则一思西怎
+hai fu you bin fu lou ying en bi hei ze yi si xi zen
+明天晚上就有一场令人激动的比寞
+"tomorrow" "evening" "there" "will" "be" "a" "most" "exciting" "game"
+特毛肉一文宁带儿危比额某思特刻事听给母
+te mao rou yi wen ning dai er wei bi e mou si te ke shi ting gei mu
+谁对谁呀
+"who" "plays" "who"
+户普累思户
+hu pu lei si hu
+他什么时候开始打排球的
+"when" "did" "he" "begin" "to" "play" "volleyball"
+问低的黑比千兔普雷英沃利波
+wen di de hei bi qian tu pu lei ying wo li bo
+他很灵巧技术也很棒
+"he" "is" "nimble" "and" "skillful"
+嘿意思尼木波安的思克又佛
+hei yi si ni mu bo an di si ke you fu
+他不能继续参加比赛
+"he" "can't" "take" "any" "further" "part" "in" "the" "game"
+嘿看特带克安尼佛的怕特英的给母
+hei kan te dai ke an ni fo de pa te ying de gei mu
+我每周打一场篮球比赛
+"i" "play" "a" "basketball" "match" "every" "weekend"
+爱普累额巴思开特波卖吃爱危危克
+ai pu lei e ba si kai te bo mai chi ai wei wei ke
+我们同事经常一起踢足球
+"my" "colleagues" "often" "play" "football" "together"
+卖考利格思哦芬普利夫特波特盖的
+mai kao li ge si o fen pu li fu te bo te gai de
+我很喜欢通过电视着NBA比赛
+"i" "really" "enjoy" "watching" "the" "nba" "games" "on" "tv"
+爱锐儿利英卓英沃吃英的恩比嘿给母思昂替危
+ai rui er li ying zhuo ying wo chi ying de en bi hei gei mu si ang ti wei
+他会被罚下场
+"he" "must" "be" "out" "of" "the" "game"
+嘿马思特比奥特奥夫的给母
+hei ma si te bi ao te ao fu de gei mu
+我跟不上比赛节奏
+"i" "can't" "keep" "up" "with" "the" "game"
+爱看特凯普阿普危思的给母
+ai kan te kai pu a pu wei si de gei mu
+球员们技术很好
+"the" "players" "are" "really" "very" "skillful"
+的普累儿思啊锐儿利危锐思克又佛
+de pu lei er si a rui er li wei rui si ke you fu
+我希望我能打得那么好
+"i" "wish" "i" "could" "play" "that" "well"
+爱危失爱酷的普累带特危
+ai wei shi ai ku de pu lei dai te wei
+我不会游泳
+"i" "cannot" "swim"
+爱看呢欧特思危母
+ai kan ne ou te si wei mu
+你可以教我怎么游泳吗
+"would" "you" "please" "teach" "me" "how" "to" "swim"
+五的又普利思替吃密号兔思危母
+wu de you pu li si ti chi mi hao tu si wei mu
+首先你得学会怎样吸气和呼气
+"first" "you" "should" "learn" "how" "to" "breathe" "in" "and" "breathe" "out"
+佛寺特又舒的棱号兔不锐思英安的不锐思奥特
+fo si te you shu de leng hao tu bu rui si ying an di bu rui si ao te
+你知道几种游泳姿势
+"how" "many" "styles" "of" "swimming" "do" "you" "know"
+号曼尼思带儿奥夫思危名杜又呢欧
+hao man ni si dai er ao fu si wei ming du you ne ou
+我刚学
+"i'm" "just" "a" "beginner"
+爱母加思特额比干呢
+ai mu jia si te e bi gan ne
+水到我的喉咙里来了
+"water" "went" "down" "into" "my" "throat"
+沃特温特当英图卖思肉特
+wo te wen te dang ying tu mai si rou te
+我差点被淹死
+"i" "almost" "got" "drowned"
+爱奥某思特高特卓恩德
+ai ao mou si te gao te zhuo en de
+我知道有自由泳、仰泳、蛙泳、蝶泳还有海豚泳
+"i" "know" "there" "are" "freestyle" "back" "stroke" "breast" "stroke" "butterfly" "and" "dolphin"
+爱空带儿啊夫锐思带儿白克思舟克不锐思特舟克巴特夫来安的斗芬
+ai kong dai er a fu rui si dai er bai ke si zhou ke bu rui si te zhou ke ba te fu lai an di dou fen
+你偏爱哪种泳姿
+"which" "style" "do" "you" "prefer"
+危吃思带儿杜又陪佛
+wei chi si dai er du you pei fu
+自由泳有什么好处
+"what's" "the" "advantage" "of" "freestyle"
+沃思的额的完替只奥夫夫锐思掉儿
+wo si de e de wan ti zhi ao fu fu rui si diao er
+自由泳可以锻炼你肩部的肌肉
+"swimming" "freestyle" "can" "build" "your" "shoulder" "muscles"
+思危名夫锐思掉儿看不优的又儿收的马搜思
+si wei ming fu rui si diao er kan bu you de you er shou de ma sou si
+你知道混合泳接力赛的顺序吗
+"do" "you" "know" "the" "order" "of" "medley" "relays"
+杜又呢欧的奥的奥夫密的累锐累
+du you ne ou de ao de ao fu mi de lei rui lei
+我还是带着救生圈吧
+"i'd" "better" "wear" "a" "life" "preserver"
+爱的白特危儿额来夫陪色沃
+ai de bai te wei er e lai fu pei se wo
+我没在海里游过
+"i've" "never" "swam" "in" "the" "sea"
+爱五耐沃思完英的西
+ai wu nai wo si wan ying de xi
+我想学蝶泳
+"i" "want" "to" "learn" "butterfly" "stroke"
+爱忘特兔棱巴特夫来思舟克
+ai wang te tu leng ba te fu lai si zhou ke
+你最近在练瑜伽吗
+"have" "you" "been" "doing" "yoga" "recently"
+海夫又宾杜英又嘎锐森特利
+hai fu you bin du ying you ga rui sen te li
+我在上瑜伽课
+"i'm" "having" "the" "yoga" "lesson"
+爱母海五英的又嘎来森
+ai mu hai wu ying de you ga lai sen
+我觉得瑜伽比较适合我
+"i" "think" "yoga" "might" "be" "suitable" "for" "me"
+爱思一英克又嘎麦特比苏特波佛密
+ai si yi ying ke you ga mai te bi su te bo fu mi
+我听说练瑜咖是减肥的好方法
+"i" "hear" "ifs" "a" "great" "way" "to" "stay" "fit"
+爱嘿儿意思额贵特危兔思带飞特
+ai hei er yi si e gui te wei tu si dai fei te
+我觉得练瑜伽没那么简单
+"i" "don't" "think" "yoga" "is" "so" "easy"
+爱东特思一英克又嘎意思搜一兹
+ai dong te si yi ying ke you ga yi si sou yi zi
+练瑜伽不要求很大力量
+"it" "doesn't" "require" "a" "lot" "of" "energy"
+一特大志特锐快儿额劳特奥夫安呢季
+yi te da zhi te rui kuai er e lao te ao fu an ne ji
+瑜伽并不容易坚持
+"it's" "not" "easy" "to" "keep" "up"
+意思呢欧特一兹兔凯普阿普
+yi si ne ou te yi zi tu kai pu a pu
+它使身体更加灵活
+"it" "helps" "your" "body" "become" "more" "flexible"
+一特嘿一奥普思又儿包低比康母莫夫来克色波
+yi te hei yi ao pu si you er bao di bi kang mu mo fu lai ke se bo
+我们每天学三个新姿势
+"we" "learn" "three" "new" "postures" "every" "day"
+危棱岁牛剖思车思爱危带
+wei leng sui niu pou si che si ai wei dai
+我的瑜现导师今天教我们怎么呼吸
+"my" "yoga" "guru" "is" "going" "to" "teach" "us" "about" "breathing" "today"
+卖又嘎格入意思够英兔替吃啊思额抱特不锐思英特带
+mai you ga ge ru yi si gou ying tu ti chi a si e bao te bu rui si ying te dai
+瑜伽现在是最流行的运动
+"yoga" "is" "the" "most" "popular" "exercise" "now"
+又嘎意思的某思特泡波又乐埃克赛思闹
+you ga yi si de mou si te pao bo you le ai ke sai si nao
+这是减肥的好办法
+"it's" "a" "good" "way" "of" "losing" "weight"
+意思额古德危奥夫路思英危特
+yi si e gu de wei ao fu lu si ying wei te
+瑜伽还可以让你平静下来
+"yoga" "can" "calm" "you" "down"
+又嘎看克雷母又当
+you ga kan ke lei mu you dang
+请集中精力到自己身上
+"please" "concentrate" "on" "yourself"
+普利思康森吹特昂又儿赛夫
+pu li si kang sen chui te ang you er sai fu
+我能试一下吗
+"may" "i" "try" "it" "on"
+妹爱踹一特昂
+mei ai chuai yi te ang
+我试试那件绿的
+"i" "will" "try" "on" "that" "green" "one"
+爱危踹昂带特格润完
+ai wei chuai ang dai te ge run wan
+您穿上试试看
+"just" "try" "it" "on"
+加思特踹一特昂
+jia si te chuai yi te ang
+试衣间在哪儿
+"where" "is" "the" "fitting" "room"
+危尔意思则飞听入母
+wei er yi si ze fei ting ru mu
+太大了
+"it's" "too" "big" "for" "me"
+意思兔比格佛密
+yi si tu bi ge fu mi
+有小点儿的吗
+"do" "you" "have" "a" "small"
+杜又海夫额思莫
+du you hai fu e si mo
+我现在看起来怎么样
+"how" "do" "i" "look"
+号杜爱路克
+hao du ai lu ke
+你要什么尺寸的
+"what" "size" "do" "you" "want"
+沃特赛兹杜又忘特
+wo te sai zi du you wang te
+我们有各种尺寸
+"we" "have" "all" "the" "sizes"
+危海夫奥则赛兹思
+wei hai fu ao ze sai zi si
+我穿着有点紧
+"it's" "a" "little" "tight" "for" "me"
+意思额利透太特佛密
+yi si e li tou tai te fu mi
+我穿上好看吗
+"does" "it" "look" "good" "on" "me"
+大思一特路克古德昂密
+da si yi te lu ke gu de ang mi
+你可以试一下我们这里的补水套装
+"you" "can" "try" "our" "hydrating" "package"
+又看踹奥尔海追听怕开只
+you kan chuai ao er hai zhui ting pa kai zhi
+不知道穿起来怎么样
+"i" "have" "no" "idea" "how" "it" "will" "look" "on" "me"
+爱海夫呢欧爱则一尔号一特危路克昂密
+ai hai fu ne ou ai ze yi er hao yi te wei lu ke ang mi
+你穿肯定合适
+"i'm" "sure" "it'll" "be" "perfect" "for" "you"
+爱母舒尔一特危比泼飞特佛又
+ai mu shu er yi te wei bi po fei te fu you
+这个是多大号的
+"what" "size" "is" "this"
+沃特赛兹意思则一思
+wo te sai zi yi si ze yi si
+我给你拿件大号的试试
+"i'll" "get" "you" "a" "large" "one" "to" "try" "on"
+爱危盖特又额拉只完兔踹昂
+ai wei gai te you e la zhi wan tu chuai ang
+这个T恤是特卖不能试穿
+"the" "t" "shirt" "is" "on" "sale" "and" "you're" "not" "allowed" "to" "try" "it" "on"
+则替舍特意思昂赛安的又啊呢欧特额老的兔踹一特昂
+ze ti she te yi si ang sai an di you a ne ou te e lao de tu chuai yi te ang
+你能给我打折吗
+"can" "you" "give" "me" "a" "discount"
+看又给五密额刷一思亢特
+kan you gei wu mi e shua yi si kang te
+你出个价吧
+"what" "price" "would" "you" "suggest"
+沃特普锐思五的又萨拽思特
+wo te pu rui si wu de you sa zhuai si te
+你要价太高了
+"your" "price" "is" "so" "high"
+又儿普锐思意思搜海
+you er pu rui si yi si sou hai
+这是我能出的最低价
+"it's" "the" "best" "offer" "i" "can" "make"
+意思则百思特奥佛爱看妹克
+yi si ze bai si te ao fu ai kan mei ke
+他那辆汽车要价8000元但我压到了6000元
+"he" "wanted" "eight" "thousand" "for" "the" "car" "but" "i" "beat" "him" "down" "to" "six" "thousand"
+嘿忘替的嘿特扫怎特到乐佛则卡巴特爱比特嘿母当兔赛克思扫怎特到乐
+hei wang ti de hei te sao zen te dao le fu ze ka ba te ai bi te hei mu dang tu sai ke si sao zen te dao le
+他说他不愿讨价还价
+"he" "said" "he" "wasn't" "prepared" "to" "bargain"
+嘿赛德嘿沃怎特泼拍儿的兔八跟
+hei sai de hei wo zen te po pai er de tu ba gen
+我扔下他自己在市场上就一件衬杉讨价还价
+"i" "left" "him" "in" "the" "market" "haggling" "over" "the" "price" "of" "a" "shirt"
+爱来福特嘿母英则马凯特海够灵哦沃则普锐思奥夫额舍特
+ai lai fu te hei mu ying ze ma kai te hai gou ling o wo ze pu rui si ao fu e she te
+你甭想蒙我
+"don't" "you" "even" "try" "to" "fool" "me"
+东特又一文踹兔夫密
+dong te you yi wen chuai tu fu mi
+简直是抢劫
+"it's" "a" "daylight" "robbery"
+意思额带来特若波锐
+yi si e dai lai te ruo bo rui
+太贵了
+"that's" "unreasonable"
+带思昂锐怎呢波
+dai si ang rui zen ne bo
+一百块我就买
+"i'd" "take" "it" "for" "one" "hundred"
+爱的带克一特佛完汉卓的
+ai de dai ke yi te fu wan han zhuo de
+各方面我都很喜欢除了价格
+"i" "like" "everything" "about" "it" "except" "the" "price"
+爱来克爱危思一英额抱特一特伊克思赛普特则普锐思
+ai lai ke ai wei si yi ying e bao te yi te yi ke si sai pu te ze pu rui si
+便宜点我就考虑下
+"lower" "the" "price" "and" "i'll" "consider"
+漏儿则普锐思安的爱危亢思的
+lou er ze pu rui si an di ai wei kang si de
+我多买几个能给我打折吗
+"if" "i" "buy" "more" "than" "one" "will" "you" "give" "me" "a" "discount"
+一夫爱白莫但完危又给五密额则一思亢特
+yi fu ai bai mo dan wan wei you gei wu mi e ze yi si kang te
+多少钱
+"how" "much" "is" "that"
+号马吃意思带特
+hao ma chi yi si dai te
+我该付您多少钱
+"how" "much" "do" "i" "owe" "you"
+号马吃杜爱哦又
+hao ma chi du ai o you
+价格里都包括什么
+"what's" "included" "in" "the" "price"
+沃思英克路的英则普锐思
+wo si ying ke lu de ying ze pu rui si
+有其他费用吗
+"are" "there" "any" "extra" "costs"
+啊在儿安尼埃克思戳考思特思
+a zai er an ni ai ke si chuo kao si te si
+包括服务费吗
+"is" "the" "service" "included" "in" "the" "bill"
+意思则色危思英元路的英则比又
+yi si ze se wei si ying yuan lu de ying ze bi you
+我请客
+"it's" "my" "treat"
+意思卖吹特
+yi si mai chui te
+让我付钱
+"let" "me" "pay"
+来特密陪
+lai te mi pei
+价钱明确标在产品背面
+"the" "prices" "are" "clearly" "marked" "on" "the" "back" "of" "each" "product"
+则普锐赛思啊克利儿利马克的昂则白克奥夫一尺泼大克特
+ze pu rui sai si a ke li er li ma ke de ang ze bai ke ao fu yi chi po da ke te
+这是找您的钱和票
+"here" "is" "your" "change" "and" "your" "tickets"
+嘿儿意思又儿产只安的又儿替开思
+hei er yi si you er chan zhi an di you er ti kai si
+您可以到前台去付款
+"you" "can" "pay" "at" "the" "front" "counter"
+叉着陪爱特别佛昂特亢特
+cha zhe pei ai te bie fu ang te kang te
+共500块
+"it's" "five" "hundred" "yuan"
+意思发五汉卓的元
+yi si fa wu han zhuo de yuan
+这是两张十块的
+"here" "are" "two" "ten" "yuan" "notes"
+嘿儿啊兔谈元呢欧思
+hei er a tu tan yuan ne ou si
+我们不收小费
+"we" "don't" "accept" "tips"
+危东特额克霎普特替普思
+wei dong te e ke sha pu te ti pu si
+您怎么付款先生
+"how" "will" "you" "pay" "for" "this" "sir"
+号危又陪佛则一思色
+hao wei you pei fu ze yi si se
+能给我个袋子吗
+"can" "you" "give" "me" "a" "bag"
+看又给五密额白格
+kan you gei wu mi e bai ge
+请帮我包起来
+"wrap" "it" "up" "please"
+外普一特阿普普利思
+wai pu yi te a pu pu li si
+你能把它包起来吗
+"can" "you" "wrap" "it" "up"
+看又外普一特阿普
+kan you wai pu yi te a pu
+我把您的蛋糕包起来好吗
+"shall" "i" "tie" "up" "your" "cake" "in" "a" "parcel"
+少爱太阿普又儿凯克英额怕搜
+shao ai tai e pu you er kai ke ying e pa sou
+这些包装很好看
+"the" "packing" "looks" "very" "nice"
+则拍克英路克思危锐奈思
+ze pai ke ying lu ke si wei rui nai si
+外包装怎么样
+"what" "about" "the" "outer" "packing"
+沃特额抱特别奥特拍克英
+wo te e bao te bie ao te pai ke ying
+我给你包一下吧
+"shall" "i" "wrap" "it" "up" "for" "you"
+少爱外普一特阿普佛又
+shao ai wai pu yi te a pu fu you
+你们对包装有什么特别要求吗
+"do" "you" "have" "specific" "request" "for" "packing"
+杜又海夫思泼西飞克锐快思特佛拍克英
+du you hai fu si po xi fei ke rui kuai si te fu pai ke ying
+这是我们目前用的包装样晶
+"here" "are" "the" "samples" "of" "packing" "available" "now"
+嘿儿啊则三泼奥夫拍克英额危乐波闹
+hei er a ze san po ao fu pai ke ying e wei le bo nao
+我帮您包好
+"i" "will" "wrap" "it" "up" "for" "you"
+爱危外普一特阿普佛又
+ai wei wai pu yi te a pu fu you
+这种物品易碎请以耐用包装来装箱
+"as" "this" "article" "is" "fragile" "please" "case" "it" "into" "durable" "packaging"
+爱思迪思啊替扣意思发拽又普利思开思一特英兔丢若波拍开只英
+ai si di si a ti kou yi si fa zhuai you pu li si kai si yi te ying tu diu ruo bo pai kai zhi ying
+这种物品的价格已包含了包装费
+"the" "cost" "of" "this" "article" "includes" "packaging"
+则考思特奥夫则一思啊替扣英酷路思拍开只英
+ze kao si te ao fu ze yi si a ti kou ying ku lu si pai kai zhi ying
+请把电视机装入纸板籍
+"please" "pack" "the" "tv" "set" "to" "a" "cardboard" "box"
+普利思拍克则替危赛特兔额卡的泼的包克思
+pu li si pai ke ze ti wei sai te tu e ka de po de bao ke si
+我要最经济的包装
+"i" "want" "the" "most" "economical" "packaging"
+爱忘特别莫思特一克呢欧密扣拍克只英
+ai wang te bie mo si te yi ke ne ou mi kou pai ke zhi ying
+售后服务怎么样
+"what" "about" "your" "customer" "service"
+沃特额抱特又儿卡思特莫色危思
+wo te e bao te you er ka si te mo se wei si
+我们提供免费运输和安装
+"we" "provide" "free" "delivery" "and" "installation"
+危泼外的夫锐低利沃锐安的英思到累神
+wei po wai de fu rui di li wo rui an di ying si dao lei shen
+线头松了
+"the" "stitches" "are" "coming" "off"
+则思替吃思啊亢明奥夫
+ze si ti chi si a kang ming ao fu
+这条裙子我想要退货
+"i'd" "like" "to" "ask" "for" "a" "refund" "for" "this" "skirt"
+爱的来克兔阿忠科佛额锐方的佛则一忠思格特
+ai de lai ke tu a zhong ke fu e rui fang de fu ze yi zhong si ge te
+它们是不能退的
+"they" "are" "not" "refundable"
+带啊呢欧特锐方的波
+dai a ne ou te rui fang de bo
+我们可以给您换一条行吗
+"we" "can" "exchange" "it" "for" "you" "ok"
+危看伊克思产只一特佛又欧克
+wei kan yi ke si chan zhi yi te fu you ou ke
+我们帮您补一下怎么样
+"how" "about" "we" "fix" "it" "up" "for" "you"
+号额抱特危飞克思一特阿普佛又
+hao e bao te wei fei ke si yi te a pu fu you
+一个月内您可以拿回来退
+"well" "you" "can" "bring" "it" "back" "for" "a" "refund" "within" "a" "month"
+危又看不润英一特白克佛额锐方的危思英额忙思
+wei you kan bu run ying yi te bai ke fu e rui fang de wei si ying e mang si
+我们会立刻调查清楚
+"we'll" "look" "into" "it" "right" "away" "for" "you"
+危路克英兔一特锐特额危佛又
+wei lu ke ying tu yi te rui te e wei fu you
+坏得很严重吗
+"was" "the" "damage" "extensive"
+沃思则但密只伊克思谈西五
+wo si ze dan mi zhi yi ke si tan xi wu
+我们马上会派个人去查看
+"we'll" "send" "a" "man" "right" "out" "to" "look" "at" "it"
+危三德额曼锐特奥特兔路克爱特一特
+wei san de e man rui te ao te tu lu ke ai te yi te
+我们会向货运公司着手申请赔偿的
+"we'll" "start" "a" "claim" "with" "the" "shipping" "company"
+危思大特额克雷母危思则失拼充泼尼
+wei si da te e ke lei mu wei si ze shi pin chong po ni
+你们送来的货有损坏
+"we" "had" "a" "damaged" "shipment" "from" "you"
+危海的额但密只的失普门特佛昂又
+wei hai de e dan mi zhi de shi pu men te fu ang you
+这次的损坏究竟是谁的责任呢
+"whose" "fault" "is" "this" "damage"
+户思佛特意思迪思但密只
+hu si fu te yi si di si dan mi zhi
+抱歉不过我不认为这次的损坏是我们的错
+"i'm" "sorry" "but" "i" "don't" "think" "this" "damage" "is" "our" "fault"
+爱母扫瑞巴特爱东特思一英克迪思但密只意思奥尔佛特
+ai mu sao rui ba te ai dong te si yi ying ke di si dan mi zhi yi si ao er fu te
+你怎么了
+"what's" "the" "matter"
+沃次的卖特儿
+wo ci de mai te er
+我给你查查
+"i'll" "find" "it" "out" "for" "you"
+爱危方的一特奥特佛又
+ai wei fang de yi te ao te fu you
+请出示你的身份证
+"please" "show" "me" "your" "identity" "card"
+普利思收密又儿爱但替替卡的
+pu li si shou mi you er ai dan ti ti ka de
+这是你的挂号证
+"this" "is" "your" "registration" "card"
+迪思意思又儿瑞这思吹甚卡的
+di si yi si you er rui zhe si chui shen ka de
+下一个就轮到你了
+"your" "turn" "is" "next"
+又儿特尔意思奈克思特
+you er te er yi si nai ke si te
+请随我来
+"please" "come" "with" "me"
+普利思康母危思密
+pu li si kang mu wei si mi
+请不要遗失挂号证每次来时带着它
+"please" "don't" "lose" "the" "card" "and" "bring" "it" "whenever" "you" "come"
+普里思动特路思的卡的暗的不润伊特问耐味儿又康母
+pu li si dong te lu si de ka de an de bu run yi te wen nai wei er you kang mu
+在哪儿挂号
+"where" "shall" "i" "register"
+危尔少爱锐这思特儿
+wei er shao ai rui zhe si te er
+你有挂号证吗
+"have" "you" "got" "a" "registration" "card"
+海五又高特额瑞这厮吹神卡的
+hai wu you gao te e rui zhe si chui shen ka de
+你应当先看内科大夫
+"you" "should" "see" "a" "physician" "first"
+又树的思诶额费贼神佛尔思特
+you shu de si ei e fei zei shen fu er si te
+我想见一位牙科医生
+"i" "would" "like" "to" "see" "a" "dentist"
+爱伍德来克兔思诶额但忒思特
+ai wu de lai ke tu si ei e dan te si te
+请给我约个时间
+"please" "make" "an" "appointment" "for" "me"
+普利思妹克安阿波恩特门特佛密
+pu li si mei ke an a bo en te men te fu mi
+觉得很不舒服
+"i'm" "feeling" "very" "bad"
+爱母飞灵外锐拜的
+ai mu fei ling wai rui bai de
+你哪儿不舒服
+"what's" "the" "trouble" "with" "you"
+沃次的出阿布偶危思又
+wo ci de chu a bu ou wei si you
+我感到头晕
+"i" "feel" "dizzy"
+爱费油低子一
+ai fei you di zi yi
+我咳得很厉害
+"i" "have" "a" "bad" "cough"
+爱海五额拜的卡夫
+ai hai wu e bai de ka fu
+我该怎么办
+"what" "shall" "i" "do"
+沃特少爱度
+wo te shao ai du
+我需要住院吗
+"should" "i" "stay" "in" "the" "hospital"
+树的爱思得诶因的号思皮透
+shu de ai si de ei yin de hao si pi tou
+现在这儿疼么
+"any" "pain" "here" "now"
+安尼配黑儿闹
+an ni pei hei er nao
+这种状况延续多久了
+"how" "long" "has" "it" "been" "this" "way"
+号浪海思伊特宾则一思位
+hao lang hai si yi te bin ze yi si wei
+它能很快痊愈罔
+"will" "it" "go" "away" "soon"
+卫欧伊特够阿危送
+wei ou yi te gou a wei song
+可能是什么病呢
+"what" "could" "it" "be"
+沃特酷的一特比
+wo te ku de yi te bi
+这病会复发吗
+"will" "there" "be" "a" "recurrence"
+危带儿比额锐克软思
+wei dai er bi e rui ke ruan si
+可以在地上走走锻炼锻炼吗
+"is" "it" "all" "right" "to" "move" "around" "and" "do" "some" "exercises"
+意思一特奥锐特兔母五额如昂的安的杜桑艾克色赛思
+yi si yi te ao rui te tu mu wu e ru ang de an di du sang ai ke se sai si
+情况严重吗
+"is" "it" "serious"
+意思一特西儿若思
+yi si yi te xi er ruo si
+有危险吗
+"is" "there" "any" "danger"
+意思带儿安尼但这
+yi si dai er an ni dan zhe
+可能是什么原因呢？
+"what" "could" "be" "the" "case"
+沃特酷的比的考思
+wo te ku de bi de kao si
+我若是再犯该怎么办呢
+"what" "should" "i" "do" "if" "i" "have" "another" "attack"
+沃特树的爱社一夫爱海夫安那的额太克
+wo te shu de ai she yi fu ai hai fu an na de e tai ke
+我给你开个处方
+"i'll" "give" "you" "a" "prescription"
+爱由给五又额陪思亏普神
+ai you gei wu you e pei si kui pu shen
+请按药方帮我抓药好吗
+"can" "you" "fill" "the" "prescription" "for" "me"
+看又飞的陪思亏普神佛密
+kan you fei de pei si kui pu shen fu mi
+请把你的药方给我看下
+"please" "show" "me" "the" "prescription"
+普利思收密的陪思亏普神
+pu li si shou mi de pei si kui pu shen
+这些药片每日三次每次两片饭后服用
+"take" "two" "of" "these" "tablets" "three" "times" "a" "day" "after" "meals"
+带克兔奥夫则一思太波思岁太母思额带啊夫特谬思
+dai ke tu ao fu ze yi si tai bo si sui tai mu si e dai a fu te miu si
+祝你旱曰康复
+"i" "hope" "you" "will" "recover" "in" "no" "time"
+爱后普又危锐卡沃英呢欧太母
+ai hou pu you wei rui ka wo ying ne ou tai mu
+没有什么好药吗
+"isn't" "there" "any" "good" "medicine" "for" "it"
+一怎特带儿安尼古德卖低思英佛一特
+yi zen te dai er an ni gu de mai di si ying fu yi te
+这是一种什么药呢？
+"what" "kind" "of" "medicine" "is" "this"
+沃特看的奥夫卖低思英意思则一思
+wo te kan de ao fu mai di si ying yi si ze yi si
+这药有副作用吗
+"does" "this" "medicine" "have" "any" "side" "effects"
+大思迪思卖低思英海夫安尼赛的一发克特思
+da si di si mai di si ying hai fu an ni sai de yi fa ke te si
+请按说明服药
+"please" "take" "the" "medicine" "according" "to" "the" "instruction"
+普利思带克的卖低思英额扣定兔的英思抓克神
+pu li si dai ke de mai di si ying e kou ding tu de ying si zhua ke shen
+你把这些药片每天服用三次每次一片
+"i'd" "like" "you" "to" "take" "one" "of" "these" "pills" "three" "times" "a" "day"
+爱的来克又兔带克完奥夫迪一思皮又思岁太母思额带
+ai de lai ke you tu dai ke wan ao fu di yi si pi you si sui tai mu si e dai
+这些药片是用于退烧的
+"these" "tablets" "are" "to" "keep" "the" "fever" "down"
+迪思太不利思啊兔凯普的飞沃当
+di si tai bu li si a tu kai pu de fei wo dang
+这些药片可以解除病痛
+"these" "tablets" "should" "clear" "up" "the" "trouble"
+则一思太不利思树的克里儿阿普的出啊波
+ze yi si tai bu li si shu de ke li er a pu de chu a bo
+这些维生素B和C用于增强你的抵抗力
+"these" "vitamin" "b" "and" "c" "are" "to" "build" "up" "your" "resistance"
+则一思维他命比安的西啊兔不优的又儿锐西思疼思
+ze yi si wei ta ming bi an di xi a tu bu you de you er rui xi si teng si
+我给你一点儿链霉素
+"i'll" "give" "you" "a" "dose" "of" "streptomycin"
+爱危给五又额都思奥夫思拽普特马思英
+ai wei gei wu you e dou si ao fu si zhuai pu te ma si ying
+我寄特快专递
+"i" "want" "to" "send" "it" "by" "express" "mail"
+爱忘特兔三德一特白伊克思陪思妹儿
+ai wang te tu san de yi te bai yi ke si pei si mei er
+您的邮费是二十五元
+"the" "postage" "is" "twenty" "five" "yuan"
+的泼思太只意思团替发五元
+de po si tai zhi yi si tuan ti fa wu yuan
+您有一份快递
+"you" "have" "an" "express" "delivery"
+又海夫安伊克思陪思低利夭
+you hai fu an yi ke si pei si di li yao
+我查查
+"i'll" "look" "it" "up"
+爱危路克一特阿普
+ai wei lu ke yi te a pu
+我要一张20分的邮票
+"i'd" "like" "a" "twenty" "cent" "stamp" "please"
+爱的来克领团替三特思但普普利思
+ai de lai ke ling tuan ti san te si dan pu pu li si
+大概三四天就能到
+"it" "will" "only" "take" "three" "or" "four" "days"
+一特危昂尼带特岁哦佛带思
+yi te wei ang ni dai te sui o fu dai si
+寄到日本的航空件要多少钱
+"how" "much" "is" "an" "airmail" "letter" "to" "japan"
+号马吃意思安爱儿妹又来特兔者盘
+hao ma chi yi si an ai er mei you lai te tu zhe pan
+我要五张航空件的邮票
+"i'd" "like" "five" "airmail" "stamps"
+爱的来克发五爱儿妹儿思但普思
+ai de lai ke fa wu ai er mei er si dan pu si
+你想往哪儿寄？
+"where" "would" "you" "like" "to" "send" "it"
+危儿五的又来克兔三德一特
+wei er wu de you lai ke tu san de yi te
+注意要把收件人地址写清楚
+"be" "sure" "to" "put" "down" "the" "address" "of" "the" "receiver" "clearly"
+比舒尔兔普特当的额拽思奥夫的锐西沃克利儿利
+bi shu er tu pu te dang de e zhuai si ao fu de rui xi wo ke li er li
+把你的地址写在这儿好吗
+"will" "you" "put" "down" "your" "address" "here"
+危又普特当又儿额拽思嘿儿
+wei you pu te dang you er e zhuai si hei er
+我一会就快递寄过去
+"i'll" "express" "them" "right" "over"
+爱由伊克思陪思但母锐特哦沃
+ai you yi ke si pei si dan mu rui te o wo
+特快专递要多花多少钱
+"how" "much" "more" "does" "express" "mail" "cost"
+号马吃莫大思伊克思陪思妹儿考思特
+hao ma chi mo da si yi ke si pei si mei er kao si te
+我需要更改我的邮政地址
+"i" "need" "to" "change" "my" "mailing" "address"
+爱尼的兔产只卖妹灵额拽思
+ai ni de tu chan zhi mai mei ling e zhuai si
+那是外地信件邮箱
+"that's" "the" "box" "of" "out" "of" "town" "mail"
+带思的包克思奥夫奥特奥夫堂妹儿
+dai si de bao ke si ao fu ao te ao fu tang mei er
+我想寄一个包裹
+"i" "have" "a" "parcel" "to" "deliver"
+爱海夫额怕搜兔低利沃
+ai hai fu e pa sou tu di li wo
+您想要寄到哪儿
+"where" "do" "you" "need" "it" "to" "be" "delivered" "to"
+危儿杜又尼的一特兔比低利沃的兔
+wei er du you ni de yi te tu bi di li wo de tu
+这件包裹重11盎司
+"this" "package" "weighs" "eleven" "ounces"
+则一思拍开只危思一来文昂思
+ze yi si pai kai zhi wei si yi lai wen ang si
+我在等一个包裹
+"i've" "been" "expecting" "a" "package"
+爱无宾伊克思白克听额拍开只
+ai wu bin yi ke si bai ke ting e pai kai zhi
+我必须帮我老板把这东西邮寄了
+"i've" "got" "to" "mail" "this" "stuff" "for" "my" "boss"
+爱五高特兔妹儿带思思大夫佛卖包思
+ai wu gao te tu mei er dai si si da fu fu mai bao si
+这个包襄两个星期前就应该到了
+"this" "package" "should" "have" "been" "here" "two" "weeks" "ago"
+带思拍开只舒的海夫宾嘿儿兔危克思额够
+dai si pai kai zhi shu di hai fu bin hei er tu wei ke si e gou
+在邮局排着队等可不是好玩的事情
+"it's" "not" "very" "exciting" "to" "wait" "in" "line" "at" "the" "post" "office"
+意思呢欧特危锐伊克思赛听兔危特英来恩爱特的剖思特奥飞思
+yi si ne ou te wei rui yi ke si sai ting tu wei te ying lai en ai te de pou si te ao fei si
+寄包裹您得到隔壁窗口去
+"for" "parcels" "you" "can" "go" "to" "the" "next" "window"
+佛怕搜思又看够兔的耐克思特问斗
+fu pa sou si you kan gou tu de nai ke si te wen dou
+请问邮资是多少
+"what's" "the" "postage" "please"
+沃思的剖思太只普利思
+wo si de pou si tai zhi pu li si
+让我称称署
+"let" "me" "put" "it" "on" "the" "scale"
+来特密普特一特昂的思盖
+lai te mi pu te yi te ang de si gai
+我想把这个包裹寄到北京去
+"i'd" "like" "to" "have" "this" "parcel" "delivered" "to" "beijing"
+爱的来克兔海夫带思怕搜低利沃的兔北京
+ai de lai ke tu hai fu dai si pa sou di li wo de tu bei jing
+它有10千克
+"it" "weighs" "up" "to" "ten" "kilograms"
+一特危思阿普替谈开满格软母
+yi te wei si a pu ti tan kai man ge ruan mu
+是寄到国外去的吗
+"are" "you" "sending" "them" "abroad"
+啊又三定但母额波的
+a you san ding dan mu e bo de
+北京的邮编是多少
+"what's" "the" "post" "code" "of" "beijing"
+沃思的剖思特扣的奥夫北京
+wo si de pou si te kou de ao fu bei jing
+这个寄平邮要多少钱
+"how" "much" "would" "it" "cost" "to" "send" "this" "by" "regular" "mail"
+号马吃五的一特考思特兔三德带思白锐规乐妹儿
+hao ma chi wu de yi te kao si te tu san de dai si bai rui gui le mei er
+请问这儿办理汇款么
+"do" "you" "handle" "remittance" "checks" "here"
+杜又汗又斗锐密疼思拆克思嘿儿
+du you han you dou rui mi teng si chai ke si hei er
+您想汇多少钱
+"how" "much" "would" "you" "like" "to" "remit"
+号马吃五的又来克兔锐密特
+hao ma chi wu de you lai ke tu rui mi te
+我想您是汇美元吧
+"i" "suppose" "you" "want" "to" "send" "us" "dollars"
+爱萨泼思又忘特兔三德又爱思到乐思
+ai sa po si you wang te tu san de you ai si dao le si
+可以请问汇款的原因吗
+"may" "i" "ask" "the" "reason" "for" "your" "remittance"
+妹爱啊思元的锐怎佛又儿锐密疼思
+mei ai a si yuan de rui zen fu you er rui mi teng si
+您想要航空倍还是电汇先生
+"do" "you" "want" "to" "remit" "the" "money" "by" "air" "mail" "or" "by" "cable" "sir"
+杜又忘特兔锐密特的忙尼白爱儿妹哦白开波色
+du you wang te tu rui mi te de mang ni bai ai er mei o bai kai bo se
+我要一张汇款单
+"i'd" "like" "a" "money" "order"
+爱的来克额忙尼奥德
+ai de lai ke e mang ni ao de
+请您填一下这张表格
+"please" "fill" "out" "this" "form"
+普利思飞奥特迪思佛母
+pu li si fei ao te di si fu mu
+您必须填写它的名称和完整地址
+"you" "must" "put" "on" "its" "name" "and" "full" "address"
+又马思特普特昂意思内母安的夫额拽思
+you ma si te pu te ang yi si nei mu an di fu e zhuai si
+这样行吗
+"is" "that" "ok" "now"
+意思带特哦可闹
+yi si dai te o ke nao
+请给我您的一千元汇款
+"your" "one" "thousand" "remittance" "please"
+又儿完扫怎的锐密疼思普利思
+you er wan sao zen di rui mi teng si pu li si
+请问手续费率是多少
+"what" "is" "the" "rate"
+沃特意思的锐特
+wo te yi si de rui te
+手续费百分之一
+"this" "rate" "is" "one" "percent"
+迪思锐特意思完波三特
+di si rui te yi si wan bo san te
+手续费十元
+"this" "rate" "will" "be" "ten" "yuan"
+迪思锐特危比诙元
+di si rui te wei bi hui yuan
+这些汇款什么时候能到
+"when" "will" "this" "remittance" "arrive"
+问危迪思锁密特额锐五
+wen wei di si suo mi te e rui wu
+一般来说一周之内就会到
+"generally" "it" "will" "arrive" "within" "a" "week"
+站牛若利一特危额锐五危思英额危克
+zhan niu ruo li yi te wei e rui wu wei si ying e wei ke
+我想开户
+"i" "would" "like" "to" "open" "an" "account"
+爱五的来克兔哦盆安额亢特
+ai wu de lai ke tu o pen an e kang te
+我要怎么开户
+"how" "can" "i" "open" "a" "bank" "account" "here"
+号肯爱哦盆额班克额亢特嘿儿
+hao ken ai o pen e ban ke e kang te hei er
+需要什么种类的户头
+"what" "kind" "of" "account" "would" "you" "like"
+沃特开恩德奥夫额亢特五的又来克
+wo te kai en de ao fu e kang te wu de you lai ke
+我要开一个基本储蓄存款账户
+"i'd" "like" "to" "open" "a" "basic" "savings" "account"
+爱的来克兔哦盆额被西克赛五英斯额亢特
+ai de lai ke tu o pen e bei xi ke sai wu ying si e kang te
+我还能耍一张现金提款卡吗
+"can" "i" "have" "a" "cash" "card" "too"
+看爱海夫额开失卡的兔
+kan ai hai fu e kai shi ka de tu
+你需要一个支票存款账户吗
+"do" "you" "want" "to" "have" "a" "checking" "account"
+杜又忘特兔海夫额拆克英额亢特
+du you wang te tu hai fu e chai ke ying e kang te
+我能否在这儿开个活期存款账户
+"can" "i" "open" "a" "current" "account" "here"
+看爱哦盆额卡润特额亢特嘿儿
+kan ai o pen e ka run te e kang te hei er
+你能帮我申请网络银行服务么
+"could" "you" "sign" "me" "up" "for" "online" "banking"
+酷的又赛恩密阿普佛昂来恩班克英
+ku de you sai en mi a pu fu ang lai en ban ke ying
+这是填好的申请表
+"here" "is" "the" "completed" "application" "form"
+嘿儿意思则亢普利特的额普未开神佛母
+hei er yi si ze kang pu li te de e pu wei kai shen fu mu
+这是存款单
+"here" "is" "a" "deposit" "slip"
+嘿儿意思额低泼兹特思利普
+hei er yi si e di po zi te si li pu
+请填上你的姓名
+"please" "fill" "in" "your" "name"
+普利思飞英又儿内母
+pu li si fei ying you er nei mu
+我要看你的学生证
+"i" "need" "to" "see" "your" "student" "id"
+爱尼的兔西又儿思丢顿爱低
+ai ni de tu xi you er si diu dun ai di
+我会将你的资料输入计算机
+"i" "will" "enter" "your" "information" "into" "the" "computer"
+爱危安特又儿英佛妹神英兔则亢普又特
+ai wei an te you er ying fu mei shen ying tu ze kang pu you te
+我从我的储蓄存款账户提取了300美元
+"i" "withdrew" "three" "hundred" "dollars" "from" "my" "savings" "account"
+爱危思卓岁汉卓的到乐斯夫昂卖赛五英斯额亢特
+ai wei si zhuo sui han zhuo de dao le si fu ang mai sai wu ying si e kang te
+我要从我的支票账户中提款
+"i" "need" "to" "make" "a" "withdrawal" "from" "my" "checking" "account"
+爱尼的兔妹克额危思桌肉夫昂卖拆克英额充特
+ai ni de tu mei ke e wei si zhuo rou fu ang mai chai ke ying e chong te
+我这个月的薪水存款没有入账
+"i" "didn't" "get" "my" "pay" "deposit" "this" "month"
+爱低等特盖特卖陪低泼兹特迪思忙思
+ai di deng te gai te mai pei di po zi te di si mang si
+支票账户能付账
+"a" "checking" "account" "can" "help" "to" "pay" "my" "bill"
+额拆克英额亢特看嘿一奥普兔陪卖比又
+e chai ke ying e kang te kan hei yi ao pu tu pei mai bi you
+每个账户要花钱多吗
+"does" "each" "account" "cost" "much"
+大思一尺额充特考思特马吃
+da si yi chi e chong te kao si te ma chi
+定期还是活期
+"a" "deposit" "or" "current" "account"
+额低泼兹特哦卡润特额亢特
+e di po zi te o ka run te e kang te
+支票户头要收服务费
+"there's" "a" "service" "charge" "for" "the" "checking" "account"
+在儿思额色危思差只佛则拆克英额亢特
+zai er si e se wei si cha zhi fu ze chai ke ying e kang te
+现金户头免费
+"you" "pay" "no" "money" "for" "the" "saving" "account"
+又陪呢欧忙尼佛则赛五英额亢特
+you pei ne ou mang ni fo ze sai wu ying e kang te
+你可以在自动柜员机上修改密码
+"you" "can" "change" "your" "pin" "at" "the" "atm"
+又看产只又儿平爱特别嘿特爱母
+you kan chan zhi you er ping ai te bie hei te ai mu
+最低起存款额是几元
+"what" "is" "the" "minimum" "original" "deposit"
+沃特意思的米尼门奥锐只呢欧低泼兹特
+wo te yi si de mi ni men ao rui zhi ne ou di po zi te
+贴现率是由联储决定的
+"the" "discount" "rate" "is" "set" "by" "the" "fed"
+的低思亢特锐特意思赛特白的发的
+de di si kang te rui te yi si sai te bai de fa de
+利率应不会再涨
+"interest" "rates" "are" "not" "expected" "to" "increase"
+英吹思特锐思啊呢欧特伊克思白克的兔英亏思
+ying chui si te rui si a ne ou te yi ke si bai ke de tu ying kui si
+我要把钱从储蓄存款账户转到支票存款账户
+"i" "need" "to" "transfer" "money" "from" "my" "savings" "account" "to" "my" "checking" "account"
+爱尼的兔传思佛忙你佛昂卖赛五英额亢特兔卖拆克英额亢特
+ai ni de tu chuan si fu mang ni fu ang mai sai wu ying e kang te tu mai chai ke ying e kang te
+您要换什么面值的
+"how" "would" "you" "like" "it"
+号五的又来克一特
+hao wu de you lai ke yi te
+请换成10块面值的
+"in" "ten" "dollar" "bill" "please"
+英谈到乐比又普利思
+ying tan dao le bi you pu li si
+你能带我到兑换外币的地方吗
+"could" "you" "guide" "me" "to" "change" "money"
+酷的又盖的密兔产只忙尼
+ku de you gai de mi tu chan zhi mang ni
+我想兑换一些钱
+"i'd" "like" "to" "change" "some" "money" "please"
+爱的来克兔产只桑忙尼普利思
+ai de lai ke tu chan zhi sang mang ni pu li si
+您想兑换多少钱
+"how" "much" "would" "you" "like" "to" "change"
+号马吃五的又来克兔产只
+hao ma chi wu de you lai ke tu chan zhi
+今天的汇率是8元人民币兑1美元
+"today's" "exchange" "rate" "is" "eight" "rmb" "yuan" "equal" "to" "one" "us" "dollars"
+特带思伊克思产只锐特意思嘿特啊爱母比元一扣图完又爱思到乐思
+te dai si yi ke si chan zhi rui te yi si hei te a ai mu bi yuan yi kou tu wan you ai si dao le si
+今天的汇率是多少
+"what's" "the" "exchange" "rate" "today"
+沃思则伊克思产只锐特特带
+wo si ze yi ke si chan zhi rui te te dai
+您想换哪一种外币
+"what" "kind" "of" "currency" "do" "you" "want" "to" "change"
+沃特凯恩的奥夫卡润西杜又忘特兔产只
+wo te kai en de ao fu ka run xi du you wang te tu chan zhi
+我想把美元换成人民币
+"i" "want" "to" "change" "some" "us" "dollars" "into" "rmb"
+爱忘特兔产只桑又爱思到乐思英兔啊爱母比
+ai wang te tu chan zhi sang you ai si dao le si ying tu a ai mu bi
+请问我可在哪儿将美元兑换成英镑
+"where" "can" "i" "change" "my" "dollars" "for" "pounds"
+危尔看爱产只卖到乐思佛胖思
+wei er kan ai chan zhi mai dao le si fu pang si
+我没带零钱
+"i" "have" "no" "small" "change"
+爱海夫呢欧思莫产只
+ai hai fu ne ou si mo chan zhi
+我们是指定经营外汇业务的银行
+"we" "are" "an" "authorized" "foreign" "exchange" "bank"
+危啊安奥扫瑞兹的佛润伊克思产只办克
+wei a an ao sao rui zi de fu run yi ke si chan zhi ban ke
+我们可以为您兑换
+"we" "can" "change" "them" "for" "you"
+危看产只但母佛又
+wei kan chan zhi dan mu fu you
+5美元相当于人民币多少元
+"what" "is" "the" "equivalent" "of" "five" "dollars" "in" "rmb" "yuan"
+沃特意思则一亏五棱特奥夫发五到乐思英啊爱母比元
+wo te yi si ze yi kui wu leng te ao fu fa wu dao le si ying a ai mu bi yuan
+我要办理信用卡挂失
+"i'd" "like" "to" "report" "the" "loss" "of" "my" "credit" "card"
+爱的来兔锐波特的路思奥夫卖亏低特卡的
+ai de lai tu rui bo te de lu si ao fu mai kui di te ka de
+我要取消信用卡
+"i'd" "like" "to" "cancel" "my" "credit" "card"
+爱的来克兔看搜卖亏低特卡的
+ai de lai ke tu kan sou mai kui di te ka de
+我把信用卡弄丢了
+"i" "have" "lost" "my" "credit" "card"
+爱海夫劳思特卖亏低特卡的
+ai hai fu lao si te mai kui di te ka de
+请告诉我您的卡号和密码
+"please" "tell" "me" "your" "card" "number" "and" "pin" "number"
+普利思跳密又儿卡的难伯安的拼难伯
+pu li si tiao mi you er ka de nan bo an di pin nan bo
+请告诉我您的护照号码
+"please" "tell" "me" "the" "number" "of" "your" "passport"
+普利思跳密的难伯奥夫又儿怕思波特
+pu li si tiao mi de nan bo ao fu you er pa si bo te
+这是填好的挂失申请表
+"this" "is" "my" "filled" "out" "application" "form" "of" "loss" "reporting"
+迪思意思卖飞的奥特额普利开神佛母奥夫老思锐泡听
+di si yi si mai fei de ao te e pu li kai shen fu mu ao fu lao si rui pao ting
+我们要请求发卡机构授权
+"we" "will" "get" "authorization" "from" "the" "card" "issuing" "office"
+危危盖特奥思锐在神佛昂的卡的一书英奥飞思
+wei wei gai te ao si rui zai shen fu ang de ka de yi shu ying ao fei si
+请把名字签在底线上
+"please" "sign" "your" "name" "on" "the" "bottom" "line"
+普利思赛恩又儿内母昂的波疼来恩
+pu li si sai en you er nei mu ang de bo teng lai en
+把您的护照给我看一下
+"show" "me" "your" "passport"
+收密又儿怕思波特
+shou mi you er pa si bo te
+您办理挂失了吗
+"have" "you" "reported" "the" "loss" "of" "it"
+海夫又锐泼替的则老思奥夫一特
+hai fu you rui po ti de ze lao si ao fu yi te
+我能办一张新卡吗
+"can" "i" "get" "a" "new" "one"
+看爱盖特额牛完
+kan ai gai te e niu wan
+我们必须证实您的身份
+"we'll" "have" "to" "confirm" "your" "identification"
+危海夫兔亢佛母又儿爱等替飞开神
+wei hai fu tu kang fu mu you er ai deng ti fei kai shen
+我们确信您已将卡丢失
+"we're" "convinced" "that" "you've" "already" "lost" "your" "card"
+危啊亢文思的带特又无锐儿利劳思特又儿卡的
+wei a kang wen si de dai te you wu rui er li lao si te you er ka de
+我们会给您补一张新卡
+"we'll" "renew" "a" "card" "for" "you"
+危锐牛额卡的佛又
+wei rui niu e ka de fu you
+我们将仔细核对
+"we" "will" "examine" "it" "carefully"
+危危一格在母一特开儿佛利
+wei wei yi ge zai mu yi te kai er fu li
+您身边带着有效身份证件吗
+"do" "you" "have" "any" "proper" "credential" "with" "you"
+杜又海夫安尼泼泼亏但收危思又
+du you hai fu an ni po po kui dan shou wei si you
+旅游信息问讯处在哪儿
+"where's" "the" "tourist" "information" "center"
+危尔思则兔儿锐思特英佛妹神三特
+wei er si ze tu er rui si te ying fu mei shen san te
+我不是本地人
+"i'm" "a" "stranger"
+爱母额思转者
+ai mu e si zhuan zhe
+能给我一张免费城市地图吗
+"may" "i" "have" "a" "free" "city" "map"
+妹爱海夫额夫锐西替卖普
+mei ai hai fu e fu rui xi ti mai pu
+您对什么感兴趣
+"what" "do" "you" "like"
+沃特杜又来克
+wo te du you lai ke
+都有哪些路线的旅行呢
+"what" "kind" "of" "tours" "do" "you" "have"
+沃特开恩德奥夫兔儿思丰杜又海夫
+wo te kai en de ao fu tu er si feng du you hai fu
+能告诉我这座城市有哪些好玩的地方吗
+"please" "tell" "me" "about" "some" "interesting" "places" "in" "this" "town"
+普利思跳密额抱特桑英吹思听普累思英迪思堂
+pu li zhong tiao mi e bao te sang ying chui si ting pu lei zhong ying di si tang
+他们星期六开门吗
+"are" "they" "open" "on" "saturdays"
+啊带哦盆昂赛特带思
+a dai o pen ang sai te dai si
+我正考虑去哪儿玩儿昵
+"i'm" "wondering" "where" "i" "should" "go"
+爱母忘得英危尔爱舒的够
+ai mu wang de ying wei er ai shu de gou
+网上有很多这样的信息
+"there's" "a" "lot" "of" "information" "about" "this" "online"
+在儿思额劳特奥夫英佛妹神额抱特迪思昂来恩
+zai er si e lao te ao fu ying fu mei shen e bao te di si ang lai en
+您想去哪儿啊
+"where" "would" "you" "like" "to" "go"
+危尔五的又来克兔够
+wei er wu de you lai ke tu gou
+在附近玩儿还是想去远点儿的地方啊
+"around" "here" "or" "somewhere" "further"
+额入昂的嘿儿哦桑危尔佛的
+e ru ang de hei er o sang wei er fu de
+我推荐你去去青岛
+"i" "recommend" "you" "to" "go" "to" "qingdao"
+爱锐克门的又兔够兔青岛
+ai rui ke men de you tu gou tu qing dao
+现在是去青岛最好的季节了
+"right" "now" "is" "the" "best" "time" "of" "the" "year" "to" "visit" "qingdao"
+锐特闹意思则百思特太母奥夫则耶兔危兹特青岛
+rui te nao yi si ze bai si te tai mu ao fu ze ye tu wei zi te qing dao
+去三亚怎么样
+"how" "about" "sanya"
+号额抱特三亚
+hao e bao te san ya
+你确定好旅行的一些细节问题了吗
+"have" "you" "decided" "on" "the" "details" "of" "your" "journey"
+海夫又低赛则一的昂则低跳思奥夫又儿者尼
+hai fu you di sai ze yi de ang ze di tiao si ao fu you er zhe ni
+我们先去西安
+"we'll" "go" "to" "xi'an" "first"
+危够兔西安佛寺特
+wei gou tu xi an fo si te
+多停留一天
+"stay" "an" "extra" "day"
+思嗨安埃克思戳带
+si hai an ai ke si chuo dai
+你的计划是什么
+"what's" "your" "itinerary"
+沃思又儿爱替呢若锐
+wo si you er ai ti ne ruo rui
+你要出去玩儿吗
+"are" "you" "planning" "on" "going" "somewhere"
+啊又普兰宁昂够英桑危儿
+a you pu lan ning ang gou ying sang wei er
+我要去观光
+"i" "will" "do" "some" "sightseeing"
+爱危杜桑赛特西英
+ai wei du sang sai te xi ying
+行李收拾好了吗
+"have" "you" "packed"
+海夫又拍克的
+hai fu you pai ke de
+别的地方我们也想去看看
+"we" "also" "want" "to" "visit" "some" "other" "cities"
+危奥搜忘特兔危兹特桑啊的西替思
+wei ao sou wang te tu wei zi te sang a de xi ti si
+我带些什么衣服好呢？
+"what" "clothes" "should" "i" "take"
+沃特克漏思舒的爱带克
+wo te ke lou si shu de ai dai ke
+还用带伞吗
+"do" "i" "need" "to" "take" "an" "umbrella"
+杜爱尼的兔带克安安母不锐乐
+du ai ni de tu dai ke an an mu bu rui le
+你肯定会玩儿得很开心的
+"you'll" "have" "a" "good" "time"
+又危海夫额古德太母
+you wei hai fu e gu de tai mu
+我想坐出租车旅游
+"i'd" "like" "a" "tour" "by" "taxi"
+爱的来克额兔儿白太克西
+ai de lai ke e tu er bai tai ke xi
+请把你的旅行计划留下来以使我们在遇到急事时和你取得联系
+"leave" "your" "itinerary" "so" "that" "we" "can" "reach" "you" "in" "case" "of" "emergency"
+利五又儿爱替呢若锐搜带特危看锐吃又英开思奥夫一莫真西
+li wu you er ai ti ne ruo rui sou dai te wei kan rui chi you ying kai si ao fu yi mo zhen xi
+他们安排了一个紧凑的旅行日程
+"they" "have" "planned" "a" "tight" "schedule" "of" "travel"
+带海夫普兰的额太的思盖就奥夫踹沃
+dai hai fu pu lan de e tai de si gai jiu ao fu chuai wo
+自主如果我们自助游的话花费会少一些
+"it" "could" "be" "cheaper" "if" "we" "travel" "on" "our" "own"
+一特酷的比期波一夫危踹沃昂奥尔昂
+yi te ku de bi qi bo yi fu wei chuai wo ang ao er ang
+我更喜欢随团旅行
+"i" "prefer" "a" "package" "tour"
+爱陪佛额怕开只兔儿
+ai pei fu e pa kai zhi tu er
+到长城有带导游的旅行团吗
+"is" "there" "a" "guided" "tour" "to" "the" "great" "wall"
+意思在儿额盖的兔儿兔则格锐特沃
+yi si zai er e gai de tu er tu ze ge rui te wo
+中午的时候旅游团提供午餐
+"the" "tour" "stops" "for" "lunch" "at" "midday"
+则兔儿思到普思佛浪吃爱特密的带
+ze tu er si dao pu si fu lang chi ai te mi de dai
+在餐馆吃的晚饭包括在旅游费用里
+"dinner" "at" "the" "restaurant" "is" "included" "in" "the" "tour" "cost"
+低呢爱特则锐忠特入昂的意思英酷路的英则兔儿考思特
+di ne ai te ze rui zhong te ru ang de yi si ying ku lu de ying ze tu er kao si te
+有旅游车游览团吗
+"is" "there" "a" "sightseeing" "bus" "tour"
+意思在儿额赛特西英巴思兔儿
+yi si zai er e sai te xi ying ba si tu er
+等把具体细节定下来我就给旅行社打电话订票
+"i'll" "call" "the" "travel" "agency" "to" "book" "tickets" "after" "finalizing" "the" "details"
+爱危扣则踹沃嘿真西兔不克替开思啊夫特发呢欧来兹英则低跳思
+ai wei kou ze chuai wo hei zhen xi tu bu ke ti kai si a fu te fa ne ou lai zi ying ze di tiao si
+这是几天的团
+"how" "long" "is" "the" "trip"
+号龙意思则吹普
+hao long yi si ze chui pu
+你不必担心食宿
+"you" "don't" "have" "to" "worry" "about" "the" "accommodation" "and" "the" "meals"
+又东特海夫兔沃锐额抱特则额亢门带神安的则密又思
+you dong te hai fu tu wo rui e bao te 则 e kang men dai shen an di ze mi you si
+这趟线路多少钱
+"how" "much" "does" "the" "trip" "cost"
+号马吃大思则吹普考思特
+hao ma chi da si ze chui pu kao si te
+最好有导游
+"it's" "better" "to" "take" "a" "guided" "tour"
+意思白特兔带克额盖的兔儿
+yi si bai te tu dai ke e gai de tu er
+你所住的饭店能安排所有的事情
+"your" "hotel" "arranges" "everything"
+又儿后跳额软只思爱危思一英
+you er hou tiao e ruan zhi si ai wei si yi ying
+我们想找一名导游
+"we're" "after" "a" "tour" "guide"
+危啊夫特额兔儿盖的
+wei a fu te e tu er gai de
+你可以推荐一名优秀的导游吗
+"can" "you" "recommend" "a" "good" "tour" "guide"
+看又锐克门的领古德兔儿盖的
+kan you rui ke men de ling gu de tu er gai de
+请给我安排个靠窗户的位子
+"please" "arrange" "a" "window" "seat" "for" "me"
+普利思额软只额问斗西特佛密
+pu li si e ruan zhi e wen dou xi te fu mi
+你知道怎么申请赴美签证吗
+"do" "you" "know" "how" "to" "apply" "for" "a" "visa" "to" "the" "us"
+杜又呢欧号兔额普来佛额危萨兔则又爱思
+du you ne ou hao tu e pu lai fo e wei sa tu ze you ai si
+签证申请费是多少
+"what's" "the" "fee" "for" "application"
+沃思则飞佛额普来开神
+wo si ze fei fu e pu lai kai shen
+你今天去大使馆面谈得怎么样
+"how" "was" "your" "interview" "at" "the" "embassy" "today"
+号沃思又儿英特危爱特别安波西特带
+hao wo si you er ying te wei ai te bie an bo xi te dai
+面谈官就问了我几个问题
+"the" "consular" "officer" "just" "asked" "me" "a" "couple" "of" "questions"
+则亢思又乐奥飞思加思特啊思克密额卡泼奥夫快思神思
+ze kang si you le ao fei si jia si te a si ke mi e ka po ao fu kuai si shen si
+你的拒签理由是什么
+"what" "was" "the" "reason" "you" "were" "denied"
+沃特沃思则锐人又沃低耐的
+wo te wo si ze rui ren you wo di nai de
+你申请签证了吗
+"have" "you" "applied" "for" "your" "visa"
+海夫又额普来的佛又儿危萨
+hai fu you e pu lai de fu you er wei sa
+需要出示什么文件
+"what" "kind" "of" "documents" "did" "you" "need" "to" "present"
+沃特开恩的奥夫到克又门思低的又尼的兔陪赞特
+wo te kai en de ao fu dao ke you men si di de you ni de tu pei zan te
+我需要出示财产证明
+"i" "had" "to" "show" "document" "relating" "to" "my" "financial" "status"
+爱海的兔收到克又门特锐累听兔卖发难收思带特思
+ai hai de tu shou dao ke you men te rui lei ting tu mai fa nan shou si dai te si
+我要申请留学签证
+"i" "want" "a" "student" "visa"
+爱忘特额思丢顿危萨
+ai wang te e si diu dun wei sa
+我昕说申请美国签证很难
+"i've" "heard" "it's" "very" "difficult" "to" "get" "a" "visa" "to" "go" "to" "the" "united" "states"
+爱五喝的意思危锐低飞扣特兔盖特额危萨兔够兔则又耐替的思带思
+ai wu he de yi si wei rui di fei kou te tu gai te e wei sa tu gou tu ze you nai ti de si dai si
+最困难的是准备好全部的资料
+"the" "hardest" "thing" "was" "getting" "all" "the" "necessary" "documents"
+则哈迪思特思一英沃思盖听奥则耐色色锐到克又门思
+ze ha di si te si yi ying wo si gai ting ao ze nai se se rui dao ke you men si
+大使对此很严格
+"the" "embassy" "is" "very" "strict" "about" "it"
+则安波西意思危锐思追克特额抱特一特
+ze an bo xi yi si wei rui si zhui ke te e bao te yi te
+这是给我妻子的纪念品
+"this" "is" "a" "souvenir" "for" "my" "wife"
+迪思意思额苏沃捏儿佛卖外夫
+di si yi si e su wo nie er fu mai wai fu
+那儿可以买到纪念品吗
+"can" "i" "get" "some" "souvenirs" "there"
+看爱盖特桑苏沃捏儿思在儿
+kan ai gai te sang su wo nie er si zai er
+有个柜台出售各种各样的纪念品
+"there" "is" "a" "counter" "selling" "all" "kinds" "of" "souvenirs"
+在儿意思额亢特赛灵奥开息的奥夫苏沃捏儿思
+zai er yi si e kang te sai ling ao kai xi de ao fu su wo nie er si
+我想给朋友买些礼物
+"i'd" "like" "to" "buy" "some" "gifts" "for" "my" "friends"
+爱的来克兔白桑给夫思佛卖夫软思
+ai de lai ke tu bai sang gei fu si fu mai fu ruan si
+哪有纪念品商店
+"where's" "the" "souvenir" "shop"
+危尔思则苏沃捏儿少普
+wei er si ze su wo nie er shao pu
+我要中间那个绿色面具
+"i'd" "like" "the" "green" "mask" "in" "the" "middle"
+爱的来克别格润马思克英则密斗
+ai de lai ke bie ge run ma si ke ying ze mi dou
+你可以买京剧脸谱和申国结
+"you" "can" "buy" "beijing" "opera" "masks" "and" "the" "chinese" "knot"
+又看白北京哦泼若马思克思安的则拆尼思呢欧特
+you kan bai bei jing o po ruo ma si ke si an di ze chai ni si ne ou te
+奥运吉祥物福娃是首选
+"olympic" "fuwa" "would" "be" "the" "first" "choice"
+奥林匹克福娃五的比别佛寺特吃元沃一思
+ao lin pi ke fu wa wu de bi bie fo si te chi yuan wo yi si
+我得回去再买点纪念品
+"i'd" "come" "back" "to" "buy" "some" "more" "souvenirs"
+爱的亢母白克兔白桑莫苏沃捏儿思
+ai de kang mu bai ke tu bai sang mo su wo nie er si
+我要买些明信片
+"i'd" "like" "to" "buy" "a" "few" "postcards"
+爱的来克兔白额飞剖思特卡思
+ai de lai ke tu bai e fei pou si te ka si
+面具不方便旅途携带
+"masks" "are" "difficult" "to" "travel" "with"
+马思克思啊低飞扣特兔踹沃危思
+ma si ke si a di fei kou te tu chuai wo wei si
+许多景点会有一些很有意思的纪念品销售
+"many" "scenic" "spots" "will" "provide" "interesting" "souvenirs" "for" "sale"
+曼尼思一尼克思波特危泼外的英吹思听苏沃捏儿思佛赛
+man ni si yi ni ke si bo te wei po wai de ying chui si ting su wo nie er si fu sai
+多么动人心魄的美景
+"what" "a" "breathtaking" "sight"
+沃特额不锐思带克英赛特
+wo te e bu rui si dai ke ying sai te
+你可以用相机拍下来
+"you" "can" "capture" "the" "moment" "in" "a" "photo"
+又看开普车则莫门特英额佛头
+you kan kai pu che ze mo men te ying e fo tou
+这是我见过的最美的地方
+"it's" "the" "most" "beautiful" "place" "i've" "ever" "seen"
+意思则莫思特比又提佛普累思爱无爱沃思英
+yi si ze mo si te bi you ti fu pu lei si ai wu ai wo si ying
+这比照片美多了
+"it's" "more" "beautiful" "than" "in" "the" "picture"
+意思莫比又替佛但英则皮克车
+yi si mo bi you ti fu dan ying ze pi ke che
+人们都爱来这里游览休息
+"people" "like" "to" "come" "here" "and" "relax"
+皮波未克兔亢母嘿儿安的锐来克思
+pi bo wei ke tu kang mu hei er an di rui lai ke si
+我真想画下来
+"i" "really" "want" "to" "draw" "it"
+爱锐儿利忘特兔卓一特
+ai rui er li wang te tu zhuo yi te
+在那儿漫步真令人心旷神怡
+"it's" "so" "pleasant" "to" "have" "a" "walk" "there"
+意思搜普来森特兔海夫额沃克在儿
+yi si sou pu lai sen te tu hai fu e wo ke zai er
+都有什么比较好的景点
+"can" "you" "tell" "me" "some" "scenic" "spots" "that" "are" "worth" "a" "visit"
+看又跳密桑西尼克思泼思带特啊沃思额危兹特
+kan you tiao mi sang xi ni ke si po si dai te a wo si e wei zi te
+一切都是那么新令人神往
+"everything's" "so" "striking" "and" "fascinating"
+爱危思一英思搜思拽克英安的发思内听
+ai wei si yi ying si sou si zhuai ke ying an di fa si nei ting
+这里有许多景点
+"there" "are" "many" "scenic" "spots" "here"
+在儿啊曼尼西尼克思波特嘿儿
+zai er a man ni xi ni ke si bo te hei er
+这里到处都有画画儿的素材
+"there's" "so" "much" "i" "can" "draw" "here"
+在儿思搜马吃爱看卓嘿儿
+zai er si sou ma chi ai kan zhuo hei er
+那个建筑物是什么
+"what's" "that" "building"
+沃思带特不优定
+wo si dai te bu you ding
+它的历史有多久
+"how" "old" "is" "it"
+号哦的意思一特
+hao o de yi si yi te
+我们能进到里面吗
+"can" "we" "go" "in"
+看危够英
+kan wei gou ying
+我们去看着那座城堡
+"let's" "go" "to" "see" "the" "castle"
+来思够兔西别卡搜
+lai si gou tu xi bie ka sou
+建筑物看上去都是老式的
+"the" "buildings" "here" "all" "seem" "old" "fashioned"
+则不优定嘿儿奥西母哦的飞神的
+ze bu you ding hei er ao xi mu o de fei shen de
+它们独具风格
+"they" "have" "a" "peculiar" "flavor" "of" "their" "own"
+带海末额皮克又利儿夫禀沃奥夫带儿昂
+dai hai mo e pi ke you li er fu bing wo ao fu dai er ang
+我们马上就要到广场了
+"we" "are" "getting" "near" "to" "the" "square" "now"
+危啊盖听尼儿兔则思乖儿闹
+wei a gai ting ni er tu ze si guai er nao
+这是一个热闹的交叉路口有尊纳尔逊的纪念铜像
+"it's" "a" "busy" "road" "junction" "with" "nelson's" "statue"
+意思额比兹肉的装克神危思尼尔森思带丢
+yi si e bi zi rou de zhuang ke shen wei si ni er sen si dai diu
+入场券多少钱
+"how" "much" "is" "the" "entrance" "fee"
+号马吃意思则安春思飞
+hao ma chi yi si ze an chun si fei
+我们先去看着自金汉宫怎么样
+"what" "if" "we" "go" "to" "see" "buckingham" "palace" "first"
+沃思一夫危够兔西白克英汉拍利思佛寺特
+wo si yi fu wei gou tu xi bai ke ying han pai li si fo si te
+广场上有几尊美丽的铜像
+"the" "square" "has" "quite" "a" "number" "of" "beautiful" "statues"
+则思乖儿海思快特额难伯奥夫比又替佛思带替又思
+ze si guai er hai si kuai te e nan bo ao fu bi you ti fu si dai ti you si
+它有102层高
+"it" "stands" "at" "one" "hundred" "two" "stories" "high"
+一特思但思爱特完哦兔思到锐思海
+yi te si dan si ai te wan o tu si dao rui si hai
+其实每幢摩天大楼都有一段历史
+"actually" "every" "skyscraper" "has" "a" "history"
+爱克抽利爱危思盖思快泼海思额嘿忠吹
+ai ke chou li ai wei si gai si kuai po hai si e hei zhong chui
+再过几条街我们就会看到大教堂
+"a" "few" "blocks" "ahead" "we'll" "see" "the" "cathedral"
+额飞不老克思领海的危西则卡西卓
+e fei bu lao ke si ling hai de wei xi ze ka xi zhuo
+它是建筑史上的一个里程碑
+"it's" "a" "landmark" "in" "the" "history" "of" "architecture"
+意思额兰的马克英则嘿思吹奥夫啊开泰克车
+yi si e lan de ma ke ying ze hei si chui ao fu a kai tai ke che
+那会是个好镜头
+"that" "will" "be" "a" "good" "shot"
+带特危比额古德绍特
+dai te wei bi e gu de shao te
+我就在这里拍张照
+"i'd" "like" "to" "have" "my" "picture" "taken" "here"
+爱的来克兔海夫卖皮克车太肯嘿儿
+ai de lai ke tu hai fu mai pi ke che tai ken hei er
+你站在紧靠郁金香花的地方好吗
+"will" "you" "stand" "close" "to" "the" "tulip" "flowers"
+危又思但的克漏思兔则丢利普夫老沃思
+wei you si dan de ke lou si tu ze diu li pu fu lao wo si
+我能在这儿拍照吗
+"can" "i" "take" "a" "picture" "here"
+着爱带克额皮克丰嘿儿
+zhe ai dai ke e pi ke feng hei er
+好照好了
+"ok" "got" "you"
+欧克高特又
+ou ke gao te you
+我们合照张好吗
+"shall" "we" "have" "a" "picture" "taken" "together"
+少危海夫额皮克车带肯特盖的
+shao wei hai fu e pi ke che dai ken te gai de
+请帮我们照张相好吗
+"will" "you" "take" "a" "picture" "for" "us" "please"
+危又带克额皮克车佛啊思普利思
+wei you dai ke e pi ke che fu a si pu li si
+那照片好极了
+"that" "photo" "is" "terrific"
+带特佛头意思特锐飞克
+dai te fo tou yi si te rui fei ke
+我的照相机里的曝光表好像出毛病了
+"something" "seems" "wrong" "with" "the" "light" "meter" "in" "my" "camera"
+桑思一英西母思如昂危思则来特密特英卖开莫若
+sang si yi ying xi mu si ru ang wei si ze lai te mi te ying mai kai mo ruo
+这可能是电池有问题
+"it" "could" "be" "the" "battery"
+一特酷的比则巴特锐
+yi te ku de bi ze ba te rui
+让我来给你拍张照
+"let" "me" "take" "a" "picture" "for" "you"
+来特密带克额皮克车佛又
+lai te mi dai ke e pi ke che fu you
+只要按这个按钮就可以了
+"you" "just" "need" "to" "press" "this" "button"
+又加思特尼的兔普锐思迪思八疼
+you jia si te ni de tu pu rui si di si ba teng
+不准用闪光灯拍照
+"flash" "photograph" "is" "not" "permitted"
+夫来失佛头个入啊夫意思呢欧特泼密替的
+fu lai shi fo tou ge ru a fu yi si ne ou te po mi ti de
+再拍一张好吗
+"could" "you" "please" "take" "one" "more"
+酷的又普利思带克完莫
+ku de you pu li si dai ke wan mo
+我已经调好光圈焦距
+"i've" "already" "set" "the" "lighting" "and" "distance"
+爱无奥锐低赛特则来听安的低思疼思
+ai wu ao rui di sai te ze lai ting an di di si teng si
+我想询问下航班情况
+"i'd" "like" "to" "inquire" "about" "flights"
+爱的来克兔英快儿额抱特夫来思
+ai de lai ke tu ying kuai er e bao te fu lai si
+你是想坐经济舱商务舱还是头等舱
+"do" "you" "want" "to" "go" "economy" "business" "or" "first" "class"
+杜又忘特兔够一克呢欧密比兹一思哦佛思特克拉思
+du you wang te tu gou yi ke ne ou mi bi zi yi si o fu si te ke la si
+那包括了机场税了吗
+"does" "that" "include" "airport" "tax"
+大思带特英酷路的爱儿泼特太克思
+da si dai te ying ku lu de ai er po te tai ke si
+提不提供折扣
+"is" "there" "a" "discount" "rate"
+意思带儿额低思康特锐特
+yi si dai er e di si kang te rui te
+我要订头等舱
+"i'd" "like" "to" "go" "first" "class"
+爱的来克兔够佛思特克拉思
+ai de lai ke tu gou fu si te ke la si
+那要多少钱
+"how" "much" "will" "that" "be"
+号马吃危带特比
+hao ma chi wei dai te bi
+没有前往艾奥瓦市的班机
+"there's" "no" "service" "to" "iowa" "city"
+带儿思呢欧色危思兔爱奥瓦西替
+dai er si ne ou se wei si tu ai ao wa xi ti
+儿童票价多少钱
+"what's" "children's" "fare"
+沃思求准思发儿
+wo si qiu zhun si fa er
+你在那儿换机
+"you" "change" "flights" "there"
+又产只夫来思带儿
+you chan zhi fu lai si dai er
+我会替您准备好机票替您邮寄过去
+"i'll" "get" "your" "tickets" "ready" "and" "mail" "them" "to" "you"
+爱危盖特又儿替开特思锐低安的妹儿但兔又
+ai wei gai te you er ti kai te si rui di an di mei er dan tu you
+你们可有从华盛顿国际机场起飞的班机
+"do" "you" "have" "a" "flight" "which" "leaves" "washington" "national" "airport"
+杜又海夫额夫来特危吃利五思沃胜顿耐神呢欧爱儿波特
+du you hai fu e fu lai te wei chi li wu si wo sheng dun nai shen ne ou ai er bo te
+登机时我该带哪些东西
+"what" "should" "i" "take" "when" "i" "am" "boarding"
+沃特舒的爱带克问爱安母波定
+wo te shu de ai dai ke wen ai an mu bo ding
+你们何时开始办理登机
+"what" "time" "do" "you" "start" "check" "in"
+沃特太母杜又思大特拆克英
+wo te tai mu du you si da te chai ke ying
+要把所有要申报的东西都填上吗
+"do" "i" "have" "to" "write" "down" "all" "the" "things" "i" "have" "to" "declare"
+杜爱海夫兔锐特当奥的思一英思爱海夫兔低克来儿
+du ai hai fu tu rui te dang ao de si yi ying si ai hai fu tu di ke lai er
+请出示护照登机牌
+"passport" "and" "boarding" "pass" "please"
+怕思波特安的波定怕思普利思
+pa si bo te an di bo ding pa si pu li si
+请给我看看您的票
+"may" "i" "see" "your" "ticket" "please"
+妹爱西又儿替开特普利思
+mei ai xi you er ti kai te pu li si
+您可以携带30公斤的行李
+"your" "luggage" "can" "weigh" "up" "to" "thirty" "kilos"
+又儿拉给只看危阿普兔色替开漏思
+you er la gei zhi kan wei a pu tu se ti kai lou si
+您可以随身携带两件行李
+"you" "are" "permitted" "two" "carry" "on" "items"
+又啊泼密替的兔开瑞昂爱疼思
+you a po mi ti de tu kai rui ang ai teng si
+检查完了吗
+"is" "that" "all"
+意思带特奥
+yi si dai te ao
+我在几号登机口登机
+"what" "gate" "number" "do" "i" "go" "to"
+沃特给特难伯杜爱够兔
+wo te gei te nan bo du ai gou tu
+可以看一下您的按照吗
+"can" "i" "have" "a" "look" "at" "your" "passport"
+看爱海夫额路克爱特又儿怕赛只
+kan ai hai fu e lu ke ai te you er pa sai zhi
+十点半开始登机
+"boarding" "begins" "at" "ten" "thirty"
+波定比干思爱特谈色替
+bo ding bi gan si ai te tan se ti
+这台相机是我自己用的
+"it's" "my" "camera" "for" "personal" "use"
+意思卖开莫若佛泼森呢欧又思
+yi si mai kai mo ruo fu po sen ne ou you si
+我一个行李箱还有一个包随身携带
+"i" "have" "one" "suitcase" "and" "a" "carry" "on" "bag"
+爱海夫完苏开思安的额开锐昂白格
+ai hai fu wan su kai si an di e kai rui ang bai ge
+您的座位在害舱中部
+"your" "seat" "is" "in" "the" "middle" "of" "the" "cabin"
+又儿西特意思英的密斗奥夫的开宾
+you er xi te yi si ying de mi dou ao fu de kai bin
+恐怕您坐错位子了
+"i'm" "afraid" "you" "are" "in" "the" "wrong" "seat"
+爱母额夫锐的又啊英的如昂西特
+ai mu e fu rui de you a ying de ru ang xi te
+20C正好在那边走廊的后二排
+"twenty" "c" "is" "just" "two" "rows" "behind" "on" "the" "other" "aisle"
+团替三替格锐的意思加思特兔肉思比汉德昂的啊的爱
+tuan ti san ti ge rui de yi si jia si te tu rou si bi han de ang de a de ai
+请稍等一下我查查肴
+"excuse" "me" "for" "a" "second" "i'll" "check"
+伊克思克又思密佛额赛肯的爱由拆克
+yi ke si ke you si mi fu e sai ken de ai you chai ke
+飞机马上要起飞了
+"the" "plane" "is" "about" "to" "take" "off"
+的普兰意思额抱特兔带克奥夫
+de pu lan yi si e bao te tu dai ke ao fu
+请不要在客舱内走动
+"please" "don't" "walk" "about" "in" "the" "cabin"
+普利思东特沃克额抱特英的开宾
+pu li si dong te wo ke e bao te ying de kai bin
+您是坐经济舱对吗
+"you're" "flying" "economy" "class" "right"
+又啊飞灵一课呢欧密克拉思锐特
+you a fei ling yi ke ne ou mi ke la si rui te
+您想喝点儿什么
+"what" "would" "you" "like" "to" "drink"
+沃特五的又来克兔准克
+wo te wu de you lai ke tu zhun ke
+您这儿都有什么
+"well" "what" "do" "you" "have"
+危沃特杜又海夫
+wei wo te du you hai fu
+午餐您要牛肉还是要鱼
+"beef" "or" "fish" "for" "dinner"
+比夫哦飞失佛低呢
+bi fu o fei shi fu di ne
+您用完了吗
+"have" "you" "finished"
+海夫又飞尼失的
+hai fu you fei ni shi de
+我可以收走了吗
+"may" "i" "clear" "the" "table"
+妹爱克利儿的太波
+mei ai ke li er de tai bo
+您能给我杯水吗
+"can" "i" "have" "some" "water"
+看爱海夫桑沃特
+kan ai hai fu sang wo te
+我的耳朵鸣得厉害
+"my" "ears" "are" "humming" "terribly"
+卖一儿思啊航名太锐波利
+mai yi er si a hang ming tai rui bo li
+请系紧安全带
+"please" "fasten" "your" "seat" "belt"
+普利思发怎又儿西特被儿特
+pu li si fa zen you er xi te bei er te
+祝您路途愉快
+"we" "hope" "you" "enjoy" "your" "flight"
+危后普又英卓英又儿夫来特
+wei hou pu you ying zhuo ying you er fu lai te
+请问行李区在哪儿？
+"where" "is" "the" "luggage" "claim" "area"
+危尔意思的拉给只克雷母爱儿若尔
+wei er yi si de la gei zhi ke lei mu ai er ruo er
+请出示行李票
+"please" "present" "your" "luggage" "tag"
+普利思陪三特又儿拉给只太格
+pu li si pei san te you er la gei zhi tai ge
+在哪儿能找到手推车
+"where" "can" "i" "find" "a" "cart"
+危尔看爱方的额卡特
+wei er kan ai fang de e ka te
+我的一个包好像不见了
+"one" "of" "my" "bags" "seems" "to" "be" "missing"
+完奥夫卖白格思思一母思兔必密思英
+wan ao fu mai bai ge si si yi mu si tu bi mi si ying
+我还有一个手提箱没出来
+"one" "of" "my" "suitcases" "hasn't" "come" "out" "yet"
+完奥夫卖苏特开思海怎特康母奥特耶特
+wan ao fu mai su te kai si hai zen te kang mu ao te ye te
+我的行李受损了
+"my" "luggage" "is" "damaged"
+卖拉给只意思但密只的
+mai la gei zhi yi si dan mi zhi de
+你们要为我的行李负责
+"you" "need" "to" "take" "responsibility" "for" "my" "luggage"
+又尼的兔带克锐思帮色比利替佛卖拉给只
+you ni de tu dai ke rui si bang se bi li ti fu mai la gei zhi
+请叫人把我的行李搬上去
+"please" "have" "someone" "bring" "my" "luggage" "up"
+普利思海夫桑完不锐英卖拉给只阿普
+pu li si hai fu sang wan bu rui ying mai la gei zhi a pu
+我需要有人帮我搬行李
+"i" "need" "someone" "to" "help" "me" "with" "the" "luggage"
+爱尼的桑完兔嘿一奥普密危思的拉给只
+ai ni de sang wan tu hei yi ao pu mi wei si de la gei zhi
+我对你们处理我行李的方式不满意
+"i'm" "not" "happy" "with" "the" "way" "you" "handled" "my" "luggage"
+爱母呢欧特黑皮危思的危又汉斗的卖拉给只
+ai mu ne ou te hei pi wei si de wei you han dou de mai la gei zhi
+我的行李被撕了道口子
+"there's" "a" "rip" "in" "my" "luggage"
+带儿思额吹普英卖拉给只
+dai er si e chui pu ying mai la gei zhi
+这是你的手提行李吗
+"is" "this" "your" "carry" "on"
+意思则一思又儿开锐昂
+yi si ze yi si you er kai rui ang
+你能帮我把它从传送带上拿下来吗
+"could" "you" "help" "me" "get" "it" "out" "of" "the" "conveyor" "belt"
+酷的又嘿一奥普密盖特一特奥特奥夫的康危儿被儿特
+ku de you hei yi ao pu mi gai te yi te ao te ao fu de kang wei er bei er te
+您带了植物产品吗？
+"are" "you" "bringing" "in" "any" "plants" "products"
+啊又不润英英安尼普浪思泼大克思
+a you bu run ying ying an ni pu lang si po da ke si
+我可以检查您的包吗？
+"do" "you" "mind" "if" "we" "look" "in" "your" "suitcase"
+杜又卖的一夫危路克英又儿苏开思
+du you mai de yi fu wei lu ke ying you er su kai si
+这些红色的东西是什么
+"what" "are" "these" "red" "things" "sir"
+沃特啊则一思锐的思一英思色
+wo te a ze yi si rui de si yi ying si se
+我们还要检查您的手提包
+"we" "will" "also" "have" "to" "check" "your" "carry" "on"
+危危奥搜海夫兔拆克又儿开锐昂
+wei wei ao sou hai fu tu chai ke you er kai rui ang
+您不能带这些东西入境
+"you" "can't" "take" "any" "of" "this" "into" "the" "country"
+又看特带克安尼奥夫边思英兔的康吹
+you kan te dai ke an ni ao fu bian si ying tu de kang chui
+我可以看一下你的护照吗
+"may" "i" "see" "your" "passport" "please"
+妹爱西又儿怕思波特普利思
+mei ai xi you er pa si bo te pu li si
+这是入境申请表
+"this" "is" "the" "declaration" "form"
+迪思意思的低克来锐神佛母
+di si yi si de di ke lai rui shen fu mu
+你到美国的目的是什么
+"what" "is" "the" "purpose" "of" "your" "visit" "to" "the" "united" "states"
+沃特意思的泼泼思奥夫又儿危兹特兔的又耐替的思带思
+wo te yi si de po po si ao fu you er wei zi te tu de you nai ti de si dai si
+我要去开商务会议
+"i" "have" "a" "trade" "convention" "to" "attending"
+爱海夫额吹的康危神兔额谈定
+ai hai fu e chui de kang wei shen tu e tan ding
+你的签证期限是两个星期
+"this" "visa" "is" "good" "for" "two" "weeks"
+迪思危萨意思古德佛兔危克思
+di si wei sa yi si gu de fu tu wei ke si
+这是例行检查
+"this" "is" "just" "a" "routine" "check"
+迪思意思加思特额入听拆克
+di si yi si jia si te e ru ting chai ke
+我已经给它们申报了
+"i" "have" "had" "them" "declared"
+爱海夫海的但低克来尔的
+ai hai fu hai de dan di ke lai er de
+或者你可以申请延期
+"or" "you" "can" "apply" "for" "an" "extension"
+哦又儿看额普来佛安伊克思谈神
+o you er kan e pu lai fo an yi ke si tan shen
+如果没有别的问题您就可以走了
+"if" "there" "are" "no" "further" "problems" "you'll" "be" "free" "to" "go"
+一夫带儿啊呢欧佛的泼不棱思又危比夫锐兔够
+yi fu dai er a ne ou fu de po bu leng si you wei bi fu rui tu gou
+请到机场来接我
+"please" "pick" "me" "up" "at" "the" "airport"
+普利思皮克密阿普爱特的爱儿波特
+pu li si pi ke mi a pu ai te de ai er bo te
+我们会在七点乘001航班到这
+"we" "shall" "be" "arrival" "at" "seven" "o'clock" "by" "flight" "oh" "oh" "one"
+危少比额锐沃爱特赛文额克劳克白夫来特哦哦完
+wei shao bi e rui wo ai te sai wen e ke lao ke bai fu lai te o o wan
+飞机晚点了
+"it" "has" "been" "delayed"
+一特海思宾低累的
+yi te hai si bin di lei de
+飞机正点到这
+"it" "arrived" "on" "time"
+一特额锐五昂太母
+yi te e rui wu ang tai mu
+航班被取消了
+"it" "has" "been" "canceled"
+一特海思宾看搜的
+yi te hai si bin kan sou de
+请问33666号航班会准时到吗
+"will" "flight" "no" "three" "three" "six" "six" "arrive" "on" "time"
+危未来特难伯岁岁赛克思赛克思额锐五的昂太母
+wei wei lai te nan bo sui sui sai ke si sai ke si e rui wu de ang tai mu
+我来接您去您的饭店
+"i" "came" "to" "pick" "you" "up" "to" "your" "hotel"
+爱康母兔皮克又阿普兔又儿后跳
+ai kang mu tu pi ke you a pu tu you er hou tiao
+您是King先生吗
+"are" "you" "mr" "king"
+啊又密思特克英
+a you mi si te ke ying
+您旅途还好吗
+"how" "was" "your" "trip"
+号沃思又儿吹普
+hao wo si you er chui pu
+让我帮您拿行李
+"let" "me" "help" "you" "with" "your" "luggage"
+来特密嘿一奥普又危思又儿拉给只
+lai te mi hei yi ao pu you wei si you er la gei zhi
+这边请我的车在外面等
+"this" "way" "please" "my" "car" "is" "outside"
+迪思危普利思卖卡意思奥赛的
+di si wei pu li si mai ka yi si ao sai de
+客房预订部可以为你效劳吗
+"room" "reservation" "can" "i" "help" "you"
+入母锐色危神思着爱嘿一奥普又
+ru mu rui se wei shen si zhe ai hei yi ao pu you
+但我想订俩个晚上的单人房一闽行吗
+"do" "you" "have" "one" "single" "room" "for" "two" "nights"
+杜又海夫完思英够入母佛兔耐思
+du you hai fu wan si ying gou ru mu fu tu nai si
+我想订个房间
+"i'd" "like" "to" "reserve" "a" "room"
+爱的来克兔锐色五额入母
+ai de lai ke tu rui se wu e ru mu
+您希望住几晚
+"how" "many" "nights" "do" "you" "wish" "to" "stay"
+号曼尼耐特杜又危失兔思带
+hao man ni nai te du you wei shi tu si dai
+房租是多少钱
+"how" "much" "is" "the" "room"
+号马吃意思的入母
+hao ma chi yi si de ru mu
+要订在什么时候
+"which" "date" "will" "that" "be"
+危吃带特危带特比
+wei chi dai te wei dai te bi
+能告诉我您的姓名吗
+"may" "i" "know" "your" "name"
+妹爱呢欧又儿内母
+mei ai ne ou you er nei mu
+请问怎么拼写
+"how" "do" "you" "spell" "that"
+号杜又思白油带特
+hao du you si bai you dai te
+我来查一下是否有空房间
+"i" "will" "check" "our" "room" "availability"
+爱危拆克奥儿入母额走乐比利替
+ai wei chai ke ao er ru mu e zou le bi li ti
+让您久等了先生
+"thank" "you" "for" "waiting" "sir"
+三克油佛危听色
+san ke you fu wei ting se
+我会晚一点到达请保留我预定的房间
+"i" "will" "arrive" "late" "but" "please" "keep" "my" "reservation"
+爱危额锐五累特巴特普利思开普卖锐色危神
+ai wei e rui wu lei te ba te pu li si kai pu mai rui se wei shen
+我想再确认一下您的预定
+"i'd" "like" "to" "confirm" "your" "reservation"
+爱的来克兔康佛母又儿锐色危神
+ai de lai ke tu kang fu mu you er rui se wei shen
+我想要一间安静一点的房间
+"i'd" "like" "a" "quiet" "room"
+爱的来克额快儿特入母
+ai de lai ke e kuai er te ru mu
+我想要一间视野好的房间
+"i'd" "like" "a" "room" "with" "a" "nice" "view"
+爱的来克额入母危思额奈思危
+ai de lai ke e ru mu wei si e nai si wei
+是否还有更大的房间
+"do" "you" "have" "anything" "bigger"
+杜又海夫安尼思一英比格
+du you hai fu an ni si yi ying bi ge
+欢迎下榻我们酒店
+"welcome" "to" "our" "hotel"
+危儿康母兔奥儿后跳
+wei er kang mu tu ao er hou tiao
+我想办理入住登记
+"i'd" "like" "to" "check" "in"
+爱的来克兔拆克英
+ai de lai ke tu chai ke ying
+我给您登记
+"i'll" "process" "your" "check" "in"
+爱危泼赛思又儿拆克英
+ai wei po sai si you er chai ke ying
+我来帮您拿行李
+"let" "me" "help" "you" "with" "your" "luggage"
+来特密嘿一奥普又危思又儿拉给只
+lai te mi hei yi ao pu you wei si you er la gei zhi
+他带您上楼去房间
+"he" "goes" "to" "take" "you" "up" "to" "your" "room"
+嘿够思兔带克又奥普兔又儿入母
+hei gou si tu dai ke you ao pu tu you er ru mu
+这是全部东西吗先生
+"is" "this" "everything" "sir"
+意思迪思爱危思一英色
+yi si di si ai wei si yi ying se
+请问您的房间号码
+"what's" "your" "room" "number" "please"
+沃思又儿入母难伯普利思
+wo si you er ru mu nan bo pu li si
+我预定了房间姓名是lee
+"i" "have" "a" "reservation" "under" "the" "name" "lee"
+爱海夫额锐色危神昂的的内母李
+ai hai fu e rui se wei shen ang de de nei mu li
+您觉得这个房间怎么样
+"how" "do" "you" "like" "this" "room"
+号杜又来克迪思入母
+hao du you lai ke di si ru mu
+房闽很宽敲
+"it's" "quite" "spacious"
+意思快特思被舍思
+yi si kuai te si bei she si
+这是电灯开关
+"here's" "the" "light" "switch"
+嘿儿思的来特思危吃
+hei er si de lai te si wei chi
+这儿是壁柜那儿是浴室
+"here's" "the" "closet" "and" "there's" "the" "bathroom"
+嘿儿思的克劳西特安的在儿思则巴思入母
+hei er si de ke lao xi te an di zai er si ze ba si ru mu
+您办完入住手续了么
+"have" "you" "got" "through" "with" "the" "check" "in" "procedure"
+海夫又高特思入危思的拆克英泼西者
+hai fu you gao te si ru wei si de chai ke ying po xi zhe
+乘电梯到三楼
+"take" "the" "lift" "to" "the" "third" "floor"
+太克的利夫特兔则色的夫老
+tai ke de li fu te tu ze se de fu lao
+电梯间在大厅靠大门外
+"the" "lifts" "are" "in" "the" "lobby" "near" "the" "main" "entrance"
+的利夫思啊英的老比尼儿的妹思安春思
+de li fu si a ying de lao bi ni er de mei si an chun si
+我可以看一下您的房卡吗
+"could" "i" "have" "a" "look" "at" "your" "room" "card"
+酷的爱海夫额路克爱特又儿入母卡的
+ku de ai hai fu e lu ke ai te you er ru mu ka de
+如果你有什么请叫房间服务
+"if" "you" "need" "anything" "else" "please" "call" "room" "service"
+一夫又尼的安尼思一英埃儿思普利思扣入母色危思
+yi fu you ni de an ni si yi ying ai er si pu li si kou ru mu se wei si
+您还有什么事要我做吗
+"is" "there" "anything" "i" "can" "do" "for" "you"
+意思带儿安尼思一英爱看杜佛又
+yi si dai er an ni si yi ying ai kan du fu you
+是否可代为保管贵重物品
+"could" "you" "keep" "my" "valuables"
+酷的又凯普卖外流波思
+ku de you kai pu mai wai liu bo si
+餐厅在那儿
+"where" "is" "the" "dining" "room"
+危尔意思的带宁入母
+wei er yi si de dai ning ru mu
+餐厅几点开始营业
+"what" "time" "does" "the" "dining" "room" "open"
+沃特太母大思的带宁入母哦盆
+wo te tai mu da si de dai ning ru mu o pen
+您可以给前台打电话要求叫醒服务
+"you" "can" "call" "the" "receptionist" "to" "arrange" "for" "a" "wake" "up" "call" "if" "you" "like"
+又看扣的锐事普神尼思特兔额软只佛额危克阿普扣一夫又来克
+you kan kou de rui shi pu shen ni si te tu e ruan zhi fu e wei ke a pu kou yi fu you lai ke
+能给我换个房间吗
+"can" "you" "change" "the" "room" "for" "me"
+看又产只的入母佛密
+kan you chan zhi de ru mu fu mi
+这灯光太暗了请给我换个亮的
+"the" "light" "is" "tco" "dim" "please" "get" "me" "a" "brighter" "one"
+的来特意思兔低母普利思盖特密额不锐特克
+de lai te yi si tu di mu pu li si gai te mi e bu rui te ke
+我想预订旱点
+"i" "would" "like" "to" "order" "breakfast"
+爱五的来克兔奥的不锐克佛思特
+ai wu de lai ke tu ao de bu rui ke fu si te
+我需要叫醒服务
+"i" "need" "a" "wake" "up" "call"
+爱尼的额危克阿普扣
+ai ni de e wei ke a pu kou
+我房间里的抽水马桶好像出了点毛病
+"there" "seems" "to" "be" "something" "wrong" "with" "the" "toilet"
+带儿思一母思兔比桑思一英如昂危思的讨一利特
+dai er si yi mu si tu bi sang si yi ying ru ang wei si de tao yi li te
+我们会马上派人来修的
+"we'll" "send" "someone" "to" "repair" "it" "immediately"
+危桑德桑完兔锐拍儿一特英密低儿特利
+wei sang de sang wan tu rui pai er yi te ying mi di er te li
+我去请电工来
+"i'll" "send" "for" "an" "electrician"
+爱危三德佛安伊来克吹神
+ai wei san de fu an yi lai ke chui shen
+这儿什么时候退房？
+"when" "is" "the" "check" "out" "time" "here"
+问意思的拆克奥特太母嘿儿
+wen yi si de chai ke ao te tai mu hei er
+下午两点退房
+"checkout" "time" "is" "two" "o'clock"
+拆元奥特太母意思兔
+chai yuan ao te tai mu yi si tu
+我想现在结账
+"i'd" "like" "to" "pay" "my" "bill" "now"
+爱的来克兔陪卖比又闹
+ai de lai ke tu pei mai bi you nao
+请问您的姓名和房间号码
+"your" "name" "and" "room" "number" "please"
+又儿内母安的入母难伯普利思
+you er nei mu an di ru mu nan bo pu li si
+这里可使用旅行支票吗
+"do" "you" "accept" "traveler's" "checks"
+杜又额克赛普特踹沃乐思拆克思
+du you e ke sai pu te chuai wo le si chai ke si
+请给我账单好吗？
+"can" "i" "have" "my" "bill" "please"
+看爱海夫卖比又普利思
+kan ai hai fu mai bi you pu li si
+一共4个晚上每晚90元
+"four" "nights" "at" "ninety" "dollars" "each"
+佛耐思爱特耐替到乐思一尺
+fu nai si ai te nai ti dao le si yi chi
+总共是660元
+"that" "makes" "a" "total" "of" "five" "hundred" "dollars"
+带特妹克思额透透奥夫发五到乐思
+dai te mei ke si e tou tou ao fu fa wu dao le si
+请您在这里签名
+"please" "sign" "your" "name" "here"
+普利思赛恩又儿内母嘿儿
+pu li si sai en you er nei mu hei er
+这是收取报纸的费用
+"this" "amount" "under" "newspapers"
+迪思额忙特昂的牛思陪泼
+di si e mang te ang de niu si pei po
+祝你生日快乐
+"happy" "birthday" "to" "you"
+黑皮波思带兔又
+hei pi bo si dai tu you
+你想参加我的生日宴会吗
+"would" "you" "like" "to" "join" "my" "birthday" "party"
+五的又来克兔卓英卖波思带帕替
+wu de you lai ke tu zhuo ying mai bo si dai pa ti
+我想买个生日礼物送给筒
+"i" "want" "to" "buy" "a" "birthday" "gift" "for" "jane"
+爱忘特兔白领波思带给夫特佛站
+ai wang te tu bai ling bo si dai gei fu te fu zhan
+你们会怎么庆祝生日呢
+"how" "do" "you" "celebrate" "the" "birthday"
+号杜义事乐不锐特则波思带
+hao du yi shi le bu rui te ze bo si dai
+今天我过生日
+"it's" "my" "birthday"
+意思卖波思带
+yi si mai bo si dai
+我想请你参加我妻子的生日聚会
+"i'd" "like" "to" "invite" "you" "to" "my" "wife's" "birthday" "party"
+爱的来克兔英外特又兔卖外夫思波思带帕替
+ai de lai ke tu ying wai te you tu mai wai fu si bo si dai pa ti
+她的生日是在9号
+"her" "birthday" "is" "on" "the" "ninth"
+喝波思带意思昂则耐思
+he bo si dai yi si ang ze nai si
+这是送给你的生日礼物
+"here's" "your" "birthday" "gift"
+嘿儿思又儿波思带给夫特
+hei er si you er bo si dai gei fu te
+我只想要个简单的生日晚会
+"i" "just" "want" "a" "simple" "birthday" "party"
+爱加思特忘特额思一英泼波思带帕替
+ai jia si te wang te e si yi ying po bo si dai pa ti
+汤姆的生日就在这个星期
+"tom's" "birthday" "is" "this" "week"
+汤母思波思带意思则一思危克
+tang mu si bo si dai yi si ze yi si wei ke
+这是送给你的
+"this" "is" "for" "you"
+迪思意思佛又
+di si yi si fu you
+这真是个叫人大开眼界的生日晚会啊
+"this" "birthday" "party" "is" "a" "real" "eye" "opener"
+迪思波思带帕替意思额锐又爱哦盆儿
+di si bo si dai pa ti yi si e rui you ai o pen er
+那该谁来帮你办生日晚会呢
+"who's" "going" "to" "organize" "your" "party"
+胡思够英兔奥格条思又儿帕替
+hu si gou ying tu ao ge tiao si you er pa ti
+你许愿了吗
+"did" "you" "make" "a" "wish"
+低的又妹克额危失
+di de you mei ke e wei shi
+请接受我最衷心的祝愿
+"please" "accept" "my" "hearty" "congratulations"
+普利思额克赛普卖哈替充乖就累神思
+pu li si e ke sai pu mai ha ti chong guai jiu lei shen si
+咱们为玛丽的生日干杯
+"let's" "have" "a" "toast" "to" "celebrate" "mary's" "birthday"
+来思海夫额头思特兔赛乐不锐种迈瑞思波思带
+lai si hai fu e tou si te tu sai le bu rui zhong mai rui si bo si dai
+圣诞快乐
+"merry" "christmas"
+迈瑞克锐思莫思
+mai rui ke rui si mo si
+圣诞马上就到了
+"it's" "almost" "christmas"
+意思奥莫思特克锐思莫思
+yi si ao mo si te ke rui si mo si
+圣诞节你要买什么送我
+"what" "are" "you" "going" "to" "buy" "me" "for" "christmas"
+沃特啊又够英兔白密佛克锐思英思
+wo te a you gou ying tu bai mi fu ke rui si ying si
+我不怎么过圣诞节
+"i" "don't" "really" "celebrate" "christmas"
+爱东特锐儿利赛乐不锐特克锐思莫思
+ai dong te rui er li sai le bu rui te ke rui si mo si
+每个人都庆祝圣诞节
+"everyone" "celebrates" "christmas"
+爱危完赛乐不锐思克锐思莫思
+ai wei wan sai le bu rui si ke rui si mo si
+我给一些朋友买小礼物
+"i" "bought" "small" "gifts" "for" "some" "friends"
+爱波特思莫给夫思佛桑夫软兹
+ai bo te si mo gei fu si fu sang fu ruan zi
+我喜欢圣诞节
+"i" "love" "christmas"
+爱拉五克锐思莫思
+ai la wu ke rui si mo si
+送礼物和咱老歌是圣诞节的两种主要活
+"gifts" "and" "corny" "songs" "are" "the" "two" "main" "christmas" "activities"
+给夫思安的扣你桑思啊则兔妹思克锐思莫思艾克替危替思
+gei fu si an di kou ni sang si a ze tu mei si ke rui si mo si ai ke ti wei ti si
+整个世界都在为圣诞节而疯狂
+"the" "whole" "world" "has" "gone" "christmas" "mad"
+则后沃的海思刚克锐思莫思卖的
+ze hou wo di hai si gang ke rui si mo si mai de
+我无论在哪里都能看到圣诞装饰品
+"i" "see" "christmas" "decorations" "everywhere"
+爱西克锐思莫思带克锐神思爱危危儿
+ai xi ke rui si mo si dai ke rui shen si ai wei wei er
+送你这件小礼物作为友谊的表示吧·
+"here's" "a" "little" "token" "of" "my" "affection"
+嘿儿思额利进头肯奥夫卖额飞克神
+hei er si e li jin tou ken ao fu mai e fei ke shen
+你的圣诞卡寄走了吗
+"have" "you" "sent" "your" "christmas" "cards" "yet"
+海夫又马思特三特又儿克锐思莫思卡思耶特
+hai fu you ma si te san te you er ke rui si mo si ka si ye te
+那圣诞购物呢
+"what" "about" "your" "christmas" "shopping"
+沃特额抱特又儿克锐思莫思少平
+wo te e bao te you er ke rui si mo si shao ping
+我两周以前把卡寄出去的
+"i" "posted" "christmas" "cards" "weeks" "ago"
+爱剖思替的克锐思莫思卡思危克思额够
+ai pou si ti de ke rui si mo si ka si wei ke si e gou
+希望你能在圣诞节前收到这张卡片
+"i" "hope" "this" "card" "reaches" "you" "in" "time" "for" "christmas"
+爱后普迪思卡的锐吃思又英太母思佛克锐思莫思
+ai hou pu di si ka de rui chi si you ying tai mu si fu ke rui si mo si
+为你和你的家人献上诚挚的祝福
+"wish" "you" "and" "your" "family" "all" "our" "blessings"
+危失又安的又儿法米利奥奥儿不来思英思
+wei shi you an di you er fa mi li ao ao er bu lai si ying si
+你最喜欢圣诞季节的哪一个方面
+"what" "is" "your" "favorite" "aspect" "of" "the" "christmas"
+沃特意思又儿发沃锐特额思白科特奥夫则克锐思莫思
+wo te yi si you er fa wo rui te e si bai ke te ao fu ze ke rui si mo si
+圣诞节可不光是给朋友和家人买礼物
+"christmas" "is" "much" "more" "than" "just" "buying" "gifts" "for" "your" "friends" "and" "family"
+克锐思莫思意思马吃莫但加思特白英给夫思佛又儿夫软兹安的法米利
+ke rui si mo si yi si ma chi ying dan jia si te bai ying gei fu si fu you er fu ruan zi an di fa mi li
+情人节快乐
+"happy" "valentine's" "day"
+黑皮外棱太思带
+hei pi wai leng tai si dai
+今天情人节
+"it's" "valentine's" "day" "today"
+意思外棱太思带特带
+yi si wai leng tai si dai te dai
+情人节人们干什么
+"what" "do" "people" "usually" "do" "in" "saint" "valentine's" "day"
+沃特杜皮波又若利杜昂二特外棱太思带
+wo te du pi bo you ruo li du ang er te wai leng tai si dai
+那天小伙子们给自己的情人送玫瑰花
+"on" "that" "day" "boys" "give" "roses" "to" "their" "sweethearts"
+昂带特带波危思给五肉赛思兔在儿思危特哈思
+ang dai te dai bo wei si gei wu rou sai si tu zai er si wei te ha si
+女孩们回送巧克力
+"girls" "give" "chocolate" "in" "return"
+格肉思给五抄克利特英锐疼
+ge rou si gei wu chao ke li te ying rui teng
+情人节快到了
+"the" "valentine's" "day" "is" "approaching"
+则外棱太思带意思额剖吃英
+ze wai leng tai si dai yi si e pou chi ying
+你没有注意到到处都是玫瑰花吗
+"didn't" "you" "notice" "all" "the" "roses"
+低等特又呢欧替思奥则肉赛思
+di deng te you ne ou ti si ao ze rou sai si
+我忘记了情人节
+"i" "forgot" "about" "valentine's" "day"
+爱佛高特额抱特外棱太思带
+ai fu gao te e bao te wai leng tai si dai
+送你一张情人卡
+"here" "is" "a" "card" "for" "you"
+嘿儿意思额卡的佛又
+hei er yi si e ka de fu you
+你收到我的花了吗
+"have" "you" "got" "my" "flowers"
+海五又高特卖夫老沃思
+hai wu you gao te mai fu lao wo si
+谢谢你给我那么好的礼物
+"thanks" "very" "much" "for" "the" "wonderful" "gift"
+三克油危锐马吃佛则完的佛给夫特
+san ke you wei rui ma chi fu ze wan de fu gei fu te
+情人节又到了
+"valentine's" "day" "is" "here" "again"
+外棱太思带意思嘿儿额千
+wai leng tai si dai yi si hei er e qian
+过年了
+"it's" "spring" "festival"
+意思思普润发丝替沃
+yi si si pu run fa si ti wo
+新年好
+"happy" "new" "year"
+黑皮牛耶
+hei pi niu ye
+今年春节你要干什么
+"what" "will" "you" "do" "this" "spring" "festival"
+沃特危又杜迪思思普润发丝替沃
+wo te wei you du di si si pu run fa si ti wo
+你们是不是对春节更重视一些
+"do" "you" "attach" "more" "importance" "to" "spring" "festival"
+杜又额谈的莫英泼疼思兔思普润发丝替沃
+du you e tan de mo ying po teng si tu si pu run fa si ti wo
+春节是中国最重要的传统节日
+"spring" "festival" "is" "the" "most" "important" "traditional" "festival"
+思普润发丝替沃意思则莫思特英泼疼特吹低神呢欧发丝替沃
+si pu run fa si ti wo yi si ze mo si te ying po teng te chui di shen ne ou fa si ti wo
+过春节都有什么讲究吗
+"do" "you" "do" "anything" "special" "on" "spring" "festival"
+杜又杜安尼思一英思白收昂思普润发丝替沃
+du you du an ni si yi ying si bai shou ang si pu run fa si ti wo
+家家要贴春联
+"every" "family" "hangs" "up" "spring" "festival" "couplets"
+爱危法米利汉思阿普思普润发丝替沃考普利思
+ai wei fa mi li han si a pu si pu run fa si ti wo kao pu li si
+除夕是大革三十儿吗
+"spring" "festival" "eve" "is" "the" "last" "day" "of" "the" "lunar" "year" "right"
+思普润发丝替沃一五意思则拉思特带奥夫则路呢耶锐特
+si pu run fa si ti wo yi wu yi si ze la si te dai ao fu ze lu ne ye rui te
+是不是还要包饺子
+"do" "you" "need" "to" "make" "dumplings"
+杜又尼的兔妹克当普灵思
+du you ni de tu mei ke dang pu ling si
+一家人要聚在一起吃团圆饭
+"the" "whole" "family" "gets" "together" "for" "a" "reunion" "dinner"
+则后法米利盖思特盖的佛额锐又尼恩低呢
+ze hou fa mi li gai si te gai de fu e rui you ni en di ne
+我能去放鞭炮吗
+"can" "i" "go" "to" "set" "off" "firecrackers"
+看爱够兔葬特奥夫发儿快克思
+kan ai gou tu zang te ao fu fa er kuai ke si
+昨天晚上的比赛真精彩
+"the" "game" "last" "night" "was" "really" "exciting"
+则给母拉思特奈特沃思锐儿利一刻赛听
+ze gei mu la si te nai te wo si rui er li yi ke sai ting
+有什么好球吗
+"any" "good" "goals"
+安尼古德够思
+an ni gu de gou si
+你知道世界杯的赛程吗
+"do" "you" "have" "the" "schedule" "for" "the" "world" "cup"
+杜又海夫则思盖就佛则沃的卡普
+du you hai fu ze si gai jiu fu ze wo de ka pu
+比赛从8月6号到8月23号
+"the" "matches" "will" "be" "held" "from" "august" "sixth" "to" "the" "twenty" "third"
+则卖吃思危比海又的佛昂奥格思特赛克思兔则团替色的
+ze mai chi si wei bi hai you de fu ang ao ge si te sai ke si tu ze tuan ti se de
+一共13场比赛
+"there" "will" "be" "thirteen" "matches" "in" "all"
+在儿危比色听卖吃思英奥
+zai er wei bi se ting mai chi si ying ao
+决赛是哪天
+"do" "you" "know" "when" "the" "finals" "will" "be"
+杜又呢欧问则发呢欧思危比
+du you ne ou wen ze fa ne ou si wei bi
+你支持哪支球队
+"which" "team" "do" "you" "root" "for"
+危吃替母杜又入特佛
+wei chi ti mu du you ru te fu
+我是阿根廷的铁杆球迷
+"i" "am" "a" "big" "fan" "of" "argentina"
+爱安母额比格范奥夫啊真听那
+ai an mu e bi ge fan ao fu a zhen ting na
+你最喜欢哪个队
+"what" "is" "your" "favorite" "team"
+沃特意思又儿发锐特替母
+wo te yi si you er fa rui te ti mu
+会不会出现点球决胜呢
+"is" "this" "going" "to" "be" "a" "penalty" "shootout"
+意思迪思够英兔比额盘呢欧替书特奥特
+yi si di si gou ying tu bi e pan ne ou ti shu te ao te
+葡萄牙二比零战胜了伊朗
+"portugal" "beat" "iran" "two" "to" "zero"
+泼抽够比特一如昂兔兔哦
+po chou gou bi te yi ru ang tu tu o
+葡萄牙有希望晋级了
+"portugal" "can" "advance" "to" "the" "second" "round"
+泼抽够看额的忘思兔则赛肯德如昂的
+po chou gou kan e de wang si tu ze sai ken de ru ang de
+今天这场比赛看得真憋气
+"today's" "game" "was" "pretty" "lousy"
+特带思给母沃思普锐替老兹
+te dai si gei mu wo si pu rui ti lao zi
+那些队员水平越来越差了
+"those" "players" "are" "getting" "worse" "and" "worse"
+斗思普累思啊盖听沃思安的沃思
+dou si pu lei si a gai ting wo si an di wo si
+看来点球大战不可避免了
+"it" "seems" "that" "a" "shootout" "is" "inevitable"
+一特思一母思带特额书特奥特意思英耐危特波
+yi te si yi mu si dai te e shu te ao te yi si ying nai wei te bo
+我想炒股
+"i" "want" "to" "buy" "some" "stock"
+爱忘特兔白桑思到克
+ai wang te tu bai sang si dao ke
+我也一直炒股呢
+"i'm" "trading" "too"
+爱母吹定兔
+ai mu chui ding tu
+我看好百度
+"i" "think" "baidu" "looks" "promising"
+爱思一英克拜读路克思泼密思英
+ai si yi ying ke bai du lu ke si po mi si ying
+我打算把钱都放在上面大赚一笔
+"i'm" "going" "to" "put" "all" "my" "money" "in" "it" "and" "make" "a" "big" "profit"
+爱母够英兔普特奥卖忙尼英一特安的妹克额比格泼飞特
+ai mu gou ying tu pu te ao mai mang ni ying yi te an di mei ke e bi ge po fei te
+千万不要孤注一掷
+"don't" "put" "all" "your" "eggs" "in" "one" "basket"
+东特普特奥又儿爱格思英元巴思开特
+dong te pu te ao you er ai ge si ying yuan ba si kai te
+你需要分散投资股票
+"you" "need" "to" "diversify" "your" "portfolio"
+又尼的兔带沃西发又儿波特佛理奥
+you ni de tu dai wo xi fa you er bo te fu li ao
+昨天大盘离开
+"yesterday" "the" "share" "market" "rose" "sharply"
+耶思特带则晒儿马凯特肉丝沙普利
+ye si te dai ze shai er ma kai te rou si sha pu li
+下午股市跳水
+"the" "share" "market" "slumped" "in" "the" "afternoon"
+别瞄儿马凯特思浪普德英则啊夫特呢欧
+bie miao er ma kai te si lang pu de ying ze a fu te ne ou
+好多人都割肉搬出股市了
+"a" "lot" "of" "people" "have" "suffered" "to" "pull" "out"
+额劳特奥夫皮泼海夫萨佛的兔普奥特
+e lao te ao fu pi po hai fu sa fu de tu pu ao te
+有没有人分析近期股市的走势
+"is" "there" "anybody" "analyzing" "the" "stock" "tendency"
+意思在儿安尼包低安呢来思英则思到克谈等思
+yi si zai er an ni bao di an ne lai si ying ze si dao ke tan deng si
+等经济回暖后股市肯定大涨
+"the" "share" "market" "will" "rise" "after" "the" "economic" "recovery"
+则晒儿马凯特危锐思额夫特则一克呢欧密锐卡沃锐
+ze shai er ma kai te wei rui si e fu te ze yi ke ne ou mi rui ka wo rui
+让我们来践行低碳生活方式吧
+"let's" "put" "the" "low" "carbon" "lifestyle" "into" "practice"
+来思普特的漏卡本来夫思掉儿英兔拍克替思
+lai si pu te de lou ka ben lai fu si diao er ying tu pai ke ti si
+每个人都应该对自己日常活动所产生的温室气体负责
+"everyone" "is" "responsible" "for" "the" "greenhouse" "gases" "we" "emit" "in" "our" "daily" "actions"
+爱危完意思锐思帮色波佛则格润号思盖思危一密特英奥儿带利爱克神思
+ai wei wan yi si rui si bang se bo fu ze ge run hao si gai si wei yi mi te ying ao er dai li ai ke shen si
+我们如何减少碳排版量
+"how" "can" "we" "work" "to" "reduce" "it"
+号看危沃克兔锐丢思一特
+hao kan wei wo ke tu rui diu si yi te
+所有机动化的外出旅行都会产生二氧化碳
+"all" "motorized" "travel" "is" "carbon" "intensive"
+奥莫特锐西吹我意思卡本英谈西五
+ao mo te rui xi chui wo yi si ka ben ying tan xi wu
+食品生产耗能巨大
+"food" "production" "eats" "up" "lots" "of" "energy"
+夫的泼大克神一思啊普老思奥夫安呢季
+fu de po da ke shen yi si a pu lao si ao fu an ne ji
+只买适量的食物
+"only" "buy" "the" "amount" "of" "food" "you" "need"
+昂尼白则额忙特奥夫夫的又尼的
+ang ni bai ze e mang te ao fu fu de you ni de
+切记要适用自己的饭盒避免用一次性饭盒
+"remember" "to" "take" "your" "own" "container" "to" "avoid" "using" "a" "disposable" "carton"
+锐曼伯兔带克又儿昂亢谈呢兔额沃一的又思英额低思泼色波卡疼
+rui man bo tu dai ke you er ang kang tan ne tu e wo yi de you si ying e di si po se bo ka teng
+洗餐具时要注意用水方法
+"pay" "attention" "to" "how" "you" "use" "water" "when" "washing" "your" "dishes"
+陪额诙神兔号又又思沃特问沃失英又儿低失思
+pei e hui shen tu hao you you si wo te wen wo shi ying you er di shi si
+取消不必要的打印工作
+"only" "print" "things" "out" "when" "necessary"
+昂尼普锐特思一英思奥特问耐色色锐
+ang ni pu rui te si yi ying si ao te wen nai se se rui
+使用节能灯泡节省能源
+"conserve" "energy" "by" "using" "efficient" "light" "bulbs"
+亢色五安呢季白又思英一飞神特来特包不思
+kang se wu an ne ji bai you si ying yi fei shen te lai te bao bu si
+切记不要把热的食物放进冰箱
+"don't" "put" "food" "in" "when" "it's" "still" "warm"
+东特普特夫的英问意思思丢沃母
+dong te pu te fu de ying wen yi si si diu wo mu
+我要减肥
+"i" "want" "to" "lose" "some" "weight"
+爱忘特兔路思桑危特
+ai wang te tu lu si sang wei te
+我运动是为了藏肥
+"i" "do" "exercise" "to" "lose" "some" "weight"
+爱杜埃克思赛思兔路思桑危特
+ai du ai ke si sai si tu lu si sang wei te
+我真的需要减肥了
+"i" "really" "need" "to" "lose" "some" "weight"
+爱锐儿利尼的兔路思桑危特
+ai rui er li ni de tu lu si sang wei te
+我应该节食
+"i" "should" "go" "on" "a" "diet"
+爱舒的够昂额在儿特
+ai shu de gou ang e zai er te
+我希望慢跑能使我减肥
+"i" "hope" "jogging" "can" "keep" "my" "weight" "down"
+爱后普找个英看凯普卖危特当
+ai hou pu zhao ge ying kan kai pu mai wei te dang
+我在厉行节食
+"i" "am" "on" "a" "strict" "diet" "so" "i" "cannot" "indulge"
+爱安母昂额意思追克特在儿特搜爱看呢欧特英到只
+ai an mu ang e yi si zhui ke te zai er te sou ai kan ne ou te ying dao zhi
+今天你就开怀痛吃吧
+"break" "your" "diet" "today"
+不锐克又儿在儿特特带
+bu rui ke you er zai er te te dai
+游泳能帮我减肥吗
+"can" "swimming" "help" "me" "lose" "weight"
+看思危名嘿一奥普密路思危特
+kan si wei ming hei yi ao pu mi lu si wei te
+游泳能使你保持匀称的身材
+"swimming" "can" "help" "you" "stay" "in" "shape"
+思危名看嘿一奥普又思带英舍普
+si wei ming kan hei yi ao pu you si dai ying she pu
+有人向我推荐一种减肥茶
+"somebody" "recommended" "i" "to" "try" "a" "diet" "tea"
+桑包低锐亢门的爱兔踹额在儿特替
+sang bao di rui kang men de ai tu chuai e zai er te ti
+你说那真能使我变瘦吗
+"do" "you" "think" "it" "will" "help" "me" "lose" "weight"
+杜又思一英克一特龙嘿一奥普密路思危特
+du you si yi ying ke yi te long hei yi ao pu mi lu si wei te
+我减了十斤
+"i" "have" "lost" "about" "five" "kilos"
+爱海夫老思特额抱特发五开满思
+ai hai fu lao si te e bao te fa wu kai man si
+我们有-些局部减肥的方法
+"we" "have" "several" "methods" "to" "slim" "certain" "parts" "of" "your" "body"
+危海夫赛沃若卖者思兔思利母色疼怕思奥夫又儿包低
+wei hai fu sai wo ruo mai zhe si tu si li mu se teng pa si ao fu you er bao di
+我觉得最好能配合节食和运动效果会更好
+"i" "think" "it" "would" "work" "better" "with" "diet" "and" "exercise"
+爱思一英克一特五的沃克白特危思在儿特安的艾克色赛思
+ai si yi ying ke yi te wu de wo ke bai te wei si zai er te an di ai ke se sai si
+我从没试过网购
+"i've" "never" "tried" "e" "shopping"
+爱无耐沃太儿的一少普英
+ai wu nai wo tai er de yi shao pu ying
+要问店主什么呀
+"what" "should" "we" "ask" "the" "shopkeeper"
+沃特舒的危啊思克的少普开泼
+wo te shu de wei a si ke de shao pu kai po
+不用出门就能买到东西真的很方便
+"it's" "really" "convenient" "to" "shop" "from" "home"
+意思锐儿利亢危尼恩特兔少普佛昂后母
+yi si rui er li kang wei ni en te tu shao pu fu ang hou mu
+我们给他发邮,砍砍价
+"we" "can" "e" "mail" "the" "seller" "when" "we" "get" "home" "and" "bargain" "a" "little"
+危看一妹儿则赛乐问危盖特后母安的吧格英额利透
+wei kan yi mei er ze sai le wen wei gai te hou mu an di ba ge ying e li tou
+我总是担心网上支付的安全问题
+"i" "worry" "about" "identity" "theft" "online"
+爱沃锐额抱特爱等替替赛夫特昂来恩
+ai wo rui e bao te ai deng ti ti sai fu te ang lai en
+网上卖的东西会不会有假的
+"what" "about" "counterfeit" "goods"
+沃特额抱特亢特费特古思
+wo te e bao te kang te fei te gu si
+买之前一定慎重选择
+"you" "have" "to" "be" "careful" "when" "you" "shop"
+又海夫兔比开儿佛危问又少普
+you hai fu tu bi kai er fu wei wen you shao pu
+网上商晶的质量能有保证吗
+"can" "the" "quality" "of" "goods" "online" "be" "guaranteed"
+看别扣利替奥夫古思昂来思比盖润替的
+kan bie kou li ti ao fu gu si ang lai si bi gai run ti de
+网上购物的价格般比较低
+"prices" "are" "often" "relatively" "lower" "online"
+普锐思啊哦芬锐乐替五里涌儿昂来恩
+pu rui si a o fen rui le ti wu li yong er ang lai en
+整个交易过程只要几分钟
+"the" "whole" "transaction" "only" "takes" "a" "couple" "of" "minutes"
+则后传赛客神昂尼带克思额卡剖奥夫米尼思
+ze hou chuan sai ke shen ang ni dai ke si e ka pou ao fu mi ni si
+要用自己的电脑并只在信誉好的网站买东西
+"use" "your" "own" "computer" "and" "only" "visit" "encrypted" "sites"
+又思又儿昂亢普又特安的昂尼危兹特英亏普特喜思
+you si you er ang kang pu you te an di ang ni wei zi te ying kui pu te xi si
+这比在实体店购物好吗
+"is" "it" "better" "than" "shopping" "at" "an" "actual" "store"
+意思一特白特但少平爱特安爱克抽思到
+yi si yi te bai te dan shao ping ai te an ai ke chou si dao
+别弄洒了
+"don't" "spill" "it"
+东特思皮又一特
+dong te si pi you yi te
+我想打个盹
+"i'm" "going" "to" "take" "a" "nap"
+爱母够英兔带克额耐普
+ai mu gou ying tu dai ke e nai pu
+你们卖毛衣吗
+"do" "you" "have" "any" "sweater"
+杜又海夫安尼思外特
+du you hai fu an ni si wai te
+我这料子选得怎么样
+"how" "is" "the" "cloth" "i" "chose"
+号意思别克涌兹爱抽思
+hao yi si bie ke yong zi ai chou si
+我都惦记这裙子一整天了
+"i'd" "been" "thinking" "about" "this" "skirt" "all" "day"
+爱的宾思一英克英额抱特则一思思格特奥带
+ai de bin si yi ying ke ying e bao te ze yi si si ge te ao dai
+我要买正装鞋
+"i" "need" "some" "dress" "shoes"
+爱尼的桑拽思书思
+ai ni de sang zhuai si shu si
+在橱柜里
+"it's" "in" "the" "cabinet"
+意思英的开比内特
+yi si ying de kai bi nei te
+您是在这里吃还是带走
+"will" "you" "eat" "it" "here" "or" "take" "it" "out"
+危又一特嘿儿哦带克一特奥特
+wei you yi te hei er o dai ke yi te ao te
+没关系
+"it" "doesn't" "matter"
+一特大怎特卖特
+yi te da zen te mai te
+我想尝尝鱼和薯条
+"i'll" "try" "fish" "and" "chips"
+爱由踹飞失安的期普思
+ai you chuai fei shi an di qi pu si
+你有什么可以推荐的
+"what" "do" "you" "suggest"
+沃特杜又萨拽思特
+wo te du you sa zhuai si te
+我们何不各付各的
+"why" "don't" "we" "go" "dutch"
+外东特危够大吃
+wai dong te wei gou da chi
+你住什么类型的公寓？
+"what" "type" "of" "apartment" "do" "you" "live" "in"
+沃特泰普奥夫额柏特门特杜又利五英
+wo te tai pu ao fu e bai te men te du you li wu ying
+窗户要修了
+"the" "window" "needs" "repairing"
+的问斗尼思锐拍儿英
+de wen dou ni si rui pai er ying
+从这里到博物馆有几站呢
+"how" "many" "stops" "are" "there" "from" "here" "to" "the" "museum"
+号曼尼思到普思啊带儿佛母嘿儿兔的谬兹母
+hao man ni si dao pu si a dai er fu mu hei er tu de miu zi mu
+我的车票丢了你能再补发张吗
+"i" "lost" "my" "ticket" "could" "you" "issue" "me" "another"
+爱老思特卖替开特酷的又一书密安那得
+ai lao si te mai ti kai te ku de you yi shu mi an na de
+请在那个交叉口前停车
+"please" "stop" "before" "that" "intersection"
+普利思思到普比佛带特英特赛克神
+pu li si si dao pu bi fu dai te ying te sai ke shen
+我要下铺
+"i" "prefer" "a" "lower"
+爱泼佛额漏儿波思
+ai po fu e lou er bo si
+请让我看座位图
+"please" "show" "me" "the" "seating" "plan"
+普利思收密的西听普兰
+pu li si shou mi de xi ting pu lan
+对不起我把单子丢了o
+"sorry" "i" "lost" "my" "receipt"
+扫瑞爱劳思特卖锐西特
+sao rui ai lao si te mai rui xi te
+您看这样满意吗
+"is" "that" "satisfactory"
+思带特赛替思发克吹
+si dai te sai ti si fa ke chui
+给我来份晚报
+"give" "me" "a" "copy" "of" "the" "evening" "paper" "please"
+给五密额考皮奥夫的一文宁陪泼普利思
+gei wu mi e kao pi ao fu de yi wen ning pei po pu li si
+请你给我分开包装
+"will" "you" "wrap" "them" "up" "separately"
+危又外普但母阿普赛泼锐特利
+wei you wai pu dan mu a pu sai po rui te li
+请问你们卖有机蔬菜吗
+"do" "you" "sell" "organic" "vegetables" "here"
+杜又赛奥干尼克外只特波思嘿儿
+du you sai ao gan ni ke wai zhi te bo si hei er
+规矩点儿
+"behave" "yourself"
+比嘿五又儿赛夫
+bi hei wu you er sai fu
+新年那天所有亲戚都聚集在我家里
+"on" "new" "year's" "day" "all" "the" "relatives" "get" "together" "at" "my" "house"
+昂牛耶思带奥则锐乐替五思盖特特盖的爱特卖号思
+ang niu ye si dai ao ze rui le ti wu si gai te te gai de ai te mai hao si
+你换台试试
+"change" "the" "channel" "and" "check" "it" "out"
+产只的产呢欧安的拆克一特奥特
+chan zhi de chan ne ou an di chai ke yi te ao te
+那人挡住了我视线
+"that" "person" "is" "blocking" "my" "view"
+带特泼森意思不老克英卖危
+dai te po sen yi si bu lao ke ying mai wei
+现在轮到我了
+"now" "it's" "my" "turn"
+闹意思卖疼
+nao yi si mai teng
+我去网吧玩游戏
+"i" "go" "to" "the" "internet" "cafe" "to" "play" "online" "games"
+爱够兔的英特耐特开非兔普累昂来思给母思
+ai gou tu de ying te nai te kai fei tu pu lei ang lai si gei mu si
+私人教练会帮你找合适的运动器材
+"your" "personal" "trainer" "will" "find" "you" "suitable" "exercise" "equipment"
+又儿泼森呢欧吹呢危方的又苏特波埃克思睿思一亏普门特
+you er po sen ne ou chui ne wei fang de you su te bo ai ke si rui si yi kui pu men te
+我们去游泳吧
+"let's" "go" "swimming"
+来思够思危名
+lai si gou si wei ming
+瑜咖不只是给女孩练的
+"yoga" "is" "not" "only" "for" "girls"
+又嘎意思呢欧特昂尼佛够思
+you ga yi si ne ou te ang ni fo gou si
+你觉得昵
+"what" "do" "you" "think"
+沃特杜又思一英克
+wo te du you si yi ying ke
+你这是漫天要价
+"you" "are" "pricing" "yourself" "out" "of" "the" "market"
+又啊普锐思英又儿赛夫奥特奥夫则马凯特
+you a pu rui si ying you er sai fu ao te ao fu ze ma kai te
+我看下我的钱包
+"let" "me" "just" "check" "my" "wallet"
+来特密加思特拆克卖沃利特
+lai te mi jia si te chai ke mai wo li te
+有什么问题吗
+"what's" "the" "problem"
+沃思则泼不棱
+wo si ze po bu leng
+我还需要等多久
+"how" "long" "must" "i" "wait"
+号浪吗思特爱危特
+hao lang ma si te ai wei te
+很久才能恢复吗·
+"will" "it" "take" "long" "to" "recover"
+危一特带克龙兔锐卡沃锐
+wei yi te dai ke long tu rui ka wo rui
+它治感冒很有效
+"it" "is" "very" "effective" "for" "treating" "colds"
+一特意思非锐一发克神佛吹听扣兹
+yi te yi si fei rui yi fa ke shen fu chui ting kou zi
+只是封给我妈妈的包裹
+"it's" "just" "a" "package" "to" "my" "mother"
+意思加思特额拍开只兔卖马的
+yi si jia si te e pai kai zhi tu mai ma de
+我想汇千元钱
+"i" "want" "to" "remit" "one" "thousand" "yuan"
+爱忘特兔锐密特完扫怎的元
+ai wang te tu rui mi te wan sao zen di yuan
+要开一个支票存款账户我还要看你的护照
+"i" "need" "to" "see" "your" "passport" "to" "open" "a" "checking" "account" "here"
+爱尼的兔西又儿怕思泼特兔哦盆额拆克英额亢特嘿儿
+ai ni de tu xi you er pa si po te tu o pen e chai ke ying e kang te hei er
+我想兑换一些钱
+"i" "want" "to" "change" "some" "money"
+爱忘特兔产只桑忙尼
+ai wang te tu chan zhi sang mang ni
+卡号是111密码是333
+"the" "card" "number" "is" "one" "one" "one" "and" "the" "pin" "number" "is" "three" "three" "three"
+则卡的难伯意思完完完安的的拼难伯意思岁岁岁
+ze ka de nan bo yi si wan wan wan an di de pin nan bo yi si sui sui sui
+请告诉我去的路线
+"please" "show" "me" "the" "way"
+普利思收密则危
+pu li si shou mi ze wei
+我去过是挺不错的
+"i've" "been" "there" "and" "it's" "really" "nice"
+爱无宾在儿安的意思锐儿利耐思
+ai wu bin zai er an di yi si rui er li nai si
+我们想找一名私人导游
+"we" "want" "a" "private" "tour" "guide"
+危忘特额陪危特兔儿盖的
+wei wang te e pei wei te tu er gai de
+王府井大街有纪念品商店
+"there" "are" "some" "souvenir" "shops" "down" "on" "the" "wangfujing" "street"
+在儿啊桑苏沃捏儿少普思当昂则王府井思追特
+zai er a sang su wo nie er shao pu si dang ang ze wang fu jing si zhui te
+我想和朋友们分享这美景
+"i'd" "like" "to" "share" "this" "wonderful" "view" "with" "my" "friends"
+爱的来克兔晒儿则一思忘得佛危危思卖夫软兹
+ai de lai ke tu shai er ze yi si wang de fu wei wei si mai fu ruan zi
+说茄子
+"say" "cheese"
+赛期思
+sai qi si
+您能帮我预订那些班次吗
+"could" "you" "make" "a" "reservation" "for" "those" "flights"
+酷的又妹克额锐色危神佛斗恩夫来思
+ku de you mei ke e rui se wei shen fu dou en fu lai si
+欢迎乘坐伦敦飞往香港的126航班
+"welcome" "to" "flight" "one" "two" "six" "from" "london" "to" "hongkong"
+克儿康母兔夫来特完兔赛克思佛母伦敦兔香港
+ke er kang mu tu fu lai te wan tu sai ke si fu mu lun dun tu xiang gang
+我能用这辆行李车吗
+"can" "i" "use" "this" "baggage" "cart"
+看爱又思迪思白给只卡特
+kan ai you si di si bai gei zhi ka te
+您是旅游还是居住
+"are" "you" "a" "visitor" "or" "a" "resident"
+啊又额危兹特哦额锐西等特
+a you e wei zi te o e rui xi deng te
+您觉得累吗
+"do" "you" "feel" "tired"
+杜又飞太儿的
+du you fei tai er de
+你先请
+"after" "you" "please"
+啊夫特又普利思
+a fu te you pu li si
+随时都有热水供应吗
+"is" "hot" "water" "available" "any" "time"
+意思号特沃特额危乐波安尼太母
+yi si hao te wo te e wei le bo an ni tai mu
+明天是我的生日
+"tomorrow" "is" "my" "birthday"
+特毛肉意思卖波思带
+te mao rou yi si mai bo si dai
+祝你圣诞快乐
+"wish" "you" "a" "merry" "christmas"
+危失又额迈瑞克锐思莫思
+wei shi you e mai rui ke rui si mo si
+你今天要和男朋友约会吗
+"will" "you" "go" "on" "a" "date" "with" "your" "boyfriend"
+危又够昂领带特危思又儿波危福软的
+wei you gou ang ling dai te wei si you er bo wei fu ruan de
+饺子是非吃不可的
+"we" "will" "eat" "dumplings"
+危危一特当普灵思
+wei wei yi te dang pu ling si
+你打算买什么股
+"which" "company" "are" "you" "going" "to" "buy" "in" "to"
+危吃充普又特啊又够英兔白英兔
+wei chi chong pu you te a you gou ying tu bai ying tu
+了解身边的回收利用设施
+"find" "out" "what" "the" "recycling" "options" "are" "in" "your" "area"
+方的奥特沃特则锐赛扣灵奥普神思啊英又儿爱儿若
+fang de ao te wo te ze rui sai kou ling ao pu shen si a ying you er ai er ruo
+网上卖多少钱
+"how" "much" "is" "it" "online"
+号马吃意思一特昂来恩
+hao ma chi yi si yi te ang lai en
+等等我
+"wait" "for" "me"
+唯特佛密
+wei te fu mi
+我要上床睡觉了
+"i'm" "going" "to" "bed"
+爱母够英兔拜的
+ai mu gou ying tu bai de
+需要帮忙吗
+"may" "i" "help" "you"
+妹爱嘿一奥普又
+mei ai hei yi ao pu you
+这个颜色穿上一定非常漂亮
+"this" "color" "will" "look" "very" "pretty" "on" "you"
+迪思卡乐危路克危锐普锐替昂又
+di si ka le wei lu ke wei rui pu rui ti ang you
+真好看
+"how" "nice"
+号奈思
+hao nai si
+这双更舒服
+"they're" "more" "comfortable"
+赛啊莫亢佛特波
+sai a mo kang fu te bo
+煤气灶坏了
+"the" "gas" "cooker" "doesn't" "work"
+的革思库克的大怎特沃克
+de ge si ku ke de da zen te wo ke
+要多久才能到
+"how" "long" "will" "that" "take"
+号龙危带特带克
+hao long wei dai te dai ke
+我不介意用这张桌子
+"i" "don't" "care" "for" "this" "table"
+爱东特开儿佛则一思太波
+ai dong te kai er fu ze yi si tai bo
+我要跟你一样的
+"i'll" "follow" "you"
+爱由佛漏又
+ai you fu lou you
+别客气
+"help" "yourself"
+嘿一奥普又儿赛夫
+hei yi ao pu you er sai fu
+我要请你们喝酒
+"have" "a" "drink" "on" "me"
+海夫额准可昂密
+hai fu e zhun ke ang mi
+你再不交我就要从你的押金里扣了
+"if" "you" "don't" "pay" "i'll" "take" "it" "out" "of" "your" "deposit"
+一夫又东特陪爱危带克一特奥特奥夫又儿低泼兹特
+yi fu you dong te pei ai wei dai ke yi te ao te ao fu you er di po zi te
+门坏了
+"the" "door" "is" "broken"
+的到意思不肉肯
+de dao yi si bu rou ken
+哪一路车开往市区呢？
+"which" "bus" "goes" "downtown"
+危吃巴思够思当堂
+wei chi ba si gou si dang tang
+我可以在这里抽烟吗
+"may" "i" "smoke" "here"
+妹爱思莫克嘿儿
+mei ai si mo ke hei er
+在转弯处向左转然后一直往前走
+"turn" "left" "at" "the" "corner" "and" "go" "straight" "on"
+疼来福特爱特的扣呢安的够思追特昂
+teng lai fu te ai te de kou ne an di gou si zhui te ang
+我要预订那班火车的一张座位票
+"i'd" "like" "to" "reserve" "a" "seat" "on" "that" "train"
+爱的来克兔锐色五额西特昂带特吹
+ai de lai ke tu rui se wu e xi te ang dai te chui
+风浪很大
+"the" "sea" "is" "very" "rough"
+的西意思危锐入啊夫
+de xi yi si wei rui ru a fu
+我明天就要
+"i" "need" "this" "tomorrow"
+爱尼的则一思特毛肉
+ai ni de ze yi si te mao rou
+能不能把两边鬓角再剪短些
+"could" "you" "cut" "a" "little" "more" "off" "the" "temple"
+酷的又卡特额利透莫奥夫的谈泼
+ku de you ka te e li tou mo ao fu de tan po
+这个月杂志赠电影海报
+"this" "issue" "comes" "with" "movie" "posters"
+迪思一书康母思危思母危剖思特思
+di si yi shu kang mu si wei si mu wei pou si te si
+苏式糕点外面的皮子松、馅儿昧芳香
+"the" "skin" "of" "suzhou" "stylecakes" "is" "puffy" "and" "filled" "with" "fragrant" "nuts"
+的思格应奥夫苏州思掉凯克思意思怕夫衣安的飞的危思友个润特那思
+de si ge ying ao fu su zhou si diao kai ke si yi si pa fu yi an di fei de wei si you ge run te na si
+你需要搬运服务吗？
+"do" "you" "want" "to" "drive" "up"
+杜又忘特兔拽五阿普
+du you wang te tu zhuai wu a pu
+仔细果需要的话我会与父母一起生活
+"if" "necessary" "i" "would" "live" "with" "my" "parents"
+一夫那西色锐爱五的利五危思卖拍润思
+yi fu na xi se rui ai wu de li wu wei si mai pai run si
+这是我的小妹妹比我小两岁
+"this" "is" "my" "little" "sister" "she" "is" "two" "years" "younger" "than" "me"
+迪思意思卖利透西思特西意思兔耶思样个但密
+di si yi si mai li tou xi si te xi yi si tu ye si yang ge dan mi
+哪个频道播
+"which" "channel" "is" "it" "on"
+危吃产呢欧意思一特昂
+wei chi chan ne ou yi si yi te ang
+前边的人挡着我看不见
+"i" "can't" "see" "because" "of" "the" "person" "in" "front" "of" "me"
+爱看特西比考思奥夫的泼森英佛昂特奥夫密
+ai kan te xi bi kao si ao fu de po sen ying fu ang te ao fu mi
+来个二重唱吧
+"let's" "sing" "a" "duet"
+来思思一英额丢爱特
+lai si si yi ying e diu ai te
+怎么会让这么多人上瘾？
+"why" "are" "so" "many" "people" "addicted" "to" "it"
+外啊搜曼尼皮泼额滴克的免一特
+wai a sou man ni pi po e di ke de mian yi te
+我们会根据顾客的兴趣为顾客做一个健身计划
+"we'll" "design" "a" "custom" "made" "work" "out" "plan" "according" "to" "your" "habits"
+危低在呢额卡思疼妹的沃克奥特普兰领扣定兔又儿海笔思
+wei di zai ne e ka si teng mei de wo ke ao te pu lan ling kou ding tu you er hai bi si
+你在业余队打球是吗
+"you" "play" "for" "an" "amateur" "team" "don't" "you"
+又普累佛安爱莫特替母东特又
+you pu lei fu an ai mo te ti mu dong te you
+我参加了当地的健身中心的瑜伽课
+"i've" "joined" "a" "yoga" "class" "at" "our" "local" "fitness" "center"
+爱五英卓英德额又嘎克拉思爱特漏扣飞特尼思三特
+ai wu ying zhuo ying de e you ga ke la si ai te lou kou fei te ni si san te
+干嘛不试试那件红色的
+"why" "not" "try" "on" "the" "red" "one"
+外呢欧特踹昂则锐的完
+wai ne ou te chuai ang ze rui de wan
+不要拉倒
+"take" "it" "or" "leave" "it"
+带克一特哦利五一特
+dai ke yi te o li wu yi te
+找的钱你可以留下
+"you" "can" "keep" "the" "change"
+又看凯普则产只
+you kan kai pu ze chan zhi
+我们提供一年保修包括免费维修和提供零部件
+"we" "provide" "a" "one" "year" "warranty" "that" "covers" "parts" "and" "service"
+危泼外的额完耶沃润替带特卡沃思怕思安的色危思
+wei po wai de e wan ye wo run ti dai te ka wo si pa si an di se wei si
+在你前面还有两个病人
+"there" "are" "two" "more" "patients" "before" "you"
+贼儿阿兔摸尔配甚次比佛儿又
+zei er a tu mo er pei shen ci bi fu er you
+需要做手术吗
+"will" "surgery" "be" "necessary"
+危色者锐比耐思谈色锐
+wei se zhe rui bi nai si tan se rui
+这是中药
+"here" "is" "some" "chinese" "traditional" "medicine"
+嘿儿意思桑拆尼思吹笛神呢欧卖低思英
+hei er yi si sang chai ni si chui di shen ne ou mai di si ying
+我必须航空邮寄这包裹
+"i" "need" "to" "have" "this" "package" "air" "mailed"
+爱尼的兔海夫迪思拍开只爱儿妹的
+ai ni de tu hai fu di si pai kai zhi ai er mei de
+汇款到纽约银行用的时间较长
+"it" "will" "take" "a" "longer" "time" "to" "reach" "new" "york" "bank"
+一特危忒克额浪格儿太母兔锐吃牛约克班克
+yi te wei te ke e lang ge er tai mu tu rui chi niu yue ke ban ke
+我如何使用这个账户呢
+"how" "do" "i" "operate" "this" "account"
+号杜爱奥泼锐特追思额亢特
+hao du ai ao po rui te zhui si e kang te
+蒂娜利用自动转账服务付电话账单
+"tina" "pays" "her" "phone" "bill" "with" "an" "automatic" "bill" "payment"
+替那陪思喝风比又危思安奥头卖替克比又陪门特
+ti na pei si he feng bi you wei si an ao tou mai ti ke bi you pei men te
+有密码吗
+"do" "you" "have" "a" "pin" "number"
+读又海夫额拼难伯
+du you hai fu e pin nan bo
+这儿有没有可看的地方
+"is" "there" "anything" "to" "visit" "here"
+意思在儿安尼思一英兔危兹特嘿儿
+yi si zai er an ni si yi ying tu wei zi te hei er
+你们有什么旅游车的旅行团吗
+"do" "you" "have" "any" "sightseeing" "bus" "tours"
+杜又海夫安尼赛特西英巴思兔儿思
+du you hai fu an ni sai te xi ying ba si tu er si
+我可以向您推荐五星级旅行团行程
+"i" "can" "recommend" "five" "star" "tours"
+爱看锐克门的发五思大兔儿思
+ai kan rui ke men de fa wu si da tu er si
+我要买些有中国文化特色的东西
+"i" "want" "something" "that's" "representative" "of" "the" "chinese" "culture"
+爱忘特桑思一英带思锐陪赞特提五奥夫则拆尼思考车
+ai wang te sang si yi ying dai si rui pei zan te ti wu ao fu ze chai ni si kao che
+这美景给我留下很深的印象
+"the" "beautiful" "view" "impressed" "me"
+则比又替佛危英普锐思的密
+ze bi you ti fu wei ying pu rui si de mi
+请笑一笑
+"smile" "please"
+思莫一奥普利思
+si mo yi ao pu li si
+这个似乎比较适合我们的旅程
+"that" "seems" "to" "fit" "our" "schedule" "better"
+带特思一母思兔飞特奥儿思盖就白特
+dai te si yi mu si tu fei te ao er si gai jiu bai te
+我是本次航班的乘务长
+"i'm" "the" "chief" "purser" "of" "this" "flight"
+爱母的期夫泼色奥夫迪思夫来特
+ai mu de qi fu po se ao fu di si fu lai te
+我看见我们的包在传送带上了
+"i" "see" "our" "bags" "on" "the" "conveyor" "belt"
+爱西奥儿白格思昂的康危儿被儿特
+ai xi ao er bai ge si ang de kang wei er bei er te
+我们只是简单看一下
+"we'll" "just" "look" "through" "it" "briefly"
+危加思特路克思入一特不锐夫利
+wei jia si te lu ke si ru yi te bu rui fu li
+您第一次到台湾吗
+"is" "this" "the" "first" "time" "you" "come" "to" "taiwan"
+意思迪思的佛思特太母又康母兔台湾
+yi si di si de fu si te tai mu you kang mu tu tai wan
+接待处就在前面
+"the" "reception" "desk" "is" "straight" "ahead"
+的锐赛普神带思克意思思追特额海的
+de rui sai pu shen dai si ke yi si si zhui te e hai de
+早餐几点开始供应
+"what" "time" "can" "i" "have" "breakfast"
+沃特太母看爱海夫不锐克佛思特
+wo te tai mu kan ai hai fu bu rui ke fu si te
+请您填写一下顾客满意程度调查表呢
+"would" "you" "mind" "filling" "out" "this" "client" "satisfaction" "survey"
+五的又卖的飞灵奥特迪思克来恩特赛替思发克神色危
+wu de you mai de fei ling ao te di si ke lai en te sai ti si fa ke shen se wei
+何不与我一起共度佳节呢
+"why" "don't" "we" "enjoy" "the" "holidays" "together"
+外东特危英卓一则号乐带思特盖的
+wai dong te wei ying zhuo yi ze hao le dai si te gai de
+做我的情人吧
+"be" "my" "valentine"
+比卖外梭太
+bi mai wai suo tai
+年夜饭都要吃些什么
+"what" "do" "you" "have" "for" "the" "reunion" "dinner"
+沃特杜又海夫佛则锐又尼恩低呢
+wo te du you hai fu fu ze rui you ni en di ne
+葡萄牙的八号在球门25米外凌空抽射
+"number" "eight" "of" "portugal" "volleyed" "the" "ball" "into" "the" "goal" "from" "twenty" "five" "meters" "away"
+难伯嘿特泼抽够沃利的则波英兔则够夫昂团体发五密特思额危
+nan bo hei te po chou gou wo li de ze bo ying tu ze gou fu ang tuan ti fa wu mi te si e wei
+使用可再用、可循环、可降解物品
+"look" "for" "reusable" "recyclable" "biodegradable" "items"
+路克佛锐又色泼锐赛扣乐泼白哦低贵的波爱疼
+lu ke fu rui you se po rui sai kou le po bai o di gui de bo ai teng
+我可以给你推荐几家网店
+"i" "can" "recommend" "you" "some" "online" "merchants"
+爱看锐亢门的又桑昂来恩莫产思
+ai kan rui kang men de you sang ang lai en mo chan si

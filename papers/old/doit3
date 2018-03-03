@@ -1,0 +1,25 @@
+A=/nfs/web/isi.edu/htdocs/divisions/division3/
+
+cp $A/natural-language/mt/ms-thesis-nada2.pdf papers
+cp $A/natural-language/mt/ms-thesis-nada.pdf papers
+cp $A/natural-language/mt/portmanteaux.txt papers
+cp $A/natural-language/mt/chinglish-data.txt papers
+cp $A/natural-language/mt/dev-gold.txt papers
+cp $A/natural-language/mt/test-gold.txt papers
+cp $A/natural-language/mt/amta2008su.pdf papers
+cp $A/natural-language/mt/amta2008fossum.pdf papers
+cp $A/natural-language/mt/lhuang-amta.pdf papers
+cp $A/natural-language/mt/ciaa06.pdf papers
+cp $A/natural-language/mt/iraqi_interspeech.pdf papers
+cp $A/natural-language/mt/AIJ_final.pdf papers
+cp $A/natural-language/projects/rewrite/mtsummit03.pdf papers
+cp $A/natural-language/mt/teaching-mt.pdf papers
+cp $A/natural-language/projects/rewrite/HLT02.ps papers
+cp $A/natural-language/mt/wkbk.pdf papers
+cp $A/natural-language/mt/wkbk-rw.pdf papers
+cp $A/natural-language/mt/wkbk.rtf papers
+cp $A/natural-language/mt/mt-wfst.ps papers
+cp $A/natural-language/mt/aimag97.pdf papers
+cp $A/natural-language/mt/ijcai95-gaps.ps papers
+cp $A/natural-language/mt/ijcai95-glosser.ps papers
+cp $A/natural-language/mt/amta94-integrating.ps papers

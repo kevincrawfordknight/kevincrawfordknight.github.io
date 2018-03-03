@@ -1,0 +1,101 @@
+
+===================================================
+CONFERENCE ANNOUNCEMENT
+===================================================
+
+                               NEMNLP 2006
+
+              2006 Conference on Non-Empirical Methods
+           in Natural Language Processing (NEMNLP 2006) 
+
+                        CALL FOR PAPERS
+
+SIGNEM, the Association for Computational Linguistics' special interest group
+on non-empirical methods in natural language processing, invites submissions
+to NEMNLP 2006.  The conference will be held on July 6-7, 2006, preceding the
+44th meeting of the ACL (ACL 2006).
+
+We are interested in papers from academia, government, and industry on all areas
+of traditional interest to the SIGNEM community and aligned fields, including
+but not limited to
+
+- machine translation and multilinguality -- a priori grounds for the 
+impossibility of translation (including human translation); extensions to 
+Chinese room experiments (Tamil room, etc.)
+
+- tagging -- better abbreviations for part-of-speech tags (e.g., DET vs. DT); 
+non-empirical methodologies for deciding when to stop pounding on this problem
+
+- question answering -- "deep" questions not answerable by people; new results
+in pin-balanced angel counting
+
+- word sense disambiguation -- meanings of words referring to non-existing 
+entities ("unicorn", "rationalism", etc.)
+
+As a special focus to the conference, we encourage submissions on the theme
+
+	"From Limited Data to No Data"
+
+Following the last decade in natural language processing research, it has become
+clear that simple methods applied to vast data sets can yield good results.  
+Moreover, new computational linguistic techniques can now extract applicable
+knowledge from limited text resources (e.g., for "low-density" languages).
+While these results are interesting, it is clear that most circumstances require
+pure non-empirical methods for researchers to make any progress at all.  We 
+therefore solicit papers that radically deviate from current practice, such as
+but not limited to
+
+- languages that are no longer spoken, for which no written or cultural records
+remain (so-called "no density" languages)
+
+- study of text genres with zero-count publications
+
+- hypothesized dialect/ideolect variation in vow-of-silence communities
+
+- applications of non-empirical techniques that have proven valuable in other,
+non-NLP fields (astrology, phrenology, etc.)
+
+While it is tempting to approach some no-data problems with empirical methods,
+we stress that such papers stick to the practice of non-empirical methodologies,
+positing self-evident propositions while avoiding the use of graphs and tables.
+
+                              -----------
+                              Submissions
+                              -----------
+
+Requirements.  Submissions must describe original, completed, unpublished work,
+and include no concrete evaluation results. Papers being submitted to other
+meetings must provide this information (see submission format); simultaneous
+submission to EMNLP is not allowed due to non-overlapping scopes of interest.
+
+Format.  Submissions must be hardcopy only and consist of full papers of not 
+more than 320,000 words (exclusive of references).  Authors are strongly 
+encouraged to use the Adobe purple mimeograph fonts when possible.
+
+Reviewing will be blind to author-identity and reason.  No information
+identifying the authors should be in the paper.  Please send a single hardcopy
+of the paper to:
+
+NEMNLP 2006 Submissions
+Kevin Knight
+USC/ISI, 4676 Admiralty Way
+Marina Del Rey CA 90292
+
+The NEMNLP committee is not responsible for postal delays or other e-mail and
+mail problems.  Submissions that do not conform to the guidelines above are
+subject to rejection without review.
+
+Important Dates
+
+Submission deadline April 9, 2006 
+Acceptance notification May 8, 2006 
+Camera-ready copy due June 6, 2006 
+Conference July 6-7, 2006 
+
+Conference Organizers
+
+Kevin Knight (chair), 
+USC/Information Sciences Institute (knight@isi.edu)
+
+R. Descartes (co-chair), 
+Universite Paris-Sorbonne (Paris VI) (descartes@deadwhitemale.edu)
