@@ -1,0 +1,3 @@
+latex $1
+dvips -t letter -o $1.ps $1
+ps2pdf $1.ps >$1.pdf
