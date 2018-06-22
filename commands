@@ -1,8 +1,0 @@
-
-#git config --global http.postBuffer 1048576000
-#git clone https://github.com/kevincrawfordknight/kevincrawfordknight.github.io
-
-git add --all
-git commit -m "Home page files 1"
-git push -u origin master
-
