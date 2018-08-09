@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.6.16)  16 JUN 2018 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.6.16)  10 AUG 2018 05:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -124,24 +124,24 @@ s,'' Math-e-mat-ics of Lan-guage Con-fer-ence (MOL),
  []
 
 [2] [3] [4] [5] [6] [7] [8] [9]
-Overfull \hbox (1.9125pt too wide) in paragraph at lines 778--781
+Overfull \hbox (1.9125pt too wide) in paragraph at lines 780--783
 []\OT1/cmr/m/n/10 ``Dependency-Based De-ci-pher-ment for Resource-Limited Ma-ch
 ine Trans-la-tion'' (Q. Dou and K. Knight),
  []
 
 [10] [11]
-Overfull \hbox (3.95422pt too wide) in paragraph at lines 949--954
+Overfull \hbox (3.95422pt too wide) in paragraph at lines 951--956
 \OT1/cmr/m/n/10 mada), Pro-ceed-ings of the Con-fer-ence of the As-so-ci-a-tion
  for Com-pu-ta-tional Lin-guis-tics (ACL-COLING),
  []
 
-[12] [13] [14]
-Overfull \hbox (6.43013pt too wide) in paragraph at lines 1262--1265
+[12] [13] [14] [15]
+Overfull \hbox (6.43013pt too wide) in paragraph at lines 1264--1267
 []\OT1/cmr/m/n/10 ``A Sta-tis-ti-cal Ma-chine Trans-la-tion Tu-to-rial Work-boo
 k,'' (K. Knight), 1999. http://www.isi.edu/natural-
  []
 
-[15] [16] (./CV_Knight.aux) ) 
+[16] (./CV_Knight.aux) ) 
 Here is how much of TeX's memory you used:
  328 strings out of 494954
  3732 string characters out of 6181003
@@ -151,4 +151,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  21i,4n,19p,364b,171s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV_Knight.dvi (16 pages, 64804 bytes).
+Output written on CV_Knight.dvi (16 pages, 64988 bytes).
