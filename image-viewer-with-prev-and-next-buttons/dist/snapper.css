@@ -153,7 +153,7 @@ note: only use this if you have thumbnails or some other means of advancing slid
   background: #ccc;
   font-size: 0;
   overflow: hidden;
-  border: 1px solid #ddd;
+  border: 1px solid #fff;
   white-space: normal;
   display: inline-block;
   float: none;
