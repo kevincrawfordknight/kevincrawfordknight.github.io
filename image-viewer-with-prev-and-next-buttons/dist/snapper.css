@@ -150,7 +150,7 @@ note: only use this if you have thumbnails or some other means of advancing slid
   height: 84px; }
 
 .snapper_nav a {
-  background: #ccc;
+  background: #fff;
   font-size: 0;
   overflow: hidden;
   border: 1px solid #fff;
