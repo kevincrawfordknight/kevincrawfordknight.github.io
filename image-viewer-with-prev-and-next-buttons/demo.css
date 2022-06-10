@@ -34,7 +34,7 @@ a{
 	outline: none;
 }
 a:hover, a:focus {
-	color: #373e18;
+	color: #ffffff;
 }
 section {
     float: left;
@@ -42,7 +42,7 @@ section {
 	padding-bottom:3em;
 }
 h2 {
-    color: #1a0e0e;
+    color: #ffffff;
     font-size: 26px;
     font-weight: 700;
     margin: 0;
@@ -123,7 +123,7 @@ h2 span {
 	font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-    color: #6a4aed;
+    color: #ffffff;
     font-size: 26px;
     font-weight: 700;
     margin: 0;
@@ -131,7 +131,7 @@ h2 span {
 
 }
 .ScriptHeader h2 {
-    color: #312c8f;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 400;
     margin: 5px 0 0;
