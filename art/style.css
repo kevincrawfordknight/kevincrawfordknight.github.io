@@ -1,0 +1,71 @@
+/* Gallery grid styling remains unchanged */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.gallery figure {
+  margin: 0;
+  cursor: pointer;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styles for figcaptions showing metadata */
+.gallery figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.8em;
+  color: #555;
+}
+
+/* Modal styles for full painting view */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  position: relative;
+  margin: 5% auto;
+  max-width: 90%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-caption {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
