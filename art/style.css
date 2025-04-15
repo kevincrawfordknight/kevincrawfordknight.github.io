@@ -1,18 +1,80 @@
-/* Gallery grid styling remains unchanged */
-
-/* Updated Gallery grid styling for smaller thumbnails */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* reduced from 150px to 100px */
-  gap: 15px;
+/* Reset default margins and paddings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.gallery img {
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Navigation bar styling */
+.navbar {
+  margin-bottom: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+/* Hero area on the home page */
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.headshot {
   width: 100%;
+  max-width: 600px;
   height: auto;
   display: block;
+  margin: 0 auto 20px;
 }
 
+h1, h2 {
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* Introduction paragraph on the homepage */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Page title styling for subpages */
+.page-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Gallery grid styling for small thumbnails */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Thumbnails are small now */
+  gap: 15px;
+}
 
 .gallery figure {
   margin: 0;
@@ -77,4 +139,12 @@
   padding: 10px 20px;
   font-size: 0.9em;
   cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #777;
 }
