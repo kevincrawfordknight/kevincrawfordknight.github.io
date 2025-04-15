@@ -1,9 +1,18 @@
 /* Gallery grid styling remains unchanged */
+
+/* Updated Gallery grid styling for smaller thumbnails */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* reduced from 150px to 100px */
   gap: 15px;
 }
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 .gallery figure {
   margin: 0;
