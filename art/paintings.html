@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paintings | Kevin Knight</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artist-cv.pdf" target="_blank">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 class="page-title">Paintings</h1>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Unsold Paintings Section -->
+    <section id="unsold">
+      <h2>Unsold Paintings (118)</h2>
+      <div class="gallery">
+        <!-- Example unsold painting -->
+        <figure class="painting" 
+                data-category="unsold" 
+                data-title="Sunset Over Water" 
+                data-medium="Oil on Canvas" 
+                data-size="24x36" 
+                data-year="2021" 
+                data-full="painting1.png">
+          <img src="painting1.png" alt="Sunset Over Water Thumbnail">
+          <figcaption>
+            <strong>Sunset Over Water</strong><br>
+            Oil on Canvas, 24x36, 2021
+          </figcaption>
+        </figure>
+        <figure class="painting" 
+                data-category="unsold" 
+                data-title="Morning Light" 
+                data-medium="Acrylic" 
+                data-size="18x24" 
+                data-year="2020" 
+                data-full="painting2.png">
+          <img src="painting2.png" alt="Morning Light Thumbnail">
+          <figcaption>
+            <strong>Morning Light</strong><br>
+            Acrylic, 18x24, 2020
+          </figcaption>
+        </figure>
+        <!-- Add more unsold painting figures here... -->
+      </div>
+    </section>
+    
+    <!-- Sold Paintings Section -->
+    <section id="sold">
+      <h2>Sold Paintings (39)</h2>
+      <div class="gallery">
+        <!-- Example sold painting -->
+        <figure class="painting" 
+                data-category="sold" 
+                data-title="Urban Reflections" 
+                data-medium="Mixed Media" 
+                data-size="30x40" 
+                data-year="2019" 
+                data-full="painting_sold1.png">
+          <img src="painting_sold1.png" alt="Urban Reflections Thumbnail">
+          <figcaption>
+            <strong>Urban Reflections</strong><br>
+            Mixed Media, 30x40, 2019
+          </figcaption>
+        </figure>
+        <figure class="painting" 
+                data-category="sold" 
+                data-title="Quiet Corners" 
+                data-medium="Watercolor" 
+                data-size="16x20" 
+                data-year="2022" 
+                data-full="painting_sold2.png">
+          <img src="painting_sold2.png" alt="Quiet Corners Thumbnail">
+          <figcaption>
+            <strong>Quiet Corners</strong><br>
+            Watercolor, 16x20, 2022
+          </figcaption>
+        </figure>
+        <!-- Add more sold painting figures here... -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal for Full Painting View -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <img id="modalImage" src="" alt="">
+      <div class="modal-caption" id="modalCaption"></div>
+      <div class="modal-buttons">
+        <button id="prevBtn">Previous</button>
+        <button id="backBtn">Back to Gallery</button>
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript for Modal Functionality -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      const modal = document.getElementById('modal');
+      const modalImage = document.getElementById('modalImage');
+      const modalCaption = document.getElementById('modalCaption');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const backBtn = document.getElementById('backBtn');
+      
+      let currentCategory = "";
+      let paintingsList = [];
+      let currentIndex = 0;
+
+      // Function to update the modal content based on current index
+      function updateModal() {
+        const painting = paintingsList[currentIndex];
+        modalImage.src = painting.dataset.full;
+        modalCaption.innerHTML = `<strong>${painting.dataset.title}</strong><br>
+                                  ${painting.dataset.medium}, ${painting.dataset.size}, ${painting.dataset.year}`;
+      }
+
+      // Add click event listener to each painting thumbnail
+      const paintingElements = document.querySelectorAll('.painting');
+      paintingElements.forEach(elem => {
+        elem.addEventListener('click', function(){
+          currentCategory = this.dataset.category;
+          // Get all paintings in this category (unsold or sold)
+          paintingsList = Array.from(document.querySelectorAll(`.painting[data-category="${currentCategory}"]`));
+          currentIndex = paintingsList.indexOf(this);
+          updateModal();
+          modal.style.display = "block";
+        });
+      });
+
+      // Next button - move forward in the gallery
+      nextBtn.addEventListener('click', function(){
+        currentIndex = (currentIndex + 1) % paintingsList.length;
+        updateModal();
+      });
+
+      // Previous button - move backward in the gallery
+      prevBtn.addEventListener('click', function(){
+        currentIndex = (currentIndex - 1 + paintingsList.length) % paintingsList.length;
+        updateModal();
+      });
+
+      // Back button - close the modal and return to thumbnails
+      backBtn.addEventListener('click', function(){
+        modal.style.display = "none";
+      });
+
+      // Optional: Click outside modal content closes the modal
+      window.addEventListener('click', function(event){
+        if(event.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+    });
+  </script>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Kevin Knight</p>
+  </footer>
+</body>
+</html>
