@@ -124,13 +124,20 @@ h1, h2 {
   margin: 0 auto;
 }
 
+/* Media query for larger screens to restrict modal image size */
+@media (min-width: 768px) {
+  .modal-content img {
+    max-width: 600px;
+  }
+}
+
 .modal-caption {
   margin-top: 15px;
   font-size: 0.9em;
   color: #333;
 }
 
-/* Updated Modal Button Styles */
+/* Updated Modal Button Styles with arrows and "Back" */
 .modal-buttons {
   margin-top: 20px;
 }
