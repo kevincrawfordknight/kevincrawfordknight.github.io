@@ -72,7 +72,7 @@ h1, h2 {
 /* Gallery grid styling for small thumbnails */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Thumbnails are small now */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Small thumbnails */
   gap: 15px;
 }
 
@@ -130,15 +130,33 @@ h1, h2 {
   color: #333;
 }
 
+/* Updated Modal Button Styles */
 .modal-buttons {
   margin-top: 20px;
 }
 
 .modal-buttons button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
   margin: 0 10px;
-  padding: 10px 20px;
-  font-size: 0.9em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.modal-buttons button:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+
+.modal-buttons button:active {
+  background-color: #222;
+  transform: translateY(0);
 }
 
 /* Footer styling */
