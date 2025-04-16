@@ -21,13 +21,48 @@
 
   <!-- Main content -->
   <main>
-    <!-- Unsold Paintings Section -->
-    <section id="unsold">
-      <h2>Unsold Paintings (118)</h2>
+    <!-- Featured Paintings Section -->
+    <section id="featured">
+      <h2>Featured</h2>
       <div class="gallery">
-        <!-- Example unsold painting -->
+        <!-- Example featured painting -->
         <figure class="painting" 
-                data-category="unsold" 
+                data-category="featured" 
+                data-title="Starry Night" 
+                data-medium="Oil on Canvas" 
+                data-size="30x40" 
+                data-year="2020" 
+                data-full="painting_featured1.jpg">
+          <img src="painting_featured1.jpg" alt="Starry Night Thumbnail">
+          <figcaption>
+            <strong>Starry Night</strong><br>
+            Oil on Canvas, 30x40, 2020
+          </figcaption>
+        </figure>
+        <figure class="painting" 
+                data-category="featured" 
+                data-title="City Lights" 
+                data-medium="Acrylic" 
+                data-size="24x36" 
+                data-year="2021" 
+                data-full="painting_featured2.jpg">
+          <img src="painting_featured2.jpg" alt="City Lights Thumbnail">
+          <figcaption>
+            <strong>City Lights</strong><br>
+            Acrylic, 24x36, 2021
+          </figcaption>
+        </figure>
+        <!-- Add more featured painting figures here... -->
+      </div>
+    </section>
+
+    <!-- Available Paintings Section -->
+    <section id="available">
+      <h2>Available</h2>
+      <div class="gallery">
+        <!-- Example available painting -->
+        <figure class="painting" 
+                data-category="available" 
                 data-title="Sunset Over Water" 
                 data-medium="Oil on Canvas" 
                 data-size="24x36" 
@@ -40,7 +75,7 @@
           </figcaption>
         </figure>
         <figure class="painting" 
-                data-category="unsold" 
+                data-category="available" 
                 data-title="Morning Light" 
                 data-medium="Acrylic" 
                 data-size="18x24" 
@@ -52,13 +87,13 @@
             Acrylic, 18x24, 2020
           </figcaption>
         </figure>
-        <!-- Add more unsold painting figures here... -->
+        <!-- Add more available painting figures here... -->
       </div>
     </section>
     
     <!-- Sold Paintings Section -->
     <section id="sold">
-      <h2>Sold Paintings (39)</h2>
+      <h2>Sold</h2>
       <div class="gallery">
         <!-- Example sold painting -->
         <figure class="painting" 
@@ -92,19 +127,18 @@
     </section>
   </main>
 
-<!-- Modal for Full Painting View -->
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <img id="modalImage" src="" alt="">
-    <div class="modal-caption" id="modalCaption"></div>
-    <div class="modal-buttons">
-      <button id="prevBtn">&#8592;</button>
-      <button id="backBtn">Back</button>
-      <button id="nextBtn">&#8594;</button>
+  <!-- Modal for Full Painting View -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <img id="modalImage" src="" alt="">
+      <div class="modal-caption" id="modalCaption"></div>
+      <div class="modal-buttons">
+        <button id="prevBtn">&#8592;</button>
+        <button id="backBtn">Back</button>
+        <button id="nextBtn">&#8594;</button>
+      </div>
     </div>
   </div>
-</div>
-
 
   <!-- JavaScript for Modal Functionality -->
   <script>
@@ -120,7 +154,6 @@
       let paintingsList = [];
       let currentIndex = 0;
 
-      // Function to update the modal content based on current index
       function updateModal() {
         const painting = paintingsList[currentIndex];
         modalImage.src = painting.dataset.full;
@@ -128,12 +161,10 @@
                                   ${painting.dataset.medium}, ${painting.dataset.size}, ${painting.dataset.year}`;
       }
 
-      // Add click event listener to each painting thumbnail
       const paintingElements = document.querySelectorAll('.painting');
       paintingElements.forEach(elem => {
         elem.addEventListener('click', function(){
           currentCategory = this.dataset.category;
-          // Get all paintings in this category (unsold or sold)
           paintingsList = Array.from(document.querySelectorAll(`.painting[data-category="${currentCategory}"]`));
           currentIndex = paintingsList.indexOf(this);
           updateModal();
@@ -141,24 +172,20 @@
         });
       });
 
-      // Next button - move forward in the gallery
       nextBtn.addEventListener('click', function(){
         currentIndex = (currentIndex + 1) % paintingsList.length;
         updateModal();
       });
 
-      // Previous button - move backward in the gallery
       prevBtn.addEventListener('click', function(){
         currentIndex = (currentIndex - 1 + paintingsList.length) % paintingsList.length;
         updateModal();
       });
 
-      // Back button - close the modal and return to thumbnails
       backBtn.addEventListener('click', function(){
         modal.style.display = "none";
       });
 
-      // Optional: Click outside modal content closes the modal
       window.addEventListener('click', function(event){
         if(event.target === modal) {
           modal.style.display = "none";
