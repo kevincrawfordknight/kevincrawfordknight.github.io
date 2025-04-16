@@ -95,6 +95,11 @@ h1, h2 {
   color: #555;
 }
 
+/* Vertical whitespace for Available and Sold sections */
+#available, #sold {
+  margin-top: 40px;
+}
+
 /* Modal styles for full painting view */
 .modal {
   display: none; /* Hidden by default */
