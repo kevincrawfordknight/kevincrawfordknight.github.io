@@ -72,7 +72,7 @@ h1, h2 {
 /* Gallery grid styling for small thumbnails */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Small thumbnails */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Small thumbnails */
   gap: 15px;
 }
 
