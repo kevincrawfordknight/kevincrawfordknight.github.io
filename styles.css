@@ -137,7 +137,6 @@ h1, h2           { margin-bottom: 20px; font-weight: normal; }
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border: 0px solid #000;
   transition: transform 0.2s ease;
 }
 
