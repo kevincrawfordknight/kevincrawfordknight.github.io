@@ -1,0 +1,239 @@
+/* Reset default margins and paddings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Navigation bar styling */
+.navbar {
+  margin-bottom: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+/* Hero area on the home page */
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.headshot {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* Introduction paragraph on the homepage */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Page title styling for subpages */
+.page-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Gallery grid styling for small thumbnails */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Small thumbnails */
+  gap: 15px;
+}
+
+.gallery figure {
+  margin: 0;
+  cursor: pointer;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styles for figcaptions showing metadata */
+.gallery figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.8em;
+  color: #555;
+}
+
+/* Vertical whitespace for Available and Sold sections */
+#available, #sold {
+  margin-top: 40px;
+}
+
+/* Modal styles for full painting view */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  position: relative;
+  margin: 5% auto;
+  max-width: 90%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Media query for larger screens to restrict modal image size */
+@media (min-width: 768px) {
+  .modal-content img {
+    max-width: 600px;
+  }
+}
+
+.modal-caption {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+/* Updated Modal Button Styles with arrows and "Back" */
+.modal-buttons {
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.modal-buttons button:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+
+.modal-buttons button:active {
+  background-color: #222;
+  transform: translateY(0);
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #777;
+}
+
+.hidden { display: none; }
+
+.load-more { cursor: pointer; }
+.load-more img { width: 100%; height: auto; display: block; }
+.load-more figcaption { text-align: center; margin-top: 8px; font-size: 0.8em; color: #555; }
+
+
+/* ─── book cover size ─────────────────────────────────────────────── */
+.book-cover {
+  width: 100%;
+  max-width: 450px;          /* feel free to tweak */
+  height: auto;
+}
+
+/* ─── video thumbnail grid ────────────────────────────────────────── */
+.gallery.thumbs {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.thumb figure { margin: 0; }
+
+.thumb {
+  text-decoration: none;          /* ←  add this line */
+}
+
+.thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+.thumb figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #333;
+}
+.thumb:hover img { opacity: 0.85; }
+
+/* ─── article cards ───────────────────────────────────────────────── */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.article-card {
+  display: block;
+  background: #f5f5f5;
+  color: #333;
+  padding: 14px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background 0.25s;
+}
+.article-card:hover { background: #e8e8e8; }
+
