@@ -198,6 +198,11 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 .thumb figure { margin: 0; }
+
+.thumb {
+  text-decoration: none;          /* ←  add this line */
+}
+
 .thumb img {
   width: 100%;
   height: auto;
