@@ -237,3 +237,9 @@ footer {
 }
 .article-card:hover { background: #e8e8e8; }
 
+/* put this at the end of styles.css */
+.article-list .article-card {
+  display: block;        /* one per line (already true) */
+  margin: 6px 0;         /* 6 px vertical space – adjust to taste */
+}
+
