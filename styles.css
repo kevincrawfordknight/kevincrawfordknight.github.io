@@ -267,10 +267,3 @@ footer {
   color: #777;
 }
 
-/* captions inside thumbs should not be clickable */
-.thumb figcaption {
-  pointer-events: none;   /* clicks “pass through” */
-  color: #555;            /* your usual gray */
-  text-decoration: none;  /* no underlines or link colors */
-}
-
