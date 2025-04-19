@@ -1,0 +1,152 @@
+/* ------------- Global reset ------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------- Body text ------------- */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ------------- Navigation (inside section pages) ------------- */
+.navbar {
+  margin-bottom: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9em;
+}
+
+/* ------------- Hero on art landing ------------- */
+.hero            { text-align: center; margin-bottom: 40px; }
+.headshot        { width: 100%; max-width: 600px; height: auto; display: block; margin: 0 auto 20px; }
+
+h1, h2           { margin-bottom: 20px; font-weight: normal; }
+.page-title      { text-align: center; margin-top: 20px; margin-bottom: 40px; }
+.intro           { text-align: center; margin-bottom: 40px; }
+
+/* ------------- Gallery grid (art pages) ------------- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));   /* small thumbs */
+  gap: 15px;
+}
+
+.gallery figure   { margin: 0; cursor: pointer; }
+.gallery img      { width: 100%; height: auto; display: block; }
+
+.gallery figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.8em;
+  color: #555;
+}
+
+/* vertical space before Available & Sold */
+#available, #sold { margin-top: 40px; }
+
+/* ------------- Load‑more helper ------------- */
+.hidden         { display: none; }
+.load-more      { cursor: pointer; }
+.load-more img  { width: 100%; height: auto; display: block; }
+.load-more figcaption { text-align: center; margin-top: 8px; font-size: 0.8em; color: #555; }
+
+/* ------------- Modal (full painting view) ------------- */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  position: relative;
+  margin: 5% auto;
+  max-width: 90%;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-content img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+
+/* limit image width on larger screens */
+@media (min-width: 768px) {
+  .modal-content img { max-width: 600px; }
+}
+
+.modal-caption   { margin-top: 15px; font-size: 0.9em; color: #333; }
+
+.modal-buttons   { margin-top: 20px; }
+.modal-buttons button {
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+.modal-buttons button:hover   { background: #555; transform: translateY(-3px); }
+.modal-buttons button:active  { background: #222; transform: translateY(0); }
+
+/* ------------- Anchor home page (newindex.html) ------------- */
+.site-name {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+  justify-items: center;
+}
+
+.button-grid img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.button-grid a:hover img { transform: translateY(-3px); }
+
+/* ------------- Footer ------------- */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #777;
+}
+

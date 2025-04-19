@@ -1,103 +1,143 @@
-/* ------------- Global reset ------------- */
+/* ------------- Reset ------------- */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* ------------- Body text ------------- */
+/* ------------- Base Typography & Layout ------------- */
 body {
   font-family: Arial, sans-serif;
   font-size: 0.9em;
-  background: #fff;
+  background-color: #fff;
   color: #333;
   line-height: 1.6;
   padding: 20px;
 }
 
-/* ------------- Navigation (inside section pages) ------------- */
+h1, h2 {
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* ------------- Navigation ------------- */
 .navbar {
   margin-bottom: 40px;
 }
-
 .navbar ul {
   list-style: none;
   text-align: center;
 }
-
 .navbar li {
   display: inline-block;
   margin: 0 15px;
 }
-
 .navbar a {
   text-decoration: none;
   color: #333;
+  font-weight: normal;
   font-size: 0.9em;
 }
 
-/* ------------- Hero on art landing ------------- */
-.hero            { text-align: center; margin-bottom: 40px; }
-.headshot        { width: 100%; max-width: 600px; height: auto; display: block; margin: 0 auto 20px; }
-
-h1, h2           { margin-bottom: 20px; font-weight: normal; }
-.page-title      { text-align: center; margin-top: 20px; margin-bottom: 40px; }
-.intro           { text-align: center; margin-bottom: 40px; }
-
-/* ------------- Gallery grid (art pages) ------------- */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));   /* small thumbs */
-  gap: 15px;
+/* ------------- Hero & Headshot ------------- */
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.headshot {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
-.gallery figure   { margin: 0; cursor: pointer; }
-.gallery img      { width: 100%; height: auto; display: block; }
+/* ------------- Page Titles & Intros ------------- */
+.page-title {
+  text-align: center;
+  margin: 20px 0 40px;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+/* ------------- Gallery (Art) ------------- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 15px;
+}
+.gallery figure {
+  margin: 0;
+  cursor: pointer;
+}
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .gallery figcaption {
   text-align: center;
   margin-top: 8px;
   font-size: 0.8em;
   color: #555;
 }
+#available, #sold {
+  margin-top: 40px;
+}
 
-/* vertical space before Available & Sold */
-#available, #sold { margin-top: 40px; }
+/* ------------- Load‑More Helper ------------- */
+.hidden {
+  display: none;
+}
+.load-more {
+  cursor: pointer;
+}
+.load-more img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.load-more figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.8em;
+  color: #555;
+}
 
-/* ------------- Load‑more helper ------------- */
-.hidden         { display: none; }
-.load-more      { cursor: pointer; }
-.load-more img  { width: 100%; height: auto; display: block; }
-.load-more figcaption { text-align: center; margin-top: 8px; font-size: 0.8em; color: #555; }
-
-/* ------------- Modal (full painting view) ------------- */
+/* ------------- Modal (Full‑Size View) ------------- */
 .modal {
   display: none;
   position: fixed;
-  z-index: 1000;
   inset: 0;
   background: rgba(0,0,0,0.8);
+  z-index: 1000;
 }
-
 .modal-content {
-  position: relative;
+  background: #fff;
   margin: 5% auto;
   max-width: 90%;
-  background: #fff;
   padding: 20px;
   text-align: center;
 }
-
-.modal-content img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
-
-/* limit image width on larger screens */
+.modal-content img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
 @media (min-width: 768px) {
   .modal-content img { max-width: 600px; }
 }
-
-.modal-caption   { margin-top: 15px; font-size: 0.9em; color: #333; }
-
-.modal-buttons   { margin-top: 20px; }
+.modal-caption {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #333;
+}
+.modal-buttons {
+  margin-top: 20px;
+}
 .modal-buttons button {
   background: #333;
   color: #fff;
@@ -111,36 +151,113 @@ h1, h2           { margin-bottom: 20px; font-weight: normal; }
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
 }
-.modal-buttons button:hover   { background: #555; transform: translateY(-3px); }
-.modal-buttons button:active  { background: #222; transform: translateY(0); }
-
-/* ------------- Anchor home page (newindex.html) ------------- */
-.site-name {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  font-weight: normal;
-  letter-spacing: 0.05em;
+.modal-buttons button:hover {
+  background: #555;
+  transform: translateY(-3px);
+}
+.modal-buttons button:active {
+  background: #222;
+  transform: translateY(0);
 }
 
+/* ------------- Anchor Home Page (newindex.html) ------------- */
+.site-name {
+  text-align: center;
+  margin: 40px 0 60px;
+  letter-spacing: 0.05em;
+}
 .button-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
   gap: 20px;
   max-width: 600px;
   margin: 0 auto 60px;
   padding: 0 20px;
   justify-items: center;
 }
-
 .button-grid img {
   width: 100px;
   height: 100px;
   object-fit: cover;
   transition: transform 0.2s ease;
 }
+.button-grid a:hover img {
+  transform: translateY(-3px);
+}
 
-.button-grid a:hover img { transform: translateY(-3px); }
+/* ------------- Book Cover ------------- */
+.book-cover {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+/* ------------- Video Thumbnails ( .gallery.thumbs ) ------------- */
+.gallery.thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: flex-start;
+}
+.thumb {
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+.thumb figure {
+  margin: 0;
+}
+.thumb img {
+  display: block;
+  max-height: 250px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 0;
+}
+.thumb:hover img {
+  opacity: 0.85;
+}
+.thumb figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #333;
+}
+
+/* ------------- Article Cards ------------- */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.article-card {
+  background: #f5f5f5;
+  color: #333;
+  display: block;
+  margin: 6px 0;
+  padding: 14px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background 0.25s;
+}
+.article-card:hover {
+  background: #e8e8e8;
+}
+
+/* ------------- Links Without Underline ------------- */
+a.nounderline,
+a.nounderline:link,
+a.nounderline:visited,
+a.nounderline:hover,
+a.nounderline:active {
+  text-decoration: none !important;
+  color: #333 !important;
+}
 
 /* ------------- Footer ------------- */
 footer {
