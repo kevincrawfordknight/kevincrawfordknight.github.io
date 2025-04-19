@@ -244,3 +244,14 @@ footer {
 }
 .article-card:hover { background: #e8e8e8; }
 
+.gallery.thumbs .thumb {
+  /* if you actually want cropping but square corners: */
+  overflow: hidden;     /* optional: remove if you don’t want any cropping */
+  border-radius: 0 !important;
+}
+
+/* also make sure the img inside isn’t rounding itself */
+.gallery.thumbs .thumb img {
+  border-radius: 0 !important;
+}
+
