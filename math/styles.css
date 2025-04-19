@@ -196,11 +196,17 @@ footer {
 /* ─── video thumbnail grid ────────────────────────────────────────── */
 .gallery.thumbs {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: flex-start;
 }
 .thumb figure { margin: 0; }
 
 .thumb {
   text-decoration: none;          /* ←  add this line */
+  flex: 0 0 auto;
 }
 
 .thumb img {
@@ -208,7 +214,7 @@ footer {
   width: auto;
   object-fit: contain;
   display: block;
-  border-radius: 6px;
+  border-radius: 60px;
 }
 .thumb figcaption {
   text-align: center;
