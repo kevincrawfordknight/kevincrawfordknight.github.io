@@ -7,19 +7,20 @@
   <link rel="stylesheet" href="../styles.css">
   <style>
     /* ─── comics viewer ───────────────────────────────────────── */
-    .comic-container {
-      max-width: 600px;
-      margin: 0 auto;
-      /* maintain aspect, but we'll crop via clip-path */
-      overflow: hidden;
-    }
-    .comic-container img {
-      width: 100%;
-      height: auto;
-      display: block;
-      /* crop: top 0, right 0, bottom 126pt, left 126pt */
-      clip-path: inset(0 0 126pt 126pt);
-    }
+
+.comic-container {
+  max-width: 600px;
+  margin: 0 auto;
+  /* overflow: visible is the default, so you can omit it */
+}
+
+.comic-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* no clip‑path, so the full image shows */
+}
+
     .comic-buttons {
       text-align: center;
       margin: 1rem 0;
