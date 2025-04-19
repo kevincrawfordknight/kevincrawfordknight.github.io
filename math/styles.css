@@ -204,8 +204,9 @@ footer {
 }
 
 .thumb img {
-  width: 100%;
-  height: auto;
+  max-height: 250px;
+  width: auto;
+  object-fit: contain;
   display: block;
   border-radius: 6px;
 }
