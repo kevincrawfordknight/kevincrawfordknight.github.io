@@ -15,8 +15,9 @@
 	</center>
 
 	<center>
-	... test current state ...
+<p id="status"></p>
 	</center>
+	<br>
 
   <main class="button-grid">
     <!-- order: ai, art, math, comics, fiction, movies, classic -->
@@ -33,6 +34,25 @@
   <footer>
     <p>&copy; 2025 Kevin Knight</p>
   </footer>
+
+
+<script>
+  // 1) Define your list of status strings
+  const statuses = [
+		  "is not a nark",
+		  "does whatever he wants",
+		  "talks in maths",
+		  "never finishes",
+		  "currently splits his time between indoors and outdoors"
+  ];
+
+  // 2) Pick one at random
+  const pick = statuses[Math.floor(Math.random() * statuses.length)];
+
+  // 3) Write it into the placeholder
+  document.getElementById("status").textContent = pick;
+</script>
+
 
 </body>
 </html>
