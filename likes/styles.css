@@ -243,21 +243,14 @@ footer {
   margin: 6px 0;         /* 6 px vertical space – adjust to taste */
 }
 
-<style>
-  /* base, unvisited, & visited links */
-  a.nounderline,
-  a.nounderline:link,
-  a.nounderline:visited {
-    text-decoration: none;   /* no underline */
-    color: #333;            /* always black */
-  }
+/* styles.css  ── add near the bottom */
 
-  /* optional: still no underline on hover/active,
-     but you can pick a subtle color if you like */
-  a.nounderline:hover,
-  a.nounderline:active {
-    text-decoration: none;
-    color: black;            /* or e.g. gray */
-  }
-</style>
+a.nounderline,
+a.nounderline:link,
+a.nounderline:visited,
+a.nounderline:hover,
+a.nounderline:active {
+  text-decoration: none !important;   /* kill underline */
+  color: #333 !important;             /* force black */
+}
 
