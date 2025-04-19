@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kevin Knight | Likes</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Header with Navigation -->
-  <header>
-    <nav class="navbar">
-      <ul>
-        <li><a href="../newindex.html">Homepage</a></li>
-      </ul>
-    </nav>
-    <div class="hero">
-      <h1>Kevin Knight</h1>
-    </div>
-  </header>
-
-  <!-- Main content -->
-  <main>
-  <center>
-
-
 <a href="https://en.wikipedia.org/wiki/Don%27t_Get_Me_Wrong_(song)" class="nounderline">Don't Get Me Wrong by Pretenders</a><br><br>
 <a href="https://en.wikipedia.org/wiki/Tangerine_(Led_Zeppelin_song)" class="nounderline">Tangerine by Led Zeppelin</a><br><br>
 <a href="https://en.wikipedia.org/wiki/The_New_Drawing_on_the_Right_Side_of_the_Brain" class="nounderline">Drawing on the Right Side of the Brain</a><br><br>
@@ -268,15 +242,3 @@
 <a href="https://en.wikipedia.org/wiki/Integer_linear_programming" class="nounderline">Integer linear programming</a><br><br>
 <a href="https://en.wikipedia.org/wiki/Lady_Stardust" class="nounderline">Lady Stardust</a><br><br>
 <a href="https://en.wikipedia.org/wiki/A_Canticle_for_Leibowitz" class="nounderline">Canticle for Leibowitz</a><br><br>
-
-
-  </center>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Kevin Knight</p>
-  </footer>
-</body>
-</html>
-
