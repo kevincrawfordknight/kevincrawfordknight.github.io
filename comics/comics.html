@@ -5,6 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Comics | Kevin Knight</title>
   <link rel="stylesheet" href="../styles.css">
+  <style>
+    /* ─── comics viewer ───────────────────────────────────────── */
+    .comic-container {
+      max-width: 600px;
+      margin: 0 auto;
+      /* maintain aspect, but we'll crop via clip-path */
+      overflow: hidden;
+    }
+    .comic-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      /* crop: top 0, right 0, bottom 126pt, left 126pt */
+      clip-path: inset(0 0 126pt 126pt);
+    }
+    .comic-buttons {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .comic-buttons button {
+      background: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 0.5rem 1rem;
+      margin: 0 0.5rem;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .comic-buttons button:hover {
+      background: #555;
+      transform: translateY(-2px);
+    }
+    /* on small screens, let image go full‑width with no side padding */
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      .comic-container { max-width: 100%; }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -18,13 +57,71 @@
     <h1 class="page-title">Comics</h1>
   </header>
 
-  <main> 
-
-
-
+  <main>
+    <div class="comic-container">
+      <img id="comicImage" src="" alt="comic">
+    </div>
+    <div class="comic-buttons">
+      <button id="prevComic">← Previous</button>
+      <button id="nextComic">Next →</button>
+    </div>
   </main>
 
-  <footer><p>&copy; 2025 Tofu Buffet</p></footer>
+  <footer>
+    <p>&copy; 2025 Kevin Knight</p>
+  </footer>
+
+  <script>
+    // 1) List your 29 filenames exactly as they live in this folder:
+    const comics = [
+'acceptable-tb-framed.jpg',
+'beatles2-tb-framed.jpg',
+'blaming-tb-framed.jpg',
+'chinese-food-tb-framed.jpg',
+'climb-a-tree-tb-framed.jpg',
+'fava-tb-framed.jpg',
+'french-tb-framed.jpg',
+'gaslighting2-tb-framed.jpg',
+'gemini-tb-framed.jpg',
+'greece-tb-framed.jpg',
+'height-tb-framed.jpg',
+'jesus-tb-framed.jpg',
+'just-friends-tb-framed.jpg',
+'monk-tb-framed.jpg',
+'passive-aggressive-tb-framed.jpg',
+'red-flag-tb-framed.jpg',
+'satan-tb-framed.jpg',
+'sayit-tb-framed.jpg',
+'significantly-tb-framed.jpg',
+'straws-tb-framed.jpg',
+'uploaded-HOMEPAGE',
+'veni-tb-framed.jpg',
+'who-they-really-are-tb-framed.jpg',
+'with-us-tb-framed.jpg',
+'wonder-tb-framed.jpg',
+'work-life-tb-framed.jpg',
+'yakistani-tb-framed.jpg'
+    ];
+
+    let current = 0;
+    const imgEl = document.getElementById('comicImage');
+    const show = () => imgEl.src = comics[current];
+
+    document.getElementById('prevComic')
+      .addEventListener('click', () => {
+        current = (current - 1 + comics.length) % comics.length;
+        show();
+      });
+
+    document.getElementById('nextComic')
+      .addEventListener('click', () => {
+        current = (current + 1) % comics.length;
+        show();
+      });
+
+    // on load, show the very first one
+    document.addEventListener('DOMContentLoaded', show);
+  </script>
 </body>
 </html>
 
