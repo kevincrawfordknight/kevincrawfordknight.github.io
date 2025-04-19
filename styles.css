@@ -224,8 +224,6 @@ h1, h2 {
   margin-top: 8px;
   font-size: 0.85em;
   color: #333;
-  pointer-events: none;
-  text-decoration: none;
 }
 
 /* ------------- Article Cards ------------- */
@@ -267,5 +265,12 @@ footer {
   margin-top: 40px;
   font-size: 0.8em;
   color: #777;
+}
+
+/* captions inside thumbs should not be clickable */
+.thumb figcaption {
+  pointer-events: none;   /* clicks “pass through” */
+  color: #555;            /* your usual gray */
+  text-decoration: none;  /* no underlines or link colors */
 }
 
