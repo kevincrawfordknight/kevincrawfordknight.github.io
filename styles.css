@@ -272,3 +272,19 @@ footer {
   height: auto;
   vertical-align: middle;
 }
+
+/* ------------- Modal scrolling fix ------------- */
+.modal {
+  /* allow the modal backdrop to scroll if needed */
+  overflow-y: auto;               /* enable vertical scrolling on the modal */
+  overscroll-behavior: contain;   /* prevent scroll from leaking to the page behind */
+}
+
+.modal-content {
+  /* constrain the white box so it never exceeds the viewport */
+  max-height: 90vh;               /* at most 90% of viewport height */
+  margin: 5vh auto;               /* vertically center within that 90% */
+  overflow-y: auto;               /* scroll inside the content area if it’s too tall */
+  box-sizing: border-box;         /* include padding in max‑height calculation */
+}
+
