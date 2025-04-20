@@ -267,3 +267,8 @@ footer {
   color: #777;
 }
 
+.navbar .home-icon img {
+  width: 1.8em;
+  height: auto;
+  vertical-align: middle;
+}
