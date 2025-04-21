@@ -283,3 +283,28 @@ footer {
   vertical-align: middle;
 }
 
+
+/* ------------- multiline captions ------------- */
+
+/* make the <a> a vertical container exactly as wide as the image */
+
+.gallery.thumbs figure > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* ensure it’s only as wide as its contents (the image) */
+  width: max-content;
+}
+
+/* ensure captions wrap naturally at word boundaries */
+
+.gallery.thumbs figure > a figcaption {
+  display: block;        /* block‑level so it fills the flex column’s width */
+  white-space: normal;   /* allow wrapping */
+  word-break: break-word;/* break long words if needed */
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #333;
+}
+
