@@ -1,4 +1,3 @@
-
 /* ------------- Reset ------------- */
 * {
   box-sizing: border-box;
@@ -114,18 +113,13 @@ h1, h2 {
   inset: 0;
   background: rgba(0,0,0,0.8);
   z-index: 1000;
-  overflow-y: auto;               /* enable vertical scrolling */
-  overscroll-behavior: contain;   /* prevent scroll from leaking */
 }
 .modal-content {
   background: #fff;
-  margin: 5vh auto;               /* vertically center within 90% */
+  margin: 5% auto;
   max-width: 90%;
-  max-height: 90vh;               /* at most 90% of viewport height */
   padding: 20px;
   text-align: center;
-  overflow-y: auto;               /* scroll inside if too tall */
-  box-sizing: border-box;
 }
 .modal-content img {
   display: block;
@@ -200,7 +194,7 @@ h1, h2 {
   height: auto;
 }
 
-/* ------------- Video Thumbnails (.gallery.thumbs) ------------- */
+/* ------------- Video Thumbnails ( .gallery.thumbs ) ------------- */
 .gallery.thumbs {
   display: flex;
   flex-wrap: wrap;
@@ -208,32 +202,28 @@ h1, h2 {
   padding: 1rem;
   justify-content: center;
 }
-.gallery.thumbs figure {
+.thumb {
   flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-decoration: none;
+}
+.thumb figure {
   margin: 0;
 }
-.gallery.thumbs figure img {
+.thumb img {
   display: block;
   max-height: 250px;
   width: auto;
   object-fit: contain;
-  cursor: pointer;
+  border-radius: 0;
 }
-.gallery.thumbs figure img:hover {
+.thumb:hover img {
   opacity: 0.85;
 }
-.gallery.thumbs figure figcaption {
+.thumb figcaption {
   text-align: center;
   margin-top: 8px;
   font-size: 0.85em;
   color: #333;
-}
-.gallery.thumbs figure figcaption a {
-  text-decoration: none !important;
-  color: #333           !important;
 }
 
 /* ------------- Article Cards ------------- */
@@ -266,7 +256,7 @@ a.nounderline:visited,
 a.nounderline:hover,
 a.nounderline:active {
   text-decoration: none !important;
-  color: #333           !important;
+  color: #333 !important;
 }
 
 /* ------------- Footer ------------- */
@@ -281,5 +271,20 @@ footer {
   width: 1.8em;
   height: auto;
   vertical-align: middle;
+}
+
+/* ------------- Modal scrolling fix ------------- */
+.modal {
+  /* allow the modal backdrop to scroll if needed */
+  overflow-y: auto;               /* enable vertical scrolling on the modal */
+  overscroll-behavior: contain;   /* prevent scroll from leaking to the page behind */
+}
+
+.modal-content {
+  /* constrain the white box so it never exceeds the viewport */
+  max-height: 90vh;               /* at most 90% of viewport height */
+  margin: 5vh auto;               /* vertically center within that 90% */
+  overflow-y: auto;               /* scroll inside the content area if it’s too tall */
+  box-sizing: border-box;         /* include padding in max‑height calculation */
 }
 
