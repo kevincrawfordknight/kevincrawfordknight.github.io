@@ -1,0 +1,4 @@
+
+mkdir -p pics-cooking-compressed && for f in pics-cooking/*.jpg; do convert "$f" -auto-orient -strip -interlace Plane -define jpeg:extent=1MB "pics-cooking-compressed/$(basename "$f")"; done
+
+mkdir -p pics-ballona-compressed && for f in pics-ballona/*.jpg; do convert "$f" -auto-orient -strip -interlace Plane -define jpeg:extent=1MB "pics-ballona-compressed/$(basename "$f")"; done
