@@ -288,3 +288,18 @@ footer {
   box-sizing: border-box;         /* include padding in max‑height calculation */
 }
 
+
+/* Footer link: no underline, inherit text color, subtle hover */
+.footer-link,
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity .2s ease;
+}
+.footer-link:hover,
+.footer-link:focus {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
