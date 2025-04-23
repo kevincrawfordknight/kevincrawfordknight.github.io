@@ -1,9 +1,0 @@
-#for f in uploaded-HOMEPAGE/*.png; do convert "uploaded-HOMEPAGE/$f" -define jpeg:extent=1MB "images/${f%.png}.jpg"; done
-
-
-mkdir -p images
-for f in uploaded-HOMEPAGE/*.png; do
-  base=$(basename "$f" .png)
-  convert "$f" -define jpeg:extent=1MB "images/${base}.jpg"
-done
-
