@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2019.1.11)  1 JAN 2023 10:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=latex 2025.5.1)  1 MAY 2025 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**CV_Knight.tex
+**CV_Knight
 (./CV_Knight.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/latex209.def
-File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
+File: latex209.def 2020/11/26 v0.55 Standard LaTeX file
 
 
           Entering LaTeX 2.09 COMPATIBILITY MODE
@@ -33,16 +33,18 @@ File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
  author of that file.
  *************************************************************
 
-\footheight=\dimen102
-\@maxsep=\dimen103
-\@dblmaxsep=\dimen104
-\@cla=\count79
-\@clb=\count80
-\mscount=\count81
+\footheight=\dimen138
+\@maxsep=\dimen139
+\@dblmaxsep=\dimen140
+\@cla=\count185
+\@clb=\count186
+\mscount=\count187
 (/usr/share/texlive/texmf-dist/tex/latex/base/tracefnt.sty
-Package: tracefnt 2015/02/21 v3.0k Standard LaTeX package (font tracing)
-\tracingfonts=\count82
-LaTeX Info: Redefining \selectfont on input line 106.
+Package: tracefnt 2020/12/22 v3.0n Standard LaTeX package (font tracing)
+\tracingfonts=\count188
+LaTeX Info: Redefining \selectfont on input line 107.
+Applying: [2021/06/01] Add hook to \selectfont  on input line 142.
+Already applied: [0000/00/00] Add hook to \selectfont  on input line 145.
 )
 \symbold=\mathgroup4
 \symsans=\mathgroup5
@@ -50,11 +52,11 @@ LaTeX Info: Redefining \selectfont on input line 106.
 \symitalic=\mathgroup7
 \symsmallcaps=\mathgroup8
 \symslanted=\mathgroup9
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 298.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 299.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 300.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 306.
-LaTeX Info: Redefining \em on input line 316.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 275.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 276.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 277.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 283.
+LaTeX Info: Redefining \em on input line 293.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -62,25 +64,25 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 377.
-LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 379.
-LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 381.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 339.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 341.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 343.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count83
-\c@section=\count84
-\c@subsection=\count85
-\c@subsubsection=\count86
-\c@paragraph=\count87
-\c@subparagraph=\count88
-\c@figure=\count89
-\c@table=\count90
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
+\c@part=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
 Compatibility mode: definition of \rm ignored.
 Compatibility mode: definition of \sf ignored.
 Compatibility mode: definition of \tt ignored.
@@ -88,34 +90,39 @@ Compatibility mode: definition of \bf ignored.
 Compatibility mode: definition of \it ignored.
 Compatibility mode: definition of \sl ignored.
 Compatibility mode: definition of \sc ignored.
-LaTeX Info: Redefining \cal on input line 511.
-LaTeX Info: Redefining \mit on input line 512.
-\bibindent=\dimen105
+LaTeX Info: Redefining \cal on input line 497.
+LaTeX Info: Redefining \mit on input line 498.
+\bibindent=\dimen141
 ) (./fp.sty
 Style Option FULLPAGE Version 2 as of 15 Dec 1988
-) (./CV_Knight.aux)
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2022-01-12 L3 backend support: dvips
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count197
+\l__pdf_backend_content_box=\box51
+\l__pdf_backend_model_box=\box52
+\g__pdf_backend_annotation_int=\count198
+\g__pdf_backend_link_int=\count199
+\g__pdf_backend_link_sf_int=\count266
+)
+(./CV_Knight.aux)
 \openout1 = `CV_Knight.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-
-[1
+ [1
 
 ]
 Overfull \hbox (6.63487pt too wide) in paragraph at lines 144--145
@@ -143,12 +150,12 @@ k,'' (K. Knight), 1999. http://www.isi.edu/natural-
 
 [17] (./CV_Knight.aux) ) 
 Here is how much of TeX's memory you used:
- 328 strings out of 494954
- 3732 string characters out of 6181003
- 55583 words of memory out of 5000000
- 3679 multiletter control sequences out of 15000+600000
- 5067 words of font info for 19 fonts, out of 8000000 for 9000
+ 585 strings out of 480248
+ 10661 string characters out of 5896178
+ 305858 words of memory out of 5000000
+ 18593 multiletter control sequences out of 15000+600000
+ 471021 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 21i,4n,19p,424b,171s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,5n,39p,424b,181s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV_Knight.dvi (17 pages, 71804 bytes).
+Output written on CV_Knight.dvi (17 pages, 72504 bytes).
