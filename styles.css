@@ -304,3 +304,32 @@ footer {
   cursor: pointer;
 }
 
+/* === diagonal slash for the old price === */
+.price-tag {                /* keeps both prices together */
+  display: inline-flex;
+  gap: 0.4rem;              /* little space before the $500 */
+  align-items: center;
+}
+
+.price-tag .old {
+  position: relative;
+  color: #333;              /* whatever your normal text color is */
+}
+
+.price-tag .old::after {    /* the thin red slash */
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;              /* “thin” */
+  background: red;
+  transform: rotate(-20deg); /* slight diagonal */
+  transform-origin: center;
+  pointer-events: none;     /* let clicks pass through */
+}
+
+.price-tag .new {
+  font-weight: 600;         /* or any styling you prefer */
+}
+
