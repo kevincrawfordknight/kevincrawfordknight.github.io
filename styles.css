@@ -321,18 +321,19 @@ footer {
   content: "";
   position: absolute;
 
-  /* draw a slightly wider line so at least one device pixel is always hit */
-  width: 115%;                /* tiny overhang looks intentional */
-  top: 0; left: -7.5%;        /* centre the overhang */
-  border-top: 3px solid red;  /* 3 px is reliably visible on any screen */
+  /* place the line’s centre at 50 % of the text height */
+  left: -7.5%;               /* small overhang left  */
+  top: 50%;                  /* vertical centre      */
+  width: 115%;               /* small overhang right */
+  border-top: 3px solid red; /* visible on any DPI   */
 
-  transform: rotate(-18deg);  /* tweak angle to taste */
+  /* pull the line up by half its thickness, THEN rotate */
+  transform: translateY(-50%) rotate(-18deg);
   transform-origin: center;
+
   pointer-events: none;
 }
 
+.price-tag .new { font-weight: 600; }
 
-.price-tag .new {
-  font-weight: 600;         /* or any styling you prefer */
-}
 
