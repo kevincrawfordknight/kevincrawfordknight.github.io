@@ -313,21 +313,24 @@ footer {
 
 .price-tag .old {
   position: relative;
-  color: #333;              /* whatever your normal text color is */
+  display: inline-block;
+  color: #333;
 }
 
-.price-tag .old::after {    /* the thin red slash */
+.price-tag .old::after {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 1px;              /* “thin” */
-  background: red;
-  transform: rotate(-20deg); /* slight diagonal */
+
+  /* draw a slightly wider line so at least one device pixel is always hit */
+  width: 115%;                /* tiny overhang looks intentional */
+  top: 0; left: -7.5%;        /* centre the overhang */
+  border-top: 3px solid red;  /* 3 px is reliably visible on any screen */
+
+  transform: rotate(-18deg);  /* tweak angle to taste */
   transform-origin: center;
-  pointer-events: none;     /* let clicks pass through */
+  pointer-events: none;
 }
+
 
 .price-tag .new {
   font-weight: 600;         /* or any styling you prefer */
