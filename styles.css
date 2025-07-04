@@ -304,3 +304,36 @@ footer {
   cursor: pointer;
 }
 
+/* === diagonal slash for the old price === */
+.price-tag {                /* keeps both prices together */
+  display: inline-flex;
+  gap: 0.4rem;              /* little space before the $500 */
+  align-items: center;
+}
+
+.price-tag .old {
+  position: relative;
+  display: inline-block;
+  color: #333;
+}
+
+.price-tag .old::after {
+  content: "";
+  position: absolute;
+
+  /* place the line’s centre at 50 % of the text height */
+  left: -7.5%;               /* small overhang left  */
+  top: 50%;                  /* vertical centre      */
+  width: 115%;               /* small overhang right */
+  border-top: 3px solid red; /* visible on any DPI   */
+
+  /* pull the line up by half its thickness, THEN rotate */
+  transform: translateY(-50%) rotate(-18deg);
+  transform-origin: center;
+
+  pointer-events: none;
+}
+
+.price-tag .new { font-weight: 600; }
+
+
