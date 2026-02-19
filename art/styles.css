@@ -185,4 +185,5 @@ footer {
 .load-more img { width: 100%; height: auto; display: block; }
 .load-more figcaption { text-align: center; margin-top: 8px; font-size: 0.8em; color: #555; }
 
+#reserved { outline: 8px solid hotpink !important; }
 
