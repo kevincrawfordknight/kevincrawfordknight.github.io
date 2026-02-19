@@ -97,7 +97,7 @@ h1, h2 {
 }
 
 /* Vertical whitespace for Available and Sold sections */
-#available, #sold {
+#available, #sold, #reserved {
   margin-top: 40px;
 }
 
