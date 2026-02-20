@@ -83,7 +83,7 @@ h1, h2 {
   font-size: 0.8em;
   color: #555;
 }
-#commissioned, #available, #sold {
+#commissioned, #reserved, #available, #sold {
   margin-top: 40px;
 }
 
