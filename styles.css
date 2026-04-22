@@ -343,10 +343,10 @@ footer {
   padding: 1px 8px;
   font-size: 10px;
   font-weight: 700;
-  line-height: 1.4;
-  text-transform: lowercase;
-  color: #333;
-  background: #ffd84d;
+  line-height: 1.2;
+  color: #444 !important;
+  background: #ffd84d !important;
   border-radius: 999px;
   vertical-align: middle;
+  white-space: nowrap;
 }
