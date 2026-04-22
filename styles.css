@@ -338,11 +338,15 @@ footer {
 
 
 .new-badge {
-  margin-left: 4px;
-  padding: 0 4px;
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
   font-size: 10px;
   font-weight: 700;
-  color: #b91c1c;
-  background: #fee2e2;
-  border-radius: 4px;
+  line-height: 1.4;
+  text-transform: lowercase;
+  color: #333;
+  background: #ffd84d;
+  border-radius: 999px;
+  vertical-align: middle;
 }
