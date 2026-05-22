@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knight | Writing | Zines</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    /* Lightbox overlay */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: 95vw;
+      max-height: 95vh;
+      object-fit: contain;
+    }
+    .lightbox .prev,
+    .lightbox .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      padding: 16px 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 28px;
+      user-select: none;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 4px;
+    }
+    .lightbox .prev { left: 16px; }
+    .lightbox .next { right: 16px; }
+    .lightbox .prev:hover,
+    .lightbox .next:hover { background: rgba(0, 0, 0, 0.8); }
+    .lightbox .close {
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      cursor: pointer;
+      user-select: none;
+    }
+    .lightbox .numbertext {
+      position: absolute;
+      top: 12px;
+      left: 16px;
+      color: #f2f2f2;
+      font-size: 14px;
+    }
+    .thumb { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 class="page-title">Zines</h1>
+  </header>
+
+  <main>
+
+    <div class="gallery thumbs" id="zine-gallery">
+
+      <a class="thumb" data-index="0">
+        <figure><img src="zines/ccd.1.jpg" alt="CCD page 1"></figure>
+      </a>
+      <a class="thumb" data-index="1">
+        <figure><img src="zines/ccd.2.jpg" alt="CCD page 2"></figure>
+      </a>
+      <a class="thumb" data-index="2">
+        <figure><img src="zines/ccd.3.jpg" alt="CCD page 3"></figure>
+      </a>
+      <a class="thumb" data-index="3">
+        <figure><img src="zines/ccd.4.jpg" alt="CCD page 4"></figure>
+      </a>
+      <a class="thumb" data-index="4">
+        <figure><img src="zines/ccd.5.jpg" alt="CCD page 5"></figure>
+      </a>
+      <a class="thumb" data-index="5">
+        <figure><img src="zines/ccd.6.jpg" alt="CCD page 6"></figure>
+      </a>
+      <a class="thumb" data-index="6">
+        <figure><img src="zines/ccd.7.jpg" alt="CCD page 7"></figure>
+      </a>
+      <a class="thumb" data-index="7">
+        <figure><img src="zines/ccd.8.jpg" alt="CCD page 8"></figure>
+      </a>
+      <a class="thumb" data-index="8">
+        <figure><img src="zines/ccd.9.jpg" alt="CCD page 9"></figure>
+      </a>
+
+    </div>
+
+  </main>
+
+  <!-- Lightbox overlay -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <span class="close" id="lb-close" aria-label="Close">&times;</span>
+    <div class="numbertext" id="lb-counter"></div>
+    <a class="prev" id="lb-prev" aria-label="Previous">&#10094;</a>
+    <img id="lb-image" alt="">
+    <a class="next" id="lb-next" aria-label="Next">&#10095;</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 <a href="../index.html" class="footer-link">Kevin Knight</a></p>
+  </footer>
+
+  <script>
+    (function () {
+      const images = Array.from(
+        document.querySelectorAll('#zine-gallery .thumb img')
+      ).map(img => ({ src: img.getAttribute('src'), alt: img.getAttribute('alt') }));
+
+      const lightbox = document.getElementById('lightbox');
+      const lbImage = document.getElementById('lb-image');
+      const lbCounter = document.getElementById('lb-counter');
+      let current = 0;
+
+      function show(i) {
+        current = (i + images.length) % images.length;
+        lbImage.src = images[current].src;
+        lbImage.alt = images[current].alt;
+        lbCounter.textContent = (current + 1) + ' / ' + images.length;
+      }
+
+      function open(i) {
+        show(i);
+        lightbox.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function close() {
+        lightbox.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('#zine-gallery .thumb').forEach(thumb => {
+        thumb.addEventListener('click', e => {
+          e.preventDefault();
+          open(parseInt(thumb.dataset.index, 10));
+        });
+      });
+
+      document.getElementById('lb-prev').addEventListener('click', e => {
+        e.stopPropagation();
+        show(current - 1);
+      });
+      document.getElementById('lb-next').addEventListener('click', e => {
+        e.stopPropagation();
+        show(current + 1);
+      });
+      document.getElementById('lb-close').addEventListener('click', close);
+
+      // Click outside the image to close
+      lightbox.addEventListener('click', e => {
+        if (e.target === lightbox) close();
+      });
+
+      // Keyboard navigation
+      document.addEventListener('keydown', e => {
+        if (!lightbox.classList.contains('open')) return;
+        if (e.key === 'ArrowLeft') show(current - 1);
+        else if (e.key === 'ArrowRight') show(current + 1);
+        else if (e.key === 'Escape') close();
+      });
+    })();
+  </script>
+</body>
+</html>
