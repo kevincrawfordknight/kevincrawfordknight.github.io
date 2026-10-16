@@ -309,7 +309,7 @@ JS = '''// Prev / Next buttons. Each click is logged to the Google Sheet as e.g.
         if (sent) { window.location.href = href; }
         else { setTimeout(function () { window.location.href = href; }, 250); }
       } else {
-        document.querySelector(".pager").style.display = "none";
+        btn.style.display = "none";
         document.getElementById("pager-message").textContent = LAST_MESSAGE;
       }
     });
