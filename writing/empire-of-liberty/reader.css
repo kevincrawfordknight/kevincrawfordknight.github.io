@@ -48,6 +48,16 @@
 .redact { background: #000; color: #000; letter-spacing: -0.05em; user-select: none; }
 .figure { text-align: center; text-indent: 0; }
 .figure img { max-width: 80%; height: auto; }
+/* End-of-chapter box, right-justified on the last line, like a proof's QED */
+.chapter > p:last-child::after,
+.chapter > .doc:last-child > p:last-child::after {
+  content: "\25A1";
+  float: right;
+  margin-left: 1em;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-style: normal;
+}
 /* Prev / Next */
 .pager {
   display: flex;
